@@ -1,14 +1,16 @@
 // 5- Crea una función que tome una cadena de palabras separadas por espacios y devuelva la palabra más larga.
 
-const palabraLarga = (cadenaDePalabras) => {
-  let palabras = cadenaDePalabras.split("o");
-  console.log(palabras);
+const palabraMasLarga = (cadenaDePalabras) => {
+  let palabras = [];
   let palabraLarga = "";
+  palabras = cadenaDePalabras.split(" ");
 
-  for (let i = 0; i < palabras.length; i++) {
-    if (palabras[i].length > palabraLarga.length) {
-      palabraLarga = palabras[i];
+  palabras.forEach((palabra) => {
+    if (palabra.length > palabraLarga.length) {
+      palabraLarga = palabra;
     }
-  }
+  });
   console.log(palabraLarga);
 };
+
+palabraMasLarga("Hola que tal soy superman");
