@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "63caf35a-2693-441e-8005-cf80f9e2d0a1",
+		"name": "Reqres",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27575352"
+	},
+	"item": [
+		{
+			"name": "All users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{reqres}}{{users}}",
+					"host": [
+						"{{reqres}}{{users}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{reqres}}{{users}}2",
+					"host": [
+						"{{reqres}}{{users}}2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"test(pm);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{reqres}}{{users}}",
+					"host": [
+						"{{reqres}}{{users}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"test = (pm)=> {pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"})}"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "reqres",
+			"value": "https://reqres.in/",
+			"type": "string"
+		},
+		{
+			"key": "users",
+			"value": "api/users/",
+			"type": "string"
+		}
+	]
+}
