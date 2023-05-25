@@ -6,6 +6,6 @@ let miArray: [] = [];
 let arrayNumeros: number[] = [1, 2, 3, 4, 5];
 let arrayStrings: string[] = ["H", "O", "L", "A"];
 
-function saludar(): void {
+function saludar() {
   console.log("hola");
 }
