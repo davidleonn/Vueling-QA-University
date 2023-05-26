@@ -16,9 +16,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {\r",
-									"  pm.response.to.have.status(200);\r",
-									"});"
+									"test(pm)"
 								],
 								"type": "text/javascript"
 							}
@@ -43,9 +41,13 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {\r",
-									"  pm.response.to.have.status(200);\r",
-									"});"
+									"const jsonData = pm.response.json();\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"if (test(pm) === 200) {pm.jsonData.expect(stats[5].base_stat).to.eql(130)}   \r",
+									"});\r",
+									"\r",
+									"\r",
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -100,9 +102,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {\r",
-									"  pm.response.to.have.status(200);\r",
-									"});"
+									"test(pm)"
 								],
 								"type": "text/javascript"
 							}
