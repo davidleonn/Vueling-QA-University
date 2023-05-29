@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "63a57290-9ca8-467d-8064-6ba8a7eba6cc",
-		"name": "Simple Book APi",
+		"name": "Book Api",
 		"description": "Postman Course",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27575352"
@@ -51,7 +51,11 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"validate201(pm);"
+							"validate201(pm);\r",
+							"\r",
+							"const response = pm.response.json();\r",
+							"\r",
+							"pm.globals.set(\"token\", response.accessToken);"
 						],
 						"type": "text/javascript"
 					}
@@ -62,7 +66,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"clientName\": \"David\",\r\n    \"clientEmail\":\"david@example.com\"\r\n}",
+					"raw": "{\r\n    \"clientName\": \"{{$randomUserName}}\",\r\n    \"clientEmail\":\"{{$randomEmail}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -199,7 +203,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{accessToken}}",
+							"value": "{{token}}",
 							"type": "string"
 						}
 					]
@@ -246,7 +250,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{accessToken}}",
+							"value": "{{token}}",
 							"type": "string"
 						}
 					]
@@ -284,7 +288,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{accessToken}}",
+							"value": "{{token}}",
 							"type": "string"
 						}
 					]
@@ -329,7 +333,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{accessToken}}",
+							"value": "{{token}}",
 							"type": "string"
 						}
 					]
@@ -385,7 +389,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{accessToken}}",
+							"value": "{{token}}",
 							"type": "string"
 						}
 					]
@@ -418,15 +422,6 @@
 			"script": {
 				"type": "text/javascript",
 				"exec": [
-					""
-				]
-			}
-		},
-		{
-			"listen": "test",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
 					"validate200 = (pm) => {pm.test(\"Status code is 200\", function () {",
 					"    pm.response.to.have.status(200);",
 					"})};",
@@ -442,6 +437,15 @@
 					"}"
 				]
 			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	],
 	"variable": [
@@ -452,6 +456,10 @@
 		{
 			"key": "accessToken",
 			"value": "---",
+			"type": "string"
+		},
+		{
+			"value": "",
 			"type": "string"
 		}
 	]
