@@ -41,12 +41,21 @@
 							"listen": "test",
 							"script": {
 								"exec": [
+									"pm.test(\" Check a correct response and that Crobat's speed is 130\", function () {\r",
 									"const jsonData = pm.response.json();\r",
-									"pm.test(\"Body matches string\", function () {\r",
-									"if (test(pm) === 200) {pm.jsonData.expect(stats[5].base_stat).to.eql(130)}   \r",
+									"if (test(pm) === 200) {pm.jsonData.expect(stats[5].base_stat).to.eql(130)}\r",
+									"\r",
+									"    else (console.log(pm.response.status))\r",
 									"});\r",
-									"\r",
-									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
 									""
 								],
 								"type": "text/javascript"
@@ -121,6 +130,250 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Ejercicios",
+			"item": [
+				{
+					"name": "1- Obtener la información de un movimiento y validar su categoría     Tests: los que veais necesarios y validar que el tipo de movimiento sea X",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Validate move type\", validateType(pm.response, pm.variables.get(\"type\")));\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"validateType = function (data, move){\r",
+									"    let jsonData = data.json();\r",
+									"    console.log(jsonData.type.name)\r",
+									" pm.expect(jsonData.type.name).to.eql(move)\r",
+									"    \r",
+									"};"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pokeApi}}/move/toxic",
+							"host": [
+								"{{pokeApi}}"
+							],
+							"path": [
+								"move",
+								"toxic"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2- Obtener habilidad de un pokemon en concreto. Test:  Verificar que pokemon X tiene habilidad X.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"mainJson = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Check if crobat has inner-focus\", validateAbilityName(pm.globals.get(\"abilityName\"), mainJson))"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.globals.set(\"abilityName\", \"inner-focus\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pokeApi}}{{pokemons}}crobat",
+							"host": [
+								"{{pokeApi}}{{pokemons}}crobat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3- Obtener el pokemon (nombre) más rápido (stat base) y cuánto es (numero). Test: Comprobar que el pokemon X tiene una velocidad X.",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const pokemonList = pm.response.json().results;\r",
+									"let fastest = null;\r",
+									"let highestSpeed = 0;\r",
+									"\r",
+									"pokemonList.forEach(function (pokemon){\r",
+									"    const pokemonData = pm.response.json();\r",
+									"    const speedStat = pokemonData.stats.find(stat => stat.stat.name === \"speed\");\r",
+									"\r",
+									"    if (speedStat && speedStat.base_stat > highestSpeed){\r",
+									"        fastestPokemon = pokemonData;\r",
+									"        highestSpeed =speedStat.base_stat;\r",
+									"    }\r",
+									"\r",
+									"    pm.variable.set (\"pokemon mas rapido\", fastestPokemon ? fastestPokemon.name : \"No se encontró.\");\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pokeApi}}{{pokemons}}?limit=1281",
+							"host": [
+								"{{pokeApi}}{{pokemons}}"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "1281"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4 - Obtener la lista de movimientos de un Pokémon y validar el número de movimientos     Tests: los que veais necesarios y validar que el número de movimientos sea X (menos que, mayor que, igual a X....etc)",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"validateMoves = function (data, num){\r",
+									"let jsonData = data.json();\r",
+									"console.log(jsonData.moves);\r",
+									"let numberOfMoves = jsonData.moves.length;\r",
+									"pm.expect(numberOfMoves).to.eql(num);\r",
+									"}\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test validate\", validateMoves(pm.response, pm.collectionVariables.get(\"number_of_moves\")))"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pokeApi}}{{pokemons}}crobat",
+							"host": [
+								"{{pokeApi}}{{pokemons}}crobat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "5- Obtener la lista de tipos de Pokémon y validar que todos los tipos tengan al menos 50 Pokémon asociados.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let mainJson = JSON.parse(responseBody);\r",
+									"pm.test(\"Check if all types have more than 50 pokemons\", check50pokemon(mainJson));"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"check50pokemon = function(jsonData) {\r",
+									"    const types = jsonData.results;\r",
+									"    types.forEach(function(type) {\r",
+									"        pm.sendRequest({\r",
+									"            method: 'GET',\r",
+									"            url: type.url\r",
+									"        }, function (){\r",
+									"            if (error){\r",
+									"                console.log(error)\r",
+									"            } else {\r",
+									"                let pokemonCount = response.json().pokemon.length;\r",
+									"                pm.expect(pokemonCount).to.be.at.least(0);\r",
+									"            }\r",
+									"        })\r",
+									"    })}\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/type",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "6- Validar que todos los Pokémon de la región \"Kanto\" tengan una habilidad oculta.",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
 		}
 	],
 	"event": [
@@ -133,6 +386,13 @@
 					"  pm.response.to.have.status(200);",
 					"});}",
 					"",
+					"pm.collectionVariables.set(\"number_of_moves\", 79);",
+					"",
+					"validateAbilityName = function (abilityName, Json){",
+					"    if (Json.abilities[0].ability.name == abilityName) {",
+					"        console.log(`Yes it's ${abilityName} `)",
+					"    } else {console.log(\"nopers\")}",
+					"    }",
 					""
 				]
 			}
@@ -161,8 +421,17 @@
 			"type": "string"
 		},
 		{
-			"key": "test",
-			"value": "",
+			"key": "move",
+			"value": "move/",
+			"type": "string"
+		},
+		{
+			"key": "number_of_moves",
+			"value": ""
+		},
+		{
+			"key": "type",
+			"value": "poison",
 			"type": "string"
 		}
 	]
