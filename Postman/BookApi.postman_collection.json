@@ -8,412 +8,825 @@
 	},
 	"item": [
 		{
-			"name": "API Status",
-			"event": [
+			"name": "TC-0 - Books",
+			"item": [
 				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate200(pm);\r",
-							"\r",
-							"const response = pm.response.json();\r",
-							"console.log(response.status)\r",
-							"\r",
-							"pm.test(\"Status should be OK\", ()=>{\r",
-							"    pm.expect(response.status).to.eql(\"OK\");\r",
-							"});\r",
-							"\r",
-							""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{baseURL}}/status",
-					"host": [
-						"{{baseURL}}"
+					"name": "API Status",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Status should be OK\", ()=>{\r",
+									"    pm.expect(response.status).to.eql(\"OK\");\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
 					],
-					"path": [
-						"status"
-					]
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/status",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register API client",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate201(pm);\r",
+									"\r",
+									"let response = pm.response.json();\r",
+									"pm.globals.set(\"token\", response.accessToken);\r",
+									"\r",
+									"pm.test(\"Check response to have a body containing an accessToken that is a string\", ()=> {\r",
+									"    pm.expect(response).to.be.an(\"object\");\r",
+									"    pm.expect(response.accessToken).to.be.a(\"string\");    \r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"clientName\": \"{{$randomUserName}}\",\r\n    \"clientEmail\":\"{{$randomEmail}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api-clients/",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api-clients",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List of books",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Check if the response is an array\", ()=> {\r",
+									"    pm.expect(response).to.be.an(\"array\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Check the list to have at least one element\", () => {\r",
+									"    pm.expect(response).to.include.members;\r",
+									"})\r",
+									"\r",
+									"pm.test(\"Every item has id and test that are not equal, comparing 2 id\", () => {\r",
+									"        pm.expect(response[0].id).to.be.a(\"number\");\r",
+									"        pm.expect(response[0].id).not.eql(response[1].id);   \r",
+									"    \r",
+									"});\r",
+									"\r",
+									"console.log(response);\r",
+									"\r",
+									"\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/books",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a single book",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Check a book is in stock\", () => {\r",
+									"    pm.expect(response[\"current-stock\"]).to.be.above(0)\r",
+									"})\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/books/:bookId",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"books",
+								":bookId"
+							],
+							"variable": [
+								{
+									"key": "bookId",
+									"value": "{{bookId}}"
+								}
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		},
 		{
-			"name": "Register API client",
-			"event": [
+			"name": "TC-1 - Non-fiction books",
+			"item": [
 				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate201(pm);\r",
-							"\r",
-							"const response = pm.response.json();\r",
-							"\r",
-							"pm.globals.set(\"token\", response.accessToken);"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"clientName\": \"{{$randomUserName}}\",\r\n    \"clientEmail\":\"{{$randomEmail}}\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
+					"name": "API Status",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Status should be OK\", ()=>{\r",
+									"    pm.expect(response.status).to.eql(\"OK\");\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
-					}
-				},
-				"url": {
-					"raw": "{{baseURL}}/api-clients/",
-					"host": [
-						"{{baseURL}}"
 					],
-					"path": [
-						"api-clients",
-						""
-					]
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/status",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register API client",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate201(pm);\r",
+									"\r",
+									"let response = pm.response.json();\r",
+									"pm.globals.set(\"token\", response.accessToken);\r",
+									"\r",
+									"pm.test(\"Check response to have a body containing an accessToken that is a string\", ()=> {\r",
+									"    pm.expect(response).to.be.an(\"object\");\r",
+									"    pm.expect(response.accessToken).to.be.a(\"string\");    \r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"clientName\": \"{{$randomUserName}}\",\r\n    \"clientEmail\":\"{{$randomEmail}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api-clients/",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api-clients",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List of books",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Check if the response is an array\", ()=> {\r",
+									"    pm.expect(response).to.be.an(\"array\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Check the list to have at least one element\", () => {\r",
+									"    pm.expect(response).to.include.members;\r",
+									"})\r",
+									"\r",
+									"pm.test(\"Every item has id and test that are not equal, comparing 2 id\", () => {\r",
+									"        pm.expect(response[0].id).to.be.a(\"number\");\r",
+									"        pm.expect(response[0].id).not.eql(response[1].id);   \r",
+									"    \r",
+									"});\r",
+									"\r",
+									"console.log(response);\r",
+									"\r",
+									"\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/books",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List of non-fiction books",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"const nonFictionBooks = response.filter(book => book.available === true)\r",
+									"\r",
+									"const book = nonFictionBooks[0];\r",
+									"\r",
+									"if(book) {\r",
+									"    pm.globals.set(\"bookId\", book.id);\r",
+									"};\r",
+									"\r",
+									"pm.test(\"Found the list of books that are non-fictions\", ()=> {\r",
+									"    pm.expect(book).to.be.an(\"object\");\r",
+									"    pm.expect(book.available).to.be.true;\r",
+									"    pm.expect(book.type).to.eql(\"non-fiction\")\r",
+									"});\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/books?type=non-fiction",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"books"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "non-fiction"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a  non-fiction single book",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Check a book is in stock\", () => {\r",
+									"    pm.expect(response[\"current-stock\"]).to.be.above(0)\r",
+									"})\r",
+									"\r",
+									"pm.test(\"Check that is a non-fiction book\", () => {\r",
+									"    pm.expect(response[\"type\"]).to.be.eql(\"non-fiction\");\r",
+									"} )"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/books/:bookId",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"books",
+								":bookId"
+							],
+							"variable": [
+								{
+									"key": "bookId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		},
 		{
-			"name": "List of books",
-			"event": [
+			"name": "TC-2 - Orders",
+			"item": [
 				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate200(pm);\r",
-							"\r",
-							"const response = pm.response.json();\r",
-							"\r",
-							"const nonFictionBooks = response.filter(book => book.available === true)\r",
-							"\r",
-							"const book = nonFictionBooks[0];\r",
-							"\r",
-							"if(book ) {\r",
-							"    pm.globals.set(\"bookId\", book.id);\r",
-							"}\r",
-							"\r",
-							"pm.test(\"Book found\", ()=> {\r",
-							"    pm.expect(book).to.be.an(\"object\");\r",
-							"    pm.expect(book.available).to.be.true;\r",
-							"    pm.expect(book.available).to.eql(true);\r",
-							"    pm.expect(book.type).to.eql(\"non-fiction\")\r",
-							"});\r",
-							"\r",
-							""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{baseURL}}/books?type=non-fiction",
-					"host": [
-						"{{baseURL}}"
-					],
-					"path": [
-						"books"
-					],
-					"query": [
+					"name": "Order book",
+					"event": [
 						{
-							"key": "type",
-							"value": "non-fiction"
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate201(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"pm.globals.set(\"orderId\", response.orderId);\r",
+									"\r",
+									"\r",
+									"pm.test(\"Check that the order has an Id and is a string\", () => {\r",
+									"    pm.expect(response).to.be.an(\"object\");\r",
+									"    pm.expect(response.orderId).to.be.a(\"string\" || null);    \r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.globals.set(\"random_number\", _.random(1,6));\r",
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get a single book",
-			"event": [
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"bookId\": {{random_number}},\r\n  \"customerName\": \"{{$randomUserName}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/orders",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
 				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate200(pm);\r",
-							"\r",
-							"const response = pm.response.json();\r",
-							"\r",
-							"pm.test(\"Is in stock\", () => {\r",
-							"    pm.expect(response[\"current-stock\"]).to.be.above(0)\r",
-							"})"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{baseURL}}/books/:bookId",
-					"host": [
-						"{{baseURL}}"
-					],
-					"path": [
-						"books",
-						":bookId"
-					],
-					"variable": [
+					"name": "Get all orders",
+					"event": [
 						{
-							"key": "bookId",
-							"value": "{{bookId}}"
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Check if we an array of orders, check to not be empty and that each one has a string as an Id.\", ()=> {\r",
+									"    pm.expect(response).to.be.an(\"array\");\r",
+									"    pm.expect(response).to.have.members;\r",
+									"    pm.expect(response[0].id).to.be.a(\"string\")\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Order book",
-			"event": [
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/orders",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
 				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate201(pm);\r",
-							"\r",
-							"const response = pm.response.json();\r",
-							"\r",
-							"pm.globals.set(\"orderId\", response.orderId);"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
+					"name": "Get an order",
+					"event": [
 						{
-							"key": "token",
-							"value": "{{token}}",
-							"type": "string"
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"const schema = {\r",
+									"    \"id\": \"string\",\r",
+									"    \"bookId\": \"number\",\r",
+									"    \"customerName\": \"string\",\r",
+									"    \"createdBy\": \"string\",\r",
+									"    \"quantity\": \"number\",\r",
+									"    \"timestamp\": \"number\"\r",
+									"}\r",
+									"let response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Validate Json schema from the orders\", () => {\r",
+									"    pm.response.to.have.jsonSchema(schema);\r",
+									"})\r",
+									"\r",
+									"pm.test(\"The Id is correct\", () => {\r",
+									"pm.expect(response.id).to.equal(pm.globals.get(\"orderId\"))\r",
+									"});\r",
+									"\r",
+									"pm.globals.set(\"originalName\", response.customerName);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
-					]
-				},
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"bookId\": {{bookId}},\r\n  \"customerName\": \"{{$randomUserName}}\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{baseURL}}/orders",
-					"host": [
-						"{{baseURL}}"
 					],
-					"path": [
-						"orders"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get all orders",
-			"event": [
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/orders/:orderId",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"orders",
+								":orderId"
+							],
+							"variable": [
+								{
+									"key": "orderId",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
 				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate200(pm);"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
+					"name": "Patch an order",
+					"event": [
 						{
-							"key": "token",
-							"value": "{{token}}",
-							"type": "string"
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate204(pm);"
+								],
+								"type": "text/javascript"
+							}
 						}
-					]
-				},
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{baseURL}}/orders",
-					"host": [
-						"{{baseURL}}"
 					],
-					"path": [
-						"orders"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get an order",
-			"event": [
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerName\": \"David Leon\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/orders/:orderId",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"orders",
+								":orderId"
+							],
+							"variable": [
+								{
+									"key": "orderId",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
 				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate200(pm);"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
+					"name": "Get the patched order",
+					"event": [
 						{
-							"key": "token",
-							"value": "{{token}}",
-							"type": "string"
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate200(pm);\r",
+									"\r",
+									"let response = pm.response.json();\r",
+									"\r",
+									"pm.test(\"The Id is correct\", () => {\r",
+									"pm.expect(response.id).to.equal(pm.globals.get(\"orderId\"))\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Validate that the username was changed\",()=>{\r",
+									"    pm.expect(response.customerName).to.not.equal(pm.globals.get(\"originalName\"))\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
-					]
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/orders/:orderId",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"orders",
+								":orderId"
+							],
+							"variable": [
+								{
+									"key": "orderId",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
 				},
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{baseURL}}/orders/:orderId",
-					"host": [
-						"{{baseURL}}"
-					],
-					"path": [
-						"orders",
-						":orderId"
-					],
-					"variable": [
-						{
-							"key": "orderId",
-							"value": "{{orderId}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Patch an order Copy",
-			"event": [
 				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate204(pm);"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
+					"name": "Delete order",
+					"event": [
 						{
-							"key": "token",
-							"value": "{{token}}",
-							"type": "string"
-						}
-					]
-				},
-				"method": "PATCH",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"customerName\": \"David {{$randomLastName}}\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{baseURL}}/orders/:orderId",
-					"host": [
-						"{{baseURL}}"
-					],
-					"path": [
-						"orders",
-						":orderId"
-					],
-					"variable": [
+							"listen": "test",
+							"script": {
+								"exec": [
+									"validate204(pm);\r",
+									"\r",
+									"pm.test(\"Length after the delete is diferent\", () => {\r",
+									"    pm.expect(pm.globals.get(\"original_length\").to.be(\"original_length\")-1)\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						},
 						{
-							"key": "orderId",
-							"value": "{{orderId}}"
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"let baseURL = pm.collectionVariables.get(\"baseURL\") + \"/orders\";\r",
+									"\r",
+									"pm.sendRequest({\r",
+									"    url: baseURL,\r",
+									"    method: \"GET\",\r",
+									"    header: {       \r",
+									"        'authorization': request.headers[\"authorization\"]\r",
+									"    },}, function (error, response) {\r",
+									"if (error) {\r",
+									"        console.log(error)\r",
+									"    } else {\r",
+									"        body = response.json();\r",
+									"        console.log(body);\r",
+									"        pm.globals.set(\"original_length\", body)\r",
+									"\r",
+									"    }       \r",
+									"})\r",
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Delete order",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"validate204(pm);\r",
-							"\r",
-							"postman.setNextRequest(null);"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{token}}",
-							"type": "string"
-						}
-					]
-				},
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "{{baseURL}}/orders/:orderId",
-					"host": [
-						"{{baseURL}}"
 					],
-					"path": [
-						"orders",
-						":orderId"
-					],
-					"variable": [
-						{
-							"key": "orderId",
-							"value": "{{orderId}}"
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/orders/:orderId",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"orders",
+								":orderId"
+							],
+							"variable": [
+								{
+									"key": "orderId",
+									"value": "{{orderId}}"
+								}
+							]
 						}
-					]
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		}
 	],
 	"event": [
@@ -434,7 +847,8 @@
 					"    pm.test(\"Status code is 204\", function (){",
 					"        pm.response.to.have.status(204);",
 					"    })",
-					"}"
+					"}",
+					""
 				]
 			}
 		},

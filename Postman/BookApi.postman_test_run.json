@@ -1,0 +1,613 @@
+{
+	"id": "0b32b531-0900-4584-ae6a-ddeb31a1cf94",
+	"name": "Book Api",
+	"timestamp": "2023-05-29T17:36:11.971Z",
+	"collection_id": "27575352-63a57290-9ca8-467d-8064-6ba8a7eba6cc",
+	"folder_id": 0,
+	"environment_id": "27575352-1955c668-ccba-4bd8-81c2-016f2fa257b1",
+	"totalPass": 35,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-29T17:36:07.359Z",
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "6b382ca7-0f47-4dd8-abe8-290b3182fdf8",
+			"name": "API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be OK": true
+				}
+			]
+		},
+		{
+			"id": "d133423a-29fe-41ae-9f3c-d59b6731625f",
+			"name": "Register API client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 244,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response to have a body containing an accessToken that is a string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response to have a body containing an accessToken that is a string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				244
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response to have a body containing an accessToken that is a string": true
+				}
+			]
+		},
+		{
+			"id": "18bcc702-b631-4db5-8bac-cee9209eeb10",
+			"name": "List of books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check if the response is an array": true,
+				"Check the list to have at least one element": true,
+				"Every item has id and test that are not equal, comparing 2 id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if the response is an array": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the list to have at least one element": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Every item has id and test that are not equal, comparing 2 id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				164
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check if the response is an array": true,
+					"Check the list to have at least one element": true,
+					"Every item has id and test that are not equal, comparing 2 id": true
+				}
+			]
+		},
+		{
+			"id": "bc4912c5-c889-453c-bb6b-5bcba3afb207",
+			"name": "Get a single book",
+			"url": "https://simple-books-api.glitch.me/books/5",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check a book is in stock": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check a book is in stock": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check a book is in stock": true
+				}
+			]
+		},
+		{
+			"id": "ff9b1440-083f-478d-aa9f-35b6a23f94d2",
+			"name": "API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be OK": true
+				}
+			]
+		},
+		{
+			"id": "3c74629c-30ae-46d4-9d1e-7baee6c03852",
+			"name": "Register API client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 257,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response to have a body containing an accessToken that is a string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response to have a body containing an accessToken that is a string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				257
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response to have a body containing an accessToken that is a string": true
+				}
+			]
+		},
+		{
+			"id": "c2dd69c4-46a4-4c9d-9f69-2c8929e9767f",
+			"name": "List of books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check if the response is an array": true,
+				"Check the list to have at least one element": true,
+				"Every item has id and test that are not equal, comparing 2 id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if the response is an array": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the list to have at least one element": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Every item has id and test that are not equal, comparing 2 id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check if the response is an array": true,
+					"Check the list to have at least one element": true,
+					"Every item has id and test that are not equal, comparing 2 id": true
+				}
+			]
+		},
+		{
+			"id": "be65acc2-90b5-418a-b3fc-ec18dbcacfd0",
+			"name": "List of non-fiction books",
+			"url": "https://simple-books-api.glitch.me/books?type=non-fiction",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Found the list of books that are non-fictions": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Found the list of books that are non-fictions": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Found the list of books that are non-fictions": true
+				}
+			]
+		},
+		{
+			"id": "a29667ee-ec14-44a4-aaae-67c9bfac1455",
+			"name": "Get a  non-fiction single book",
+			"url": "https://simple-books-api.glitch.me/books/5",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check a book is in stock": true,
+				"Check that is a non-fiction book": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check a book is in stock": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that is a non-fiction book": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check a book is in stock": true,
+					"Check that is a non-fiction book": true
+				}
+			]
+		},
+		{
+			"id": "90f736b1-3bb9-476b-988b-24a242b328bf",
+			"name": "Order book",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 354,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check that the order has an Id and is a string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the order has an Id and is a string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				354
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check that the order has an Id and is a string": true
+				}
+			]
+		},
+		{
+			"id": "f803c692-7384-43e6-8825-6d2a1f80022b",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check if we an array of orders, check to not be empty and that each one has a string as an Id.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if we an array of orders, check to not be empty and that each one has a string as an Id.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check if we an array of orders, check to not be empty and that each one has a string as an Id.": true
+				}
+			]
+		},
+		{
+			"id": "50a71187-9fe2-4f9e-856d-5120b7365a1c",
+			"name": "Get an order",
+			"url": "https://simple-books-api.glitch.me/orders/S2nVBs-45DXpq--YSDh7Z",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Validate Json schema from the orders": true,
+				"The Id is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate Json schema from the orders": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The Id is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Validate Json schema from the orders": true,
+					"The Id is correct": true
+				}
+			]
+		},
+		{
+			"id": "66636b1e-b300-4612-85c2-e58a803d6ff0",
+			"name": "Patch an order",
+			"url": "https://simple-books-api.glitch.me/orders/S2nVBs-45DXpq--YSDh7Z",
+			"time": 178,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				178
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "38bdf63a-3d82-40ef-bfef-bf37244e3bb0",
+			"name": "Get the patched order",
+			"url": "https://simple-books-api.glitch.me/orders/S2nVBs-45DXpq--YSDh7Z",
+			"time": 277,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"The Id is correct": true,
+				"Validate that the username was changed": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The Id is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate that the username was changed": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"The Id is correct": true,
+					"Validate that the username was changed": true
+				}
+			]
+		},
+		{
+			"id": "9e88a0c8-9f47-4542-a206-4bfae3349fcb",
+			"name": "Delete order",
+			"url": "https://simple-books-api.glitch.me/orders/S2nVBs-45DXpq--YSDh7Z",
+			"time": 485,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Length after the delete is diferent": false
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length after the delete is diferent": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				485
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Length after the delete is diferent": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3209,
+	"collection": {
+		"requests": [
+			{
+				"id": "6b382ca7-0f47-4dd8-abe8-290b3182fdf8",
+				"method": "GET"
+			},
+			{
+				"id": "d133423a-29fe-41ae-9f3c-d59b6731625f",
+				"method": "POST"
+			},
+			{
+				"id": "18bcc702-b631-4db5-8bac-cee9209eeb10",
+				"method": "GET"
+			},
+			{
+				"id": "bc4912c5-c889-453c-bb6b-5bcba3afb207",
+				"method": "GET"
+			},
+			{
+				"id": "ff9b1440-083f-478d-aa9f-35b6a23f94d2",
+				"method": "GET"
+			},
+			{
+				"id": "3c74629c-30ae-46d4-9d1e-7baee6c03852",
+				"method": "POST"
+			},
+			{
+				"id": "c2dd69c4-46a4-4c9d-9f69-2c8929e9767f",
+				"method": "GET"
+			},
+			{
+				"id": "be65acc2-90b5-418a-b3fc-ec18dbcacfd0",
+				"method": "GET"
+			},
+			{
+				"id": "a29667ee-ec14-44a4-aaae-67c9bfac1455",
+				"method": "GET"
+			},
+			{
+				"id": "90f736b1-3bb9-476b-988b-24a242b328bf",
+				"method": "POST"
+			},
+			{
+				"id": "f803c692-7384-43e6-8825-6d2a1f80022b",
+				"method": "GET"
+			},
+			{
+				"id": "50a71187-9fe2-4f9e-856d-5120b7365a1c",
+				"method": "GET"
+			},
+			{
+				"id": "66636b1e-b300-4612-85c2-e58a803d6ff0",
+				"method": "PATCH"
+			},
+			{
+				"id": "38bdf63a-3d82-40ef-bfef-bf37244e3bb0",
+				"method": "GET"
+			},
+			{
+				"id": "9e88a0c8-9f47-4542-a206-4bfae3349fcb",
+				"method": "DELETE"
+			}
+		]
+	}
+}
