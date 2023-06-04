@@ -27,12 +27,14 @@ namespace Flylevel.Auto.Template.Tests
         }
 
         [TestCase, Order(2)]
-        public void BarcelonaToNYE2ETest()
+        public void BarcelonaToSantiagoE2ETest()
         {
             flylevelHomePage = new FlylevelHomePage(setUpWebDriver);
+            string origenCity = "Barcelona";
+            string destinyCity = "Santiago de Chile";
 
             flylevelHomePage.AcceptCookies();
-            flylevelHomePage.DropdownOneWayClick();
+            flylevelHomePage.DestiniesFlight(origenCity, destinyCity);
 
 
         }
