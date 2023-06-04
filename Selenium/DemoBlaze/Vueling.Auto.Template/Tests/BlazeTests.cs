@@ -10,15 +10,14 @@ namespace DemoBlaze.Auto.Template.Tests
     [TestFixture]
     class BlazeTests: TestSetCleanBase
     {
-        [TestCase]
+        [TestCase, Order(1)]
 
-        public void PurchaseE2ETest()
+        public void PurchaseLaptopE2ETest()
         {
             blazeHomePage = new BlazeHomePage(setUpWebDriver);
             loginPage = new LoginPage(setUpWebDriver);
             itemPage = new ItemPage(setUpWebDriver);
             cartPage = new CartPage(setUpWebDriver);
-
 
             test.Log(Status.Debug, "Entra en la web de blaze."); 
             blazeHomePage.ClickLogin();
@@ -28,7 +27,6 @@ namespace DemoBlaze.Auto.Template.Tests
             blazeHomePage.ClickCategoryAndItem("Laptops", "MacBook Pro");
             itemPage.NameAssert();
             itemPage.ClickAddToCart();
-
             itemPage.ClickCartLink();
             cartPage.WaitWebTitle();
             cartPage.ProductPriceAssert();
@@ -40,8 +38,8 @@ namespace DemoBlaze.Auto.Template.Tests
             test.Log(Status.Pass, "Fin del test.");
         }
 
-        [TestCase]
-        public void PurchaseTestDelete()
+        [TestCase, Order(2)]
+        public void TestE2EDeleteItem()
         {
             blazeHomePage = new BlazeHomePage(setUpWebDriver);
             loginPage = new LoginPage(setUpWebDriver);
