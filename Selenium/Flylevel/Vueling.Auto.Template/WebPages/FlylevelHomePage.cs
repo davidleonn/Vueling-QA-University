@@ -68,11 +68,7 @@ namespace Flylevel.Auto.WebPages
             get { return WebDriver.FindElementById("ensCloseBanner"); }
         }
 
-        private IWebElement BtnNextMonth
-        {
-            get { return WebDriver.FindElementByClassName("datepicker__next-action"); }
-        }
-
+        
         private IWebElement DropdownTrip
         {
             get { return WebDriver.FindElementByXPath("//span[@class='dropdown-title-js' and text()='Ida y vuelta']"); }
@@ -82,11 +78,25 @@ namespace Flylevel.Auto.WebPages
         {
             get { return WebDriver.FindElementByCssSelector("#dropdown-trip > li:nth-child(2) > a"); }
         }
+
+        private IWebElement CalendarMonthName
+        {
+            get { return WebDriver.FindElementByXPath("//div[@class='datepicker__month-title']/span[@class='month']"); }
+        }
         
-        private IWebElement FirstDayAvailable
+
+        private IWebElement FirstDayAvailableSeptember
         {
             get { return WebDriver.FindElementByXPath("((//div[@class='datepicker__months']/section[1]//div[@class='datepicker__day is-available '])[1])"); }
         }
+
+
+        private IWebElement BtnNextMonth
+        {
+            get { return WebDriver.FindElementByXPath("//button[2]/span"); }
+        }
+
+
 
         // Define functions and actions
 
@@ -120,14 +130,18 @@ namespace Flylevel.Auto.WebPages
             return this;
         }
 
-        // public FlylevelHomePage SelectMonth(string month)
-        //{
-        //    while (CalendarMonthName.Text != month.ToUpper()
-        //    {
-        //        BtnNextMonth().Click();
-        //    }
-        //}
+         public FlylevelHomePage SelectMonth(string month)
+        {
+            while (CalendarMonthName.Text != month.ToUpper())
+            {
+                BtnNextMonth.Click();
+            }
+            FirstDayAvailableSeptember.Click();
 
-        
+            string diaVuelta = FirstDayAvailableSeptember.Text;
+            DateReturnDay(diaVuelta).Click();
+            return this;
+        }
+
     }
 }

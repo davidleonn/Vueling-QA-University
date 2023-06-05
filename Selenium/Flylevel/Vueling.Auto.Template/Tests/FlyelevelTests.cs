@@ -32,10 +32,11 @@ namespace Flylevel.Auto.Template.Tests
             flylevelHomePage = new FlylevelHomePage(setUpWebDriver);
             string origenCity = "Barcelona";
             string destinyCity = "Santiago de Chile";
+            string month = "SEPTIEMBRE";
 
             flylevelHomePage.AcceptCookies();
             flylevelHomePage.DestiniesFlight(origenCity, destinyCity);
-
+            flylevelHomePage.SelectMonth(month);
 
         } 
     }   
