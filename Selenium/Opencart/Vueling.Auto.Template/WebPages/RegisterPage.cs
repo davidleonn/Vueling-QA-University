@@ -71,7 +71,5 @@ namespace Opencart.Auto.Template.WebPages
             return this;
         }
 
-
-
     }
 }

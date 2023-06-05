@@ -97,6 +97,11 @@ namespace Opencart.Auto.Template.WebPages
             get { return WebDriver.FindElement(GetLogoutText); }
         }
 
+        private IWebElement ContactUsText
+        {
+            get { return WebDriver.FindElementByXPath("//a[text()='Contact Us']"); }
+        }
+
         // Define functions and actions
 
         public HomePage WaitHomePage()
@@ -165,6 +170,12 @@ namespace Opencart.Auto.Template.WebPages
             {
                 Console.WriteLine("El sponsor no existe");
             }
+            return this;
+        }
+
+        public HomePage ContactUsNavigate()
+        {
+            ContactUsText.Click();
             return this;
         }
     }

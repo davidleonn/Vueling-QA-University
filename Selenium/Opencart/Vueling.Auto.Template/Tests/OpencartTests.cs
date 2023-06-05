@@ -83,6 +83,26 @@ namespace Opencart.Auto.Template.Tests
 
         [TestCase, Order(3)]
 
+        public void ContactUsE2ETest()
+        {
+            homePage = new HomePage(setUpWebDriver);
+            registerPage = new RegisterPage(setUpWebDriver);
+            accountPage = new AccountPage(setUpWebDriver);
+            contactPage = new ContactPage(setUpWebDriver);
+
+            homePage.SecurityPage();
+            homePage.RegisterLink();
+            registerPage.WaitAndFillFormAndSubmit();
+            accountPage.WaitPageClickHome();
+            homePage.WaitLogoutText();
+            homePage.ContactUsNavigate();
+            contactPage.WaitContactPage();
+            contactPage.FillFormAndSubmit();
+            homePage.AssertNoItemsInCart();
+        }
+
+        [TestCase, Order(4)]
+
         public void CheckSponsorTest()
         {
             homePage = new HomePage(setUpWebDriver);

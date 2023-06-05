@@ -67,6 +67,7 @@ namespace Opencart.Auto.Template.Tests
         protected CartPage cartPage;
         protected CheckoutPage checkoutPage;
         protected AllProductsTabPage allProductsTabPage;
+        protected ContactPage contactPage;
         protected ISetUpWebDriver setUpWebDriver;
         protected ObjectsTest objectsTest;
         protected ExtentTest test;

@@ -456,6 +456,7 @@
     <Compile Include="WebPages\AllProductsTabPage.cs" />
     <Compile Include="WebPages\CartPage.cs" />
     <Compile Include="WebPages\CheckoutPage.cs" />
+    <Compile Include="WebPages\ContactPage.cs" />
     <Compile Include="WebPages\HomePage.cs" />
     <Compile Include="WebPages\AccountPage.cs" />
     <Compile Include="WebPages\ProductsPage.cs" />
