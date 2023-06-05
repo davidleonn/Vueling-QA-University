@@ -1,0 +1,41 @@
+﻿using Opencart.Auto.Template.SetUp;
+using Opencart.Auto.Base;
+using OpenQA.Selenium;
+using System.Collections.Generic;
+using System.Threading;
+
+namespace Opencart.Auto
+{
+    public class GoogleSearch : CommonPage
+    {
+        private IList<IWebElement> Links
+        {
+            get { return WebDriver.FindElementsByCssSelector("div .g h3"); }
+        }
+        private IWebElement Pagina2
+        {
+            get { return WebDriver.FindElementByCssSelector("#navcnt a[aria-label='Page 2']"); }
+        }
+        protected override IWebElement ApartadosBusqueda => throw new System.NotImplementedException();
+
+        public GoogleSearch(ISetUpWebDriver setUpWebDriver) : base(setUpWebDriver)
+        {
+        }
+
+        public GoogleSearch SeleccionarLink(int link)
+        {
+            Jse2.ExecuteScript("arguments[0].click()", Links[link]);
+            //act.Click(Links[link]).Build().Perform();
+            return this;
+        }
+
+        public GoogleSearch SiguientePagina()
+        {
+            //act.MoveToElement(Pagina2).Build().Perform();
+            Jse2.ExecuteScript("arguments[0].scrollIntoView()", Pagina2);
+            Thread.Sleep(1000); //esperar 1000ms => wait for element
+            Pagina2.Click();
+            return this;
+        }
+    }
+}

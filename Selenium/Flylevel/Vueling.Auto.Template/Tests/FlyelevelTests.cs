@@ -37,26 +37,6 @@ namespace Flylevel.Auto.Template.Tests
             flylevelHomePage.DestiniesFlight(origenCity, destinyCity);
 
 
-        }
-
-       
-
-
-
-        //[TestCase, Order(3)]
-
-        //public void BarcelonaToSantiagoE2ETest()
-        //{
-        //    flylevelHomePage = new FlylevelHomePage(setUpWebDriver);
-        //    string origenCity = "Barcelona";
-        //    string destinyCity = "Santiago de Chile";
-
-        //    flylevelHomePage.DestiniesFlight(origenCity, destinyCity);
-        //    flylevelHomePage.NextMonthClick();
-
-        //}
-
-
-
+        } 
     }   
 }

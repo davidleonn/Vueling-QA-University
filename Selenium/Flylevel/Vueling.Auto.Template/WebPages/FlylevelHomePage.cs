@@ -68,9 +68,9 @@ namespace Flylevel.Auto.WebPages
             get { return WebDriver.FindElementById("ensCloseBanner"); }
         }
 
-        private IWebElement CalendarNextButton
+        private IWebElement BtnNextMonth
         {
-            get { return WebDriver.FindElementByCssSelector(".btn.datepicker_next-action js-month-change"); }
+            get { return WebDriver.FindElementByClassName("datepicker__next-action"); }
         }
 
         private IWebElement DropdownTrip
@@ -81,8 +81,13 @@ namespace Flylevel.Auto.WebPages
         private IWebElement OneWayTrip
         {
             get { return WebDriver.FindElementByCssSelector("#dropdown-trip > li:nth-child(2) > a"); }
-    }
+        }
         
+        private IWebElement FirstDayAvailable
+        {
+            get { return WebDriver.FindElementByXPath("((//div[@class='datepicker__months']/section[1]//div[@class='datepicker__day is-available '])[1])"); }
+        }
+
         // Define functions and actions
 
         public FlylevelHomePage AcceptCookies()
@@ -115,12 +120,6 @@ namespace Flylevel.Auto.WebPages
             return this;
         }
 
-        //public FlylevelHomePage NextMonthClick()
-        //{
-        //    CalendarNextButton.Click();
-        //    CalendarNextButton.Click();
-        //    return this;
-        //}
         // public FlylevelHomePage SelectMonth(string month)
         //{
         //    while (CalendarMonthName.Text != month.ToUpper()
