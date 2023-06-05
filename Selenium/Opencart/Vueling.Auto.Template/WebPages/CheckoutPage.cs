@@ -57,6 +57,11 @@ namespace Opencart.Auto.Template.WebPages
         {
             get { return WebDriver.FindElementById("button-payment-method"); }
         }
+        private IWebElement BtnShipping
+        {
+            get { return WebDriver.FindElementById("button-shipping-address"); }
+        }
+
         private IWebElement BtnConfirm
         {
             get { return WebDriver.FindElementById("button-confirm"); }
@@ -95,7 +100,7 @@ namespace Opencart.Auto.Template.WebPages
         protected IWebElement _OrderCheckoutText
         {
             get { return WebDriver.FindElement(OrderCheckoutText); }
-        }
+        }       
 
         // Define functions and actions
 
@@ -107,10 +112,11 @@ namespace Opencart.Auto.Template.WebPages
 
         public CheckoutPage FillAndSubmitCheckoutForm()
         {
-            
-            CheckoutInput("input-payment-firstname").SendKeys("David");
-            CheckoutInput("input-payment-lastname").SendKeys("Leon");
-            CheckoutInput("input-payment-address-1").SendKeys("Barna");
+            string randomString = Helpers.GetRandomString(5);
+
+            CheckoutInput("input-payment-firstname").SendKeys(randomString);
+            CheckoutInput("input-payment-lastname").SendKeys(randomString);
+            CheckoutInput("input-payment-address-1").SendKeys(randomString);
             CheckoutInput("input-payment-city").SendKeys("Barcelona");
             AddressSelect(195).Click();
             AddressSelect(2979).Click();
@@ -139,5 +145,11 @@ namespace Opencart.Auto.Template.WebPages
             return this;
         }
 
+        public CheckoutPage ShippingButtonClick()
+        {
+            BtnShipping.Click();
+            return this;
+        }
+       
     }
 }

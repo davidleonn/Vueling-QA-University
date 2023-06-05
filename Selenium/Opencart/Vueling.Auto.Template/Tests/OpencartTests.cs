@@ -50,6 +50,8 @@ namespace Opencart.Auto.Template.Tests
             allProductsTabPage = new AllProductsTabPage(setUpWebDriver);
 
             string monitor = "Samsung SyncMaster 941BW";
+            string camera = "Nikon D300";
+            string itemName = "MacBook";
 
             homePage.SecurityPage();
             homePage.RegisterLink();
@@ -61,7 +63,21 @@ namespace Opencart.Auto.Template.Tests
             allProductsTabPage.SelectMonitor(monitor);
             productsPage.AssertMonitor(monitor);
             productsPage.Add2MonitorsToCart();
-            productsPage.WaitSuccessMessageAndGoCart();
+            productsPage.WaitSuccessMessageAndAddCamera();
+            cartPage.RemoveItemAndCheckout(camera);
+            cartPage.RemoveItemAndCheckout(monitor);
+            cartPage.AssertEmptyCartTextAndContinue();
+            accountPage.WaitPageClickHome();
+            homePage.ItemSelect(itemName);
+            productsPage.AssertMacBook(itemName);
+            productsPage.AddAndGoToCart();
+            cartPage.WaitAndClickCheckout();
+            checkoutPage.WaitCheckoutPage();
+            checkoutPage.FillAndSubmitCheckoutForm();
+            checkoutPage.CheckboxClick();
+            checkoutPage.SubmitPaymentAndConfirm();
+            homePage.WaitHomePage();
+            homePage.AssertNoItemsInCart();
 
         }
 

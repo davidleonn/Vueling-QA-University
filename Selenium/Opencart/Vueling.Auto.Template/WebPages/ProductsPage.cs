@@ -52,8 +52,16 @@ namespace Opencart.Auto.Template.WebPages
             get { return WebDriver.FindElement(SuccesMessageDisplay); }
         }
 
-        
+        private IWebElement CamerasTab
+        {
+            get { return WebDriver.FindElementByXPath("//a[text()='Cameras']"); }
+        }
 
+        private IWebElement SelectCamera 
+        {
+            get { return WebDriver.FindElementByXPath("(//div[@class='product-thumb']//button[contains(., 'Add to Cart')])[2]"); }
+        }
+                
         // Define functions and actions
 
         public ProductsPage AssertMacBook(string name)
@@ -90,11 +98,13 @@ namespace Opencart.Auto.Template.WebPages
             return this;
         }
 
-        public ProductsPage WaitSuccessMessageAndGoCart()
+        public ProductsPage WaitSuccessMessageAndAddCamera()
         {
 
             new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(SuccesMessageDisplay));
 
+            CamerasTab.Click();
+            SelectCamera.Click();
             ShoppingCartLink.Click();
 
             return this;

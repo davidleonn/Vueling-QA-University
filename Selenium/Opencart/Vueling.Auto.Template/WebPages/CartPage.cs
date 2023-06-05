@@ -37,6 +37,21 @@ namespace Opencart.Auto.Template.WebPages
             get { return WebDriver.FindElementByXPath("//a[text()='Checkout']"); }
         }
 
+        private IWebElement BtnRemoveItem(string itemName)
+        {
+            return WebDriver.FindElementByXPath("//table[@class='table table-bordered']//a[text()='" + itemName + "']/following::button[contains(@class, 'btn-danger')]");
+        }
+        
+        private IWebElement EmptyCartText
+        {
+            get { return WebDriver.FindElementByXPath("//div[@id='content']//p[text()='Your shopping cart is empty!']"); }
+        }
+
+        private IWebElement BtnContinueHome
+        {
+            get { return WebDriver.FindElementByXPath("//a[text()='Continue']"); }
+        }
+
         // Define functions and actions
 
         public CartPage WaitAndClickCheckout() 
@@ -46,5 +61,24 @@ namespace Opencart.Auto.Template.WebPages
             return this;            
         }
 
+        public CartPage RemoveItemAndCheckout(string name)
+        {            
+
+            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(OptionsPanel));
+            BtnRemoveItem(name).Click();           
+            
+            return this;
+        }
+
+        public CartPage AssertEmptyCartTextAndContinue()
+        {
+            string myText = EmptyCartText.Text;
+            string text = "Your shopping cart is empty!";
+
+            Assert.AreEqual(text, myText);
+           BtnContinueHome.Click();
+
+            return this;
+        }
     }
 }

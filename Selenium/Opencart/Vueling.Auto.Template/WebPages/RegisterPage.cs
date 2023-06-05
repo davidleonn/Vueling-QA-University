@@ -59,8 +59,8 @@ namespace Opencart.Auto.Template.WebPages
 
             string randomString = Helpers.GetRandomString(4);
 
-            RegisterInput("input-firstname").SendKeys("David");
-            RegisterInput("input-lastname").SendKeys("Leon");
+            RegisterInput("input-firstname").SendKeys(randomString);
+            RegisterInput("input-lastname").SendKeys(randomString);
             RegisterInput("input-email").SendKeys(randomString+"@test.es");
             RegisterInput("input-telephone").SendKeys("66665");          
             RegisterInput("input-password").SendKeys("David");
