@@ -1,6 +1,6 @@
-﻿using Flylevel.Auto.Template.Test.Data;
+﻿using Skysales.Auto.Auto.Template.Test.Data;
 
-namespace Flylevel.Auto.Template.SetUp
+namespace Skysales.Auto.Auto.Template.SetUp
 {
     public class ObjectsTest
     {

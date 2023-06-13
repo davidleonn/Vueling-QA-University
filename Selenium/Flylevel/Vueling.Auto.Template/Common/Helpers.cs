@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Flylevel.Auto.Template.Common
+namespace Skysales.Auto.Auto.Template.Common
 {
     class Helpers
     {

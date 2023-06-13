@@ -119,13 +119,13 @@ namespace Opencart.Auto.Template.WebPages
             return this;
         }
 
-        public HomePage AssertNoItemsInCart()
+        public IWebElement GetNoItemsInCart()
         {
-            string myItems = GetCartItems.Text;
-            string itemsText = "0 item(s) - $0.00";
+            //string myItems = GetCartItems.Text;
+            //string itemsText = "0 item(s) - $0.00";
 
-            Assert.AreEqual(myItems, itemsText);
-            return this;
+            //Assert.AreEqual(myItems, itemsText);
+            return GetCartItems;            
         }
         public HomePage SecurityPage()
         {

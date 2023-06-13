@@ -1,7 +1,7 @@
-﻿using Flylevel.Auto.Template.SetUp;
+﻿using Skysales.Auto.Auto.Template.SetUp;
 using OpenQA.Selenium;
 
-namespace Flylevel.Auto.Webpages.Base
+namespace Skysales.Auto.Auto.Webpages.Base
 {
     /* CommonPage will include WebElements and functionalities shared by all WebPages */
     public abstract class CommonPage : Page

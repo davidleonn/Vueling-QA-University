@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opencart.Auto", "Vueling.Auto.Template\Opencart.Auto.csproj", "{B71E1514-B8E9-43DE-A3E5-A40EB82A8178}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opencart.Auto", "Skysales.Auto\Opencart.Auto.csproj", "{B71E1514-B8E9-43DE-A3E5-A40EB82A8178}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

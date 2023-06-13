@@ -1,5 +1,5 @@
-﻿using Flylevel.Auto.Template.SetUp;
-using Flylevel.Auto.Webpages.Base;
+﻿using Skysales.Auto.Auto.Template.SetUp;
+using Skysales.Auto.Auto.Webpages.Base;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
@@ -7,7 +7,7 @@ using System.Collections;
 using System.Threading;
 using System.Web.Razor.Parser.SyntaxTree;
 
-namespace Flylevel.Auto.WebPages
+namespace Skysales.Auto.Auto.WebPages
 {
     public class FlylevelHomePage : CommonPage
     {

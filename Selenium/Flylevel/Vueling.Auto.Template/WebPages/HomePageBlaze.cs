@@ -1,10 +1,10 @@
-﻿using Flylevel.Auto.Template.SetUp;
-using Flylevel.Auto.Base;
+﻿using Skysales.Auto.Auto.Template.SetUp;
+using Skysales.Auto.Auto.Base;
 using OpenQA.Selenium;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace Flylevel.Auto
+namespace Skysales.Auto.Auto
 {
     public class GoogleSearch : CommonPage
     {

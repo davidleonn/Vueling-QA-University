@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium.Remote;
 
-namespace Flylevel.Auto.Template.SetUp
+namespace Skysales.Auto.Auto.Template.SetUp
 {
     public interface ISetUpWebDriver
     {

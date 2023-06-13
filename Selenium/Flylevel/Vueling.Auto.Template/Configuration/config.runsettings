@@ -27,7 +27,7 @@
     pageLoadTimeout: Time to wait in some pages.
     browser: Type of Browser you want to use.
     -->
-    <Parameter name="targetUrl" value="https://www.flylevel.com/"/>
+    <Parameter name="targetUrl" value="https://tickets.vueling.com/"/>
     <Parameter name="pageLoadTimeout" value="110" />
     <Parameter name="waitTimeout" value="40" />
     <Parameter name="paymentTimeout" value="70" />

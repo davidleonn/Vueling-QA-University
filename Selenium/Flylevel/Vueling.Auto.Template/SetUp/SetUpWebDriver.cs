@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace Flylevel.Auto.Template.SetUp
+namespace Skysales.Auto.Auto.Template.SetUp
 {
     public class SetUpWebDriver : ISetUpWebDriver
     {

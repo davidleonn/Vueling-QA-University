@@ -22,7 +22,7 @@ namespace Opencart.Auto.Template.Tests
 
             string itemName = "MacBook";
             
-            homePage.SecurityPage();
+      //      homePage.SecurityPage();
             homePage.RegisterLink();           
             registerPage.WaitAndFillFormAndSubmit();
             accountPage.WaitPageClickHome();            
@@ -35,7 +35,7 @@ namespace Opencart.Auto.Template.Tests
             checkoutPage.CheckboxClick();
             checkoutPage.SubmitPaymentAndConfirm();
             homePage.WaitHomePage();
-            homePage.AssertNoItemsInCart();
+            Assert.AreEqual("0 item(s) - $0.00", homePage.GetNoItemsInCart().Text);
 
         }
         [TestCase, Order(2)]
@@ -53,7 +53,7 @@ namespace Opencart.Auto.Template.Tests
             string camera = "Nikon D300";
             string itemName = "MacBook";
 
-            homePage.SecurityPage();
+//            homePage.SecurityPage();
             homePage.RegisterLink();
             registerPage.WaitAndFillFormAndSubmit();
             accountPage.WaitPageClickHome();
@@ -77,7 +77,7 @@ namespace Opencart.Auto.Template.Tests
             checkoutPage.CheckboxClick();
             checkoutPage.SubmitPaymentAndConfirm();
             homePage.WaitHomePage();
-            homePage.AssertNoItemsInCart();
+            Assert.AreEqual("0 item(s) - $0.00", homePage.GetNoItemsInCart().Text);
 
         }
 
@@ -90,7 +90,7 @@ namespace Opencart.Auto.Template.Tests
             accountPage = new AccountPage(setUpWebDriver);
             contactPage = new ContactPage(setUpWebDriver);
 
-            homePage.SecurityPage();
+        //    homePage.SecurityPage();
             homePage.RegisterLink();
             registerPage.WaitAndFillFormAndSubmit();
             accountPage.WaitPageClickHome();
@@ -98,7 +98,9 @@ namespace Opencart.Auto.Template.Tests
             homePage.ContactUsNavigate();
             contactPage.WaitContactPage();
             contactPage.FillFormAndSubmit();
-            homePage.AssertNoItemsInCart();
+            Assert.AreEqual("0 item(s) - $0.00", homePage.GetNoItemsInCart().Text);
+            //Assert.AreEqual("0 item(s) - $0.00", homePage.GetNoItemsInCart().Text.toUpper());
+
         }
 
         [TestCase, Order(4)]

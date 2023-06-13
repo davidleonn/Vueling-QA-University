@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace Flylevel.Auto.Template.Test.Data
+namespace Skysales.Auto.Auto.Template.Test.Data
 {
     [XmlRoot("ScenarioTestCase")]
     public class ScenarioTestCase

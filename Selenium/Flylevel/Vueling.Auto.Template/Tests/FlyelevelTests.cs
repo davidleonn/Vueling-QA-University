@@ -1,9 +1,9 @@
 ﻿using AventStack.ExtentReports;
 using NUnit.Framework;
-using Flylevel.Auto.WebPages;
+using Skysales.Auto.Auto.WebPages;
 using System.Threading;
 
-namespace Flylevel.Auto.Template.Tests
+namespace Skysales.Auto.Auto.Template.Tests
 
 
 {

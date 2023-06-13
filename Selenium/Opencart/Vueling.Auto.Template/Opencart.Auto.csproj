@@ -10,8 +10,8 @@
     <ProjectGuid>{B71E1514-B8E9-43DE-A3E5-A40EB82A8178}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vueling.Auto.Template</RootNamespace>
-    <AssemblyName>Vueling.Auto.Template</AssemblyName>
+    <RootNamespace>Skysales.Auto</RootNamespace>
+    <AssemblyName>Skysales.Auto</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

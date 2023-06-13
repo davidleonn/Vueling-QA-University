@@ -1,13 +1,13 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
-using Flylevel.Auto.Template.SetUp;
+using Skysales.Auto.Auto.Template.SetUp;
 using System;
 using OpenQA.Selenium.Interactions;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace Flylevel.Auto.Webpages.Base
+namespace Skysales.Auto.Auto.Webpages.Base
 {
     public class Page
     {

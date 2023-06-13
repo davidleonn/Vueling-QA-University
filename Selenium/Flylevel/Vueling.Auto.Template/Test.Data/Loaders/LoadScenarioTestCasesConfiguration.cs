@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 using NUnit.Framework;
 
 
-namespace Flylevel.Auto.Template.Test.Data
+namespace Skysales.Auto.Auto.Template.Test.Data
 {
     class LoadScenarioTestCasesConfiguration
     {

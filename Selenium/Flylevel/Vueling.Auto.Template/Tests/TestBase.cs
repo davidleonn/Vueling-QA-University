@@ -5,11 +5,12 @@ using NUnit.Framework.Interfaces;
 using System;
 using System.IO;
 using System.Threading;
-using Flylevel.Auto.Template.SetUp;
-using Flylevel.Auto.WebPages;
-using Flylevel.Auto.Webpages.Base;
+using Skysales.Auto.Auto.Template.SetUp;
+using Skysales.Auto.Auto.WebPages;
+using Skysales.Auto.Auto.Webpages.Base;
 
-namespace Flylevel.Auto.Template.Tests
+
+namespace Skysales.Auto.Auto.Template.Tests
 {
     [SetUpFixture]
     [Parallelizable(ParallelScope.Fixtures)]
@@ -59,6 +60,7 @@ namespace Flylevel.Auto.Template.Tests
     {
         #region Definitions       
         protected Page page;
+        protected VuelingTicketsPage vuelingTicketsPage;
         protected FlylevelHomePage flylevelHomePage;
         protected ISetUpWebDriver setUpWebDriver;
         protected ObjectsTest objectsTest;

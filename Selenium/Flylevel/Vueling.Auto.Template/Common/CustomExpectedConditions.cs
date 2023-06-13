@@ -7,7 +7,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Chrome;
 
-namespace Flylevel.Auto.Template.Common
+namespace Skysales.Auto.Auto.Template.Common
 {
     class CustomExpectedConditions
     {
