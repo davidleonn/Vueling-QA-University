@@ -2,11 +2,8 @@ import { CartPage } from "../webpages/CartPage";
 import { HomePage } from "../webpages/HomePage"; // Webpage Import
 import { ProductPage } from "../webpages/ProductPage";
 
-// The container of the tests (must contain the same name as the file)
 describe("TemplateTest", () => {
   // * let/const for all the tests
-  let newUsername = cy.getRandomFirstName();
-  let newPassword = cy.getRandomString(4);
   const username = "david93";
   const password = "test";
 
@@ -23,26 +20,15 @@ describe("TemplateTest", () => {
     cy.visit(""); //Url taken from environment json
   });
 
-  // Independent Test Case
-  it("Verify new user signup", () => {
-    homePage.registerNewUser(newUsername, newPassword);
-    homePage.clickLogout();
-    homePage.checkUserIsLogedOut();
-  });
-
-  it("Verify login and check if user is logged in then loggout and check for it", () => {
+  it("Buy a phone", () => {
     homePage.loginUser(username, password);
     homePage.checkUserIsLoged(username);
+    homePage.navigateToItem();
+    productPage.addAndNavigateToCart();
+    cartPage.placeOrder();
+    cartPage.fillPurchaseForm();
+    cartPage.assertPurchaseCompleted();
     homePage.clickLogout();
     homePage.checkUserIsLogedOut();
-  });
-
-  // This will be executed only once after and for all the tests
-  after(() => {});
-
-  // This will be executed after the execution of every test
-  afterEach(() => {
-    // This will save a screenshot into the screenshots folder
-    cy.addContext("Screenshot taken. You can see it in ./cypress/screenshots");
   });
 });

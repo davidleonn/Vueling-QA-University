@@ -15,6 +15,7 @@ export class HomePage {
   btnLogin = () => cy.get("button[onclick='logIn()']");
   userIsLogedText = () => cy.getId("nameofuser");
   btnLogout = () => cy.getId("logout2");
+  itemTextLink = () => cy.xpath("//a[text()='Samsung galaxy s6']");
 
   // Methods
 
@@ -51,5 +52,8 @@ export class HomePage {
   }
   checkUserIsLoged(username) {
     this.userIsLogedText().should("have.text", "Welcome " + username);
+  }
+  navigateToItem() {
+    this.itemTextLink().click();
   }
 }
