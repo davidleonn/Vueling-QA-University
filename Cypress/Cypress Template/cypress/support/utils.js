@@ -1,7 +1,5 @@
 // ***********************************************
 
-import { random } from "cypress/types/lodash";
-
 cy.getFlightDate = () => {
   const today = new Date();
   let flightDate = new Date();
@@ -73,7 +71,7 @@ cy.getDobByAge = (age) => {
 };
 
 cy.formatNumberLength = (num, length) => {
-  var r = "" + num;
+  let r = "" + num;
   while (r.length < length) {
     r = "0" + r;
   }
@@ -81,21 +79,21 @@ cy.formatNumberLength = (num, length) => {
 };
 
 cy.charDNI = (dni) => {
-  var chain = "TRWAGMYFPDXBNJZSQVHLCKET";
-  var pos = dni % 23;
-  var letter = chain.substring(pos, pos + 1);
+  const chain = "TRWAGMYFPDXBNJZSQVHLCKET";
+  const pos = dni % 23;
+  const letter = chain.substring(pos, pos + 1);
   return letter;
 };
 
 cy.getRandomDNI = () => {
-  var num = Math.floor(Math.random() * 100000000);
-  var sNum = cy.formatNumberLength(num, 8);
+  const num = Math.floor(Math.random() * 100000000);
+  const sNum = cy.formatNumberLength(num, 8);
   return sNum + cy.charDNI(sNum);
 };
 
 cy.getRandomNumber = () => {
-  var randomNumber = "";
-  var possible = "0123456789";
+  let randomNumber = "";
+  const possible = "0123456789";
 
   for (var i = 0; i < 9; i++) {
     randomNumber += possible.charAt(Math.floor(Math.random() * possible.length));
