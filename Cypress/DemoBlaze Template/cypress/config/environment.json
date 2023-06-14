@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://www.demoblaze.com/",
+  "env": {
+    "timeOutPersonalizado": "3000"
+  }
+}
