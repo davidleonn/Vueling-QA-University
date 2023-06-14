@@ -1,10 +1,10 @@
-import { SearchWebCheckin } from "../webpages/searchWebCheckin"; // Webpage Import
+import { TemplatePage } from "../webpages/TemplatePage"; // Webpage Import
 
 // The container of the tests (must contain the same name as the file)
 describe("TemplateTest", () => {
   // * let/const for all the tests
 
-  const searchWebCheckin = new SearchWebCheckin(); // Object of the webpage
+  const templatePage = new TemplatePage(); // Object of the webpage
 
   // This will be executed only once before and for all the tests
   before(() => {});
