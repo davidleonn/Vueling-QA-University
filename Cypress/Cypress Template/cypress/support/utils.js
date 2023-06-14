@@ -95,7 +95,7 @@ cy.getRandomNumber = () => {
   let randomNumber = "";
   const possible = "0123456789";
 
-  for (var i = 0; i < 9; i++) {
+  for (let i = 0; i < 9; i++) {
     randomNumber += possible.charAt(Math.floor(Math.random() * possible.length));
   }
 
