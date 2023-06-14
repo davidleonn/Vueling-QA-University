@@ -48,7 +48,8 @@ module.exports = defineConfig({
     // You may want to clean this up later by importing these.
     setupNodeEvents(on, config) {
       require("cypress-mochawesome-reporter/plugin")(on);
-      const file = config.env.configFile || "environment"; //! You need to update the name of the file in config/environment.json
+
+      const file = config.env.configFile || "environment"; // You need to update the name of the file in config/environment.json
       return getConfigurationByFile(file);
     },
   },

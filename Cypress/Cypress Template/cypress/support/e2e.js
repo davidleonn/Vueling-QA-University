@@ -16,9 +16,9 @@
 //! Config for the E2E folder
 
 // Import commands.js using ES2015 syntax:
-import './commands';
-import './utils';
-require('cypress-xpath');
-import 'cypress-mochawesome-reporter/register';
+import "./commands";
+import "./utils";
+require("cypress-xpath");
+import "cypress-mochawesome-reporter/register";
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

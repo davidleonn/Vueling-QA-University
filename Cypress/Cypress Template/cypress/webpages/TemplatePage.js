@@ -10,6 +10,7 @@ export class TemplatePage {
   inputErrorTextPNR = () => cy.get("#emailForm_recordlocator p.validation-info--error");
 
   // Methods
+
   // Start a function
   acceptCookies() {
     this.cookiesButton().click().should("be.visible"); // Action click with an assert

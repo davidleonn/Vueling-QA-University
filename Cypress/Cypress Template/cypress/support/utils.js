@@ -61,15 +61,15 @@ cy.getRandomCulture = () => {
   const cultureTestcase = cultures[random];
   return cultureTestcase;
 };
-
-cy.getDobByAge = (age) => {
+//function calculates the date of birth (DOB) based on a given age.
+cy.getDateOfBirthByAge = (age) => {
   const flightDate = cy.getFlightDate();
   const yearDate = flightDate.toString().slice(-4);
   let dobYear = parseInt(yearDate) - age;
   let dob = flightDate.toString().replace(/\d{4}$/, dobYear);
   return dob;
 };
-
+// function formats a given number to a specific length by adding leading zeros if necessary.
 cy.formatNumberLength = (num, length) => {
   let r = "" + num;
   while (r.length < length) {
