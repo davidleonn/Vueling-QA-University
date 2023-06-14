@@ -44,19 +44,7 @@ cy.getFutureDate = () => {
 };
 
 cy.getRandomCulture = () => {
-  const cultures = [
-    "de-DE",
-    "en-GB",
-    "es-ES",
-    "ca-ES",
-    "eu-ES",
-    "fr-FR",
-    "gl-ES",
-    "it-IT",
-    "nl-NL",
-    "pt-PT",
-    "ru-RU",
-  ];
+  const cultures = ["de-DE", "en-GB", "es-ES", "ca-ES", "eu-ES", "fr-FR", "gl-ES", "it-IT", "nl-NL", "pt-PT", "ru-RU"];
   const random = Math.floor(Math.random() * cultures.length);
   const cultureTestcase = cultures[random];
   return cultureTestcase;
@@ -140,7 +128,7 @@ cy.getRandomFirstName = () => {
     "Jacob",
     "Victoria",
   ];
-  const randomFirstName = Math.floor(Marh.random() * firstNames.length);
+  const randomFirstName = Math.floor(Math.random() * firstNames.length);
   const firstName = firstNames[randomFirstName];
   return firstName;
 };
@@ -178,7 +166,7 @@ cy.getRandomLastName = () => {
     "Murphy",
     "Rogers",
   ];
-  const randomlastName = Math.floor(Marh.random() * lastNames.length);
+  const randomlastName = Math.floor(Math.random() * lastNames.length);
   const lastName = lastNames[randomlastName];
   return lastName;
 };
