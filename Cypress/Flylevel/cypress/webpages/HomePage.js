@@ -16,10 +16,10 @@ export class HomePage {
   btnNextMonth = () => cy.get(".icon-chevron-green-arrow");
   firstDayAvailable = () => cy.get(".datepicker__day:not(.is-previous-month)").first();
   passengersInput = () => cy.get(".pax-dropdown").first();
-  btnSelectAdults = () => cy.get(".pax-item[data-field='adult'] .js-plus");
-  numberOfAdultsText = () => cy.get(".pax-item[data-field='adult'] .pax-count");
-  btnSelectInfants = () => cy.get(".pax-item[data-field='infant'] .js-plus");
-  numberOfInfantsText = () => cy.get(".pax-item[data-field='infant'] .pax-count");
+  btnSelectAdults = () => cy.get("[data-field='adult'] .js-plus");
+  numberOfAdultsText = () => cy.get("[data-field='adult'] .pax-count");
+  btnSelectInfants = () => cy.get("[data-field='infant'] .js-plus");
+  numberOfInfantsText = () => cy.get("[data-field='infant'] .pax-count");
   btnPassengersSubmit = () => cy.get(".btn-pax.large");
 
   btnSearchFlight = () => cy.getId("searcher_submit_buttons");

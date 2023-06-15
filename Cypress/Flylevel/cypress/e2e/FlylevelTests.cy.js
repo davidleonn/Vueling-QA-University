@@ -24,12 +24,15 @@ describe("E2E test for flylevel one way flight BCN-BuenosAires 2 adults 1 infant
     homePage.selectOrigin(dataObject.cityOrigin);
     homePage.selectDestiny(dataObject.cityDestiny);
     homePage.changeTripType();
+    cy.screenshot("Screenshot_After_Flight_Selection");
     homePage.selectMonthInCalendar(dataObject.month);
     homePage.selectFirstDayAvailable();
+    cy.screenshot("Screenshot_After_Date_Picker");
     homePage.openPax();
     homePage.selectNumberOfAdults(dataObject.adults);
     homePage.selectNumberOfInfants(dataObject.infants);
     homePage.selectPassengers();
+    cy.screenshot("Screenshot_After_Passengers_Selection");
     homePage.searchFlightClick();
   });
 
