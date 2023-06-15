@@ -24,6 +24,7 @@ yarn-error.log*
 .vscode
 cypress/screenshots
 cypress/videos
+cypress/reports
 
 # Generated files
 .docusaurus
