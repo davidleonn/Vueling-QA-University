@@ -1,12 +1,11 @@
-import { HomePage } from "../webpages/HomePage"; // Webpage Import
+import { HomePage } from "../webpages/HomePage";
 
-// The container of the tests (must contain the same name as the file)
-describe("Flylevel Test Cases", () => {
+describe("HomePage", () => {
   const homePage = new HomePage();
+  let cityOrigin = "Barcelona";
+  let cityDestiny = "Buenos Aires";
 
-  // This will be executed before the execution of every test
   beforeEach(() => {
-    // Must be included to go to the specified URL
     cy.visit("", {
       headers: {
         accept: "application/json, text/plain, */*",
@@ -15,9 +14,26 @@ describe("Flylevel Test Cases", () => {
     });
   });
 
-  // Independent Test Case
-  it("Verify the E2E flux OW BCN-EZE 2ADT 1INF 1st day available August", () => {
+  it("Verify a purchase of a flight OW 2ADT 1INF", () => {
     homePage.acceptCookies();
-    homePage.selectOW();
+    homePage.selectOrigin(cityOrigin);
+    homePage.selectDestiny(cityDestiny);
+    homePage.changeTripType();
+    homePage.selectMonthInCalendar("agosto");
+    homePage.selectFirstDayAvailable();
+    homePage.openPax();
+    homePage.selectNumberOfAdults("2");
+    homePage.selectNumberOfInfants("1");
+    homePage.selectPassengers();
+    homePage.searchFlightClick();
+  });
+
+  // This will be executed only once after and for all the tests
+  after(() => {});
+
+  // This will be executed after the execution of every test
+  afterEach(() => {
+    // This will save a screenshot into the screenshots folder
+    /* cy.screenshot(`Screenshot_PNR_${pnr}`); */
   });
 });
