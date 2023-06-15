@@ -99,12 +99,10 @@ export class HomePage {
         }
       });
   }
-
   selectPassengers() {
     this.btnPassengersSubmit().should("be.visible");
     this.btnPassengersSubmit().click();
   }
-
   searchFlightClick() {
     this.btnSearchFlight().should("be.visible");
     this.btnSearchFlight().click({ force: true });

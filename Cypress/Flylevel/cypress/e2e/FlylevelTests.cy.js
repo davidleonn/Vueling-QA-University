@@ -34,6 +34,7 @@ describe("HomePage", () => {
   // This will be executed after the execution of every test
   afterEach(() => {
     // This will save a screenshot into the screenshots folder
-    /* cy.screenshot(`Screenshot_PNR_${pnr}`); */
+    cy.screenshot("Screenshot_E2E_OW");
+    cy.addContext("Screenshot taken. You can see it in ./cypress/screenshots");
   });
 });
