@@ -1,6 +1,6 @@
 import { HomePage } from "../webpages/HomePage";
 
-describe("HomePage", () => {
+describe("E2E test for flylevel one way flight BCN-BuenosAires 2 adults 1 infant", () => {
   const homePage = new HomePage();
   let cityOrigin = "Barcelona";
   let cityDestiny = "Buenos Aires";
