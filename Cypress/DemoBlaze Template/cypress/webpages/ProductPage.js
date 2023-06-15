@@ -1,5 +1,3 @@
-/// <reference types='cypress-xpath' />
-
 export class ProductPage {
   //Locators
   btnAddToCart = () => cy.get("[onclick='addToCart(1)']");

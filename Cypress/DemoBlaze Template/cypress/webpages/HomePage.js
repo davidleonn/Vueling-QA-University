@@ -1,7 +1,3 @@
-/// <reference types='cypress-xpath' />
-
-import "cypress-xpath/src/index";
-
 export class HomePage {
   // Elements
   cookiesButton = () => cy.getId("onetrust-accept-btn-handler"); // Search by ID
