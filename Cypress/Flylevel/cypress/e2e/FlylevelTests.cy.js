@@ -2,8 +2,13 @@ import { HomePage } from "../webpages/HomePage";
 
 describe("E2E test for flylevel one way flight BCN-BuenosAires 2 adults 1 infant", () => {
   const homePage = new HomePage();
-  let cityOrigin = "Barcelona";
-  let cityDestiny = "Buenos Aires";
+  let dataObject = {};
+
+  before(() => {
+    cy.fixture("flightData").then((data) => {
+      dataObject = data;
+    });
+  });
 
   beforeEach(() => {
     cy.visit("", {
@@ -16,14 +21,14 @@ describe("E2E test for flylevel one way flight BCN-BuenosAires 2 adults 1 infant
 
   it("Verify a purchase of a flight OW 2ADT 1INF", () => {
     homePage.acceptCookies();
-    homePage.selectOrigin(cityOrigin);
-    homePage.selectDestiny(cityDestiny);
+    homePage.selectOrigin(dataObject.cityOrigin);
+    homePage.selectDestiny(dataObject.cityDestiny);
     homePage.changeTripType();
-    homePage.selectMonthInCalendar("agosto");
+    homePage.selectMonthInCalendar(dataObject.month);
     homePage.selectFirstDayAvailable();
     homePage.openPax();
-    homePage.selectNumberOfAdults("2");
-    homePage.selectNumberOfInfants("1");
+    homePage.selectNumberOfAdults(dataObject.adults);
+    homePage.selectNumberOfInfants(dataObject.infants);
     homePage.selectPassengers();
     homePage.searchFlightClick();
   });
