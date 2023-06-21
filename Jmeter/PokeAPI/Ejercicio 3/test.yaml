@@ -1,0 +1,52 @@
+---
+settings:
+  artifacts-dir: /path/to/results/tmp/folder
+  env:
+    BASE_DIR: /path/to/scripts/folder
+
+services:
+  - module: shellexec
+
+execution:
+  - executor: jmeter
+    scenario: smoke
+
+scenarios:
+  smoke:
+    script: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio 3/pokeapi.jmx
+    variables:
+      Url: pokeapi.co
+      Protocol: https
+      ResultsPath: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio 3/Results.csv
+      ErrorsPath: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio 3/Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 2
+      Rpm: 5
+  load:
+    script: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio 3/pokeapi.jmx
+    variables:
+      Url: pokeapi.co
+      Protocol: https
+      ResultsPath: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio 3/Results.csv
+      ErrorsPath: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio 3/Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 2
+      Rpm: 5
+
+reporting:
+  - module: final-stats
+    summary: true
+    percentiles: true
+    failed-labels: false
+    test-duration: true
+    dump-csv: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio 3
+  - module: blazemeter
+    report-name: Taurus test report - Demo
+    test: Taurus test
+    project: Taurus test project
+
+testName:
+
+baseUrl:

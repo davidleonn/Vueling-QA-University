@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687345724560,1124,Find pokemons: crobat,200,OK,Get 5 pokemons 1-2,text,true,,194912,136,2,2,https://pokeapi.co/api/v2/pokemon/crobat,1089,0,1056
+1687345724560,1132,Find pokemons: pikachu,200,OK,Get 5 pokemons 1-1,text,true,,232066,137,2,2,https://pokeapi.co/api/v2/pokemon/pikachu,1089,0,1056
+1687345725686,82,Find pokemon with : ${ability},200,OK,Get 5 pokemons 1-2,text,true,,194904,136,2,2,https://pokeapi.co/api/v2/pokemon/crobat,36,0,0
+1687345725693,55,Find pokemon with : ${ability},200,OK,Get 5 pokemons 1-1,text,true,,194908,136,2,2,https://pokeapi.co/api/v2/pokemon/crobat,23,0,0
+1687345725782,27,Find all pokemons with ability,200,OK,Get 5 pokemons 1-1,text,true,,20117,141,2,2,https://pokeapi.co/api/v2/ability/infiltrator,26,0,0
+1687345725781,30,Find all pokemons with ability,200,OK,Get 5 pokemons 1-2,text,true,,22769,141,2,2,https://pokeapi.co/api/v2/ability/inner-focus,30,0,0
