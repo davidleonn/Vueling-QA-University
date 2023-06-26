@@ -5,14 +5,14 @@ export class TicketsHomePage {
   cookiesButton = () => cy.getId("onetrust-accept-btn-handler");
 
   flightSelector = {
-    btnOneWay: () => cy.get("label[for=AvailabilitySearchInputSearchView_OneWay]"),
-    btnRoadTrip: () => cy.get("label[for=AvailabilitySearchInputSearchView_RoundTrip"),
+    btnOneWay: () => cy.get("[for=AvailabilitySearchInputSearchView_OneWay]"),
+    btnRoadTrip: () => cy.get("[for=AvailabilitySearchInputSearchView_RoundTrip]"),
   };
 
   searcher = {
     originInput: () => cy.getId("AvailabilitySearchInputSearchView_TextBoxMarketOrigin1"),
     destinationInput: () => cy.getId("AvailabilitySearchInputSearchView_TextBoxMarketDestination1"),
-    options: (cityCode) => cy.get("a[data-id-code=" + cityCode + "]"),
+    selectCity: (cityCode) => cy.get(`[data-id-code="${cityCode}"]`),
   };
 
   datePicker = {
@@ -22,10 +22,10 @@ export class TicketsHomePage {
   };
 
   paxSelection = {
-    ADTSelector: () => cy.getId("DropDownListPassengerType_ADT_PLUS"),
-    ADTOption: (adt) => cy.getId("adtSelectorDropdown").select(`${adt}`),
+    ADTSelector: () => cy.get(".adt_select_button#DropDownListPassengerType_ADT_PLUS"),
+    ADTOption: () => cy.getId("adtSelectorDropdown"),
     INFSelector: () => cy.get(".column_4.buscador_pasajeros_childs"),
-    INFOption: (inf) => cy.getId("AvailabilitySearchInputSearchView_DropDownListPassengerType_INFANT").select(`${inf}`),
+    INFOption: () => cy.getId("AvailabilitySearchInputSearchView_DropDownListPassengerType_INFANT"),
   };
 
   btnSearchFlight = () => cy.getId("AvailabilitySearchInputSearchView_btnClickToSearchNormal");
@@ -44,9 +44,9 @@ export class TicketsHomePage {
   selectStations(origin, destination) {
     this.searcher.originInput().click().should("be.visible");
     this.searcher.originInput().clear().type(origin).should("have.value", origin);
-    this.searcher.options(origin).click();
+    this.searcher.selectCity(origin).click();
     this.searcher.destinationInput().clear().type(destination).should("have.value", destination);
-    this.searcher.options(destination).click();
+    this.searcher.selectCity(destination).click();
   }
   setLeftMonth(month) {
     this.datePicker
@@ -62,13 +62,16 @@ export class TicketsHomePage {
   selectAvailableDay() {
     this.datePicker.availableDay().first().should("be.visible").click();
   }
+  selectArrivalandDeparture(tripDays) {
+    this.datePicker.availableDay().first().click({ force: true });
+    this.datePicker.availableDay().eq(tripDays).click({ force: true });
+  }
   selectPassengers(adt, inf) {
     this.paxSelection.ADTSelector().click();
-    this.paxSelection.ADTOption(adt).should("be.visible");
+    this.paxSelection.ADTOption().select(adt).should("be.visible");
     this.paxSelection.INFSelector().click();
-    this.paxSelection.INFOption(inf).should("be.visible");
+    this.paxSelection.INFOption().select(inf).should("be.visible");
   }
-
   confirmSearch() {
     this.btnSearchFlight().should("be.visible").click();
   }
