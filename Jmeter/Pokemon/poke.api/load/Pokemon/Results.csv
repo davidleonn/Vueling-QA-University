@@ -1,0 +1,785 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687706435669,195,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",991,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,195,0,138
+1687706435671,215,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",985,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,214,0,148
+1687706435867,100,/api/v2/nature/modest,200,OK,PokeApi - run 1-3,text,true,,3082,135,20,20,https://pokeapi.co/api/v2/nature/modest,100,0,0
+1687706435669,323,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-2,text,true,,194900,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,156,0,127
+1687706435886,108,/api/v2/nature/modest,200,OK,PokeApi - run 1-16,text,true,,3084,135,20,20,https://pokeapi.co/api/v2/nature/modest,108,0,0
+1687706435671,352,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-4,text,true,,148556,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,160,0,131
+1687706435670,394,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-20,text,true,,192081,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,156,0,131
+1687706435968,101,/api/v2/type/fairy,200,OK,PokeApi - run 1-3,text,true,,12864,132,20,20,https://pokeapi.co/api/v2/type/fairy,97,0,0
+1687706435671,408,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-17,text,true,,148548,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,206,0,146
+1687706435669,411,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",985,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,411,0,138
+1687706435670,419,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",977,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,419,0,135
+1687706435669,421,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-10,text,true,,148546,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,211,0,149
+1687706435995,97,/api/v2/type/fairy,200,OK,PokeApi - run 1-16,text,true,,12840,132,20,20,https://pokeapi.co/api/v2/type/fairy,96,0,0
+1687706435992,102,/api/v2/nature/bold,200,OK,PokeApi - run 1-2,text,true,,3062,133,20,20,https://pokeapi.co/api/v2/nature/bold,101,0,0
+1687706435671,429,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-12,text,true,,148546,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,222,0,139
+1687706435670,433,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-19,text,true,,222138,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,159,0,131
+1687706436023,94,/api/v2/nature/impish,200,OK,PokeApi - run 1-4,text,true,,3085,135,20,20,https://pokeapi.co/api/v2/nature/impish,94,0,0
+1687706435669,462,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-14,text,true,,222130,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,165,0,134
+1687706435671,463,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-9,text,true,,192079,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,181,0,131
+1687706435669,470,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-5,text,true,,222140,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,183,0,131
+1687706435669,470,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-8,text,true,,194898,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,193,0,139
+1687706435669,473,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-18,text,true,,192091,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,193,0,138
+1687706435669,475,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-13,text,true,,194900,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,199,0,139
+1687706436064,82,/api/v2/nature/naughty,200,OK,PokeApi - run 1-20,text,true,,3088,136,20,20,https://pokeapi.co/api/v2/nature/naughty,82,0,0
+1687706436069,78,/api/v2/stat/defense,200,OK,PokeApi - run 1-3,text,true,,6817,134,20,20,https://pokeapi.co/api/v2/stat/defense,77,0,0
+1687706435669,532,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-1,text,true,,192085,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,218,0,150
+1687706436089,118,/api/v2/nature/modest,200,OK,PokeApi - run 1-7,text,true,,3080,135,20,20,https://pokeapi.co/api/v2/nature/modest,118,0,0
+1687706436080,129,/api/v2/nature/impish,200,OK,PokeApi - run 1-17,text,true,,3089,135,20,20,https://pokeapi.co/api/v2/nature/impish,129,0,0
+1687706436091,118,/api/v2/nature/impish,200,OK,PokeApi - run 1-10,text,true,,3093,135,20,20,https://pokeapi.co/api/v2/nature/impish,118,0,0
+1687706435671,540,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-15,text,true,,194908,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,235,0,148
+1687706436093,118,/api/v2/stat/defense,200,OK,PokeApi - run 1-16,text,true,,6818,134,20,20,https://pokeapi.co/api/v2/stat/defense,117,0,0
+1687706436139,73,/api/v2/nature/hasty,200,OK,PokeApi - run 1-5,text,true,,3130,134,20,20,https://pokeapi.co/api/v2/nature/hasty,73,0,0
+1687706436145,68,/api/v2/nature/bold,200,OK,PokeApi - run 1-13,text,true,,3070,133,20,20,https://pokeapi.co/api/v2/nature/bold,68,0,0
+1687706436140,73,/api/v2/nature/bold,200,OK,PokeApi - run 1-8,text,true,,3070,133,20,20,https://pokeapi.co/api/v2/nature/bold,73,0,0
+1687706436094,120,/api/v2/type/poison,200,OK,PokeApi - run 1-2,text,true,,15902,133,20,20,https://pokeapi.co/api/v2/type/poison,117,0,0
+1687706436142,73,/api/v2/nature/naughty,200,OK,PokeApi - run 1-18,text,true,,3092,136,20,20,https://pokeapi.co/api/v2/nature/naughty,72,0,0
+1687706436103,112,/api/v2/nature/hasty,200,OK,PokeApi - run 1-19,text,true,,3134,134,20,20,https://pokeapi.co/api/v2/nature/hasty,112,0,0
+1687706436101,114,/api/v2/nature/impish,200,OK,PokeApi - run 1-12,text,true,,3091,135,20,20,https://pokeapi.co/api/v2/nature/impish,114,0,0
+1687706436081,135,/api/v2/nature/modest,200,OK,PokeApi - run 1-6,text,true,,3078,135,20,20,https://pokeapi.co/api/v2/nature/modest,135,0,0
+1687706436146,70,/api/v2/type/fire,200,OK,PokeApi - run 1-20,text,true,,17190,131,20,20,https://pokeapi.co/api/v2/type/fire,69,0,0
+1687706436118,99,/api/v2/type/ghost,200,OK,PokeApi - run 1-4,text,true,,15805,132,20,20,https://pokeapi.co/api/v2/type/ghost,98,0,0
+1687706436134,83,/api/v2/nature/naughty,200,OK,PokeApi - run 1-9,text,true,,3090,136,20,20,https://pokeapi.co/api/v2/nature/naughty,83,0,0
+1687706436132,86,/api/v2/nature/hasty,200,OK,PokeApi - run 1-14,text,true,,3138,134,20,20,https://pokeapi.co/api/v2/nature/hasty,86,0,0
+1687706435671,547,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-11,text,true,,222109,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,226,0,148
+1687706436201,31,/api/v2/nature/naughty,200,OK,PokeApi - run 1-1,text,true,,3096,136,20,20,https://pokeapi.co/api/v2/nature/naughty,31,0,0
+1687706436209,32,/api/v2/type/ghost,200,OK,PokeApi - run 1-17,text,true,,15779,132,20,20,https://pokeapi.co/api/v2/type/ghost,22,0,0
+1687706436211,33,/api/v2/nature/bold,200,OK,PokeApi - run 1-15,text,true,,3064,133,20,20,https://pokeapi.co/api/v2/nature/bold,33,0,0
+1687706436209,38,/api/v2/type/ghost,200,OK,PokeApi - run 1-10,text,true,,15789,132,20,20,https://pokeapi.co/api/v2/type/ghost,33,0,0
+1687706436208,39,/api/v2/type/fairy,200,OK,PokeApi - run 1-7,text,true,,12866,132,20,20,https://pokeapi.co/api/v2/type/fairy,34,0,0
+1687706436213,36,/api/v2/type/electric,200,OK,PokeApi - run 1-5,text,true,,16793,135,20,20,https://pokeapi.co/api/v2/type/electric,36,0,0
+1687706436215,35,/api/v2/type/electric,200,OK,PokeApi - run 1-19,text,true,,16799,135,20,20,https://pokeapi.co/api/v2/type/electric,35,0,0
+1687706436213,38,/api/v2/type/poison,200,OK,PokeApi - run 1-13,text,true,,15900,133,20,20,https://pokeapi.co/api/v2/type/poison,33,0,0
+1687706436217,35,/api/v2/stat/evasion,200,OK,PokeApi - run 1-4,text,true,,2500,134,20,20,https://pokeapi.co/api/v2/stat/evasion,35,0,0
+1687706436214,38,/api/v2/stat/speed,200,OK,PokeApi - run 1-2,text,true,,6139,132,20,20,https://pokeapi.co/api/v2/stat/speed,38,0,0
+1687706436216,36,/api/v2/type/ghost,200,OK,PokeApi - run 1-12,text,true,,15783,132,20,20,https://pokeapi.co/api/v2/type/ghost,33,0,0
+1687706436215,38,/api/v2/type/fire,200,OK,PokeApi - run 1-18,text,true,,17178,131,20,20,https://pokeapi.co/api/v2/type/fire,35,0,0
+1687706436216,38,/api/v2/type/fairy,200,OK,PokeApi - run 1-6,text,true,,12860,132,20,20,https://pokeapi.co/api/v2/type/fairy,36,0,0
+1687706436217,39,/api/v2/stat/attack,200,OK,PokeApi - run 1-20,text,true,,6678,133,20,20,https://pokeapi.co/api/v2/stat/attack,38,0,0
+1687706436219,38,/api/v2/nature/hasty,200,OK,PokeApi - run 1-11,text,true,,3136,134,20,20,https://pokeapi.co/api/v2/nature/hasty,38,0,0
+1687706436217,40,/api/v2/type/fire,200,OK,PokeApi - run 1-9,text,true,,17123,131,20,20,https://pokeapi.co/api/v2/type/fire,37,0,0
+1687706436218,40,/api/v2/type/electric,200,OK,PokeApi - run 1-14,text,true,,16793,135,20,20,https://pokeapi.co/api/v2/type/electric,40,0,0
+1687706436214,45,/api/v2/type/poison,200,OK,PokeApi - run 1-8,text,true,,15915,133,20,20,https://pokeapi.co/api/v2/type/poison,43,0,0
+1687706436232,35,/api/v2/type/fire,200,OK,PokeApi - run 1-1,text,true,,17182,131,20,20,https://pokeapi.co/api/v2/type/fire,33,0,0
+1687706436245,25,/api/v2/type/poison,200,OK,PokeApi - run 1-15,text,true,,15908,133,20,20,https://pokeapi.co/api/v2/type/poison,23,0,0
+1687706436242,28,/api/v2/stat/evasion,200,OK,PokeApi - run 1-17,text,true,,2494,134,20,20,https://pokeapi.co/api/v2/stat/evasion,28,0,0
+1687706436247,24,/api/v2/stat/defense,200,OK,PokeApi - run 1-7,text,true,,6814,134,20,20,https://pokeapi.co/api/v2/stat/defense,22,0,0
+1687706436250,21,/api/v2/stat/hp,200,OK,PokeApi - run 1-19,text,true,,2361,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706436253,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-12,text,true,,2490,134,20,20,https://pokeapi.co/api/v2/stat/evasion,22,0,0
+1687706436251,24,/api/v2/stat/speed,200,OK,PokeApi - run 1-13,text,true,,6141,132,20,20,https://pokeapi.co/api/v2/stat/speed,24,0,0
+1687706436249,26,/api/v2/stat/hp,200,OK,PokeApi - run 1-5,text,true,,2359,129,20,20,https://pokeapi.co/api/v2/stat/hp,26,0,0
+1687706436253,24,/api/v2/stat/attack,200,OK,PokeApi - run 1-18,text,true,,6677,133,20,20,https://pokeapi.co/api/v2/stat/attack,24,0,0
+1687706436247,30,/api/v2/stat/evasion,200,OK,PokeApi - run 1-10,text,true,,2488,134,20,20,https://pokeapi.co/api/v2/stat/evasion,30,0,0
+1687706436254,24,/api/v2/stat/defense,200,OK,PokeApi - run 1-6,text,true,,6810,134,20,20,https://pokeapi.co/api/v2/stat/defense,22,0,0
+1687706436258,21,/api/v2/stat/hp,200,OK,PokeApi - run 1-14,text,true,,2361,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706436257,23,/api/v2/stat/attack,200,OK,PokeApi - run 1-9,text,true,,6688,133,20,20,https://pokeapi.co/api/v2/stat/attack,23,0,0
+1687706436259,23,/api/v2/stat/speed,200,OK,PokeApi - run 1-8,text,true,,6133,132,20,20,https://pokeapi.co/api/v2/stat/speed,23,0,0
+1687706436257,27,/api/v2/type/electric,200,OK,PokeApi - run 1-11,text,true,,16799,135,20,20,https://pokeapi.co/api/v2/type/electric,27,0,0
+1687706436268,22,/api/v2/stat/attack,200,OK,PokeApi - run 1-1,text,true,,6679,133,20,20,https://pokeapi.co/api/v2/stat/attack,22,0,0
+1687706436270,26,/api/v2/stat/speed,200,OK,PokeApi - run 1-15,text,true,,6143,132,20,20,https://pokeapi.co/api/v2/stat/speed,26,0,0
+1687706436285,23,/api/v2/stat/hp,200,OK,PokeApi - run 1-11,text,true,,2364,129,20,20,https://pokeapi.co/api/v2/stat/hp,23,0,0
+1687706447051,61,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-3,text,true,,194904,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,23,0,0
+1687706447112,25,/api/v2/nature/bold,200,OK,PokeApi - run 1-3,text,true,,3061,133,20,20,https://pokeapi.co/api/v2/nature/bold,25,0,0
+1687706447137,24,/api/v2/type/poison,200,OK,PokeApi - run 1-3,text,true,,15911,133,20,20,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706447162,20,/api/v2/stat/speed,200,OK,PokeApi - run 1-3,text,true,,6137,132,20,20,https://pokeapi.co/api/v2/stat/speed,20,0,0
+1687706447579,62,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-16,text,true,,222109,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,21,0,0
+1687706447642,19,/api/v2/nature/hasty,200,OK,PokeApi - run 1-16,text,true,,3130,134,20,20,https://pokeapi.co/api/v2/nature/hasty,19,0,0
+1687706447661,26,/api/v2/type/electric,200,OK,PokeApi - run 1-16,text,true,,16795,135,20,20,https://pokeapi.co/api/v2/type/electric,26,0,0
+1687706447687,25,/api/v2/stat/hp,200,OK,PokeApi - run 1-16,text,true,,2368,129,20,20,https://pokeapi.co/api/v2/stat/hp,25,0,0
+1687706448147,53,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-4,text,true,,148546,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,22,0,0
+1687706448201,19,/api/v2/nature/impish,200,OK,PokeApi - run 1-4,text,true,,3091,135,20,20,https://pokeapi.co/api/v2/nature/impish,19,0,0
+1687706448220,24,/api/v2/type/ghost,200,OK,PokeApi - run 1-4,text,true,,15819,132,20,20,https://pokeapi.co/api/v2/type/ghost,24,0,0
+1687706448245,17,/api/v2/stat/evasion,200,OK,PokeApi - run 1-4,text,true,,2486,134,20,20,https://pokeapi.co/api/v2/stat/evasion,17,0,0
+1687706448746,52,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-2,text,true,,192089,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,29,0,0
+1687706448798,20,/api/v2/nature/naughty,200,OK,PokeApi - run 1-2,text,true,,3094,136,20,20,https://pokeapi.co/api/v2/nature/naughty,20,0,0
+1687706448818,23,/api/v2/type/fire,200,OK,PokeApi - run 1-2,text,true,,17180,131,20,20,https://pokeapi.co/api/v2/type/fire,23,0,0
+1687706448842,21,/api/v2/stat/attack,200,OK,PokeApi - run 1-2,text,true,,6679,133,20,20,https://pokeapi.co/api/v2/stat/attack,21,0,0
+1687706449334,34,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,34,0,0
+1687706449369,23,/api/v2/nature/modest,200,OK,PokeApi - run 1-20,text,true,,3078,135,20,20,https://pokeapi.co/api/v2/nature/modest,23,0,0
+1687706449392,21,/api/v2/type/fairy,200,OK,PokeApi - run 1-20,text,true,,12864,132,20,20,https://pokeapi.co/api/v2/type/fairy,21,0,0
+1687706449414,20,/api/v2/stat/defense,200,OK,PokeApi - run 1-20,text,true,,6807,134,20,20,https://pokeapi.co/api/v2/stat/defense,20,0,0
+1687706449924,64,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-7,text,true,,222128,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,25,0,0
+1687706449988,32,/api/v2/nature/hasty,200,OK,PokeApi - run 1-7,text,true,,3134,134,20,20,https://pokeapi.co/api/v2/nature/hasty,32,0,0
+1687706450020,26,/api/v2/type/electric,200,OK,PokeApi - run 1-7,text,true,,16803,135,20,20,https://pokeapi.co/api/v2/type/electric,26,0,0
+1687706450046,19,/api/v2/stat/hp,200,OK,PokeApi - run 1-7,text,true,,2363,129,20,20,https://pokeapi.co/api/v2/stat/hp,19,0,0
+1687706450518,70,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-17,text,true,,194902,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,23,0,0
+1687706450589,20,/api/v2/nature/bold,200,OK,PokeApi - run 1-17,text,true,,3064,133,20,20,https://pokeapi.co/api/v2/nature/bold,20,0,0
+1687706450609,29,/api/v2/type/poison,200,OK,PokeApi - run 1-17,text,true,,15906,133,20,20,https://pokeapi.co/api/v2/type/poison,29,0,0
+1687706450650,23,/api/v2/stat/speed,200,OK,PokeApi - run 1-17,text,true,,6143,132,20,20,https://pokeapi.co/api/v2/stat/speed,23,0,0
+1687706451128,53,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-19,text,true,,148552,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,31,0,0
+1687706451182,20,/api/v2/nature/impish,200,OK,PokeApi - run 1-19,text,true,,3087,135,20,20,https://pokeapi.co/api/v2/nature/impish,20,0,0
+1687706451203,37,/api/v2/type/ghost,200,OK,PokeApi - run 1-19,text,true,,15785,132,20,20,https://pokeapi.co/api/v2/type/ghost,37,0,0
+1687706451240,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-19,text,true,,2494,134,20,20,https://pokeapi.co/api/v2/stat/evasion,21,0,0
+1687706451725,56,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-12,text,true,,192085,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,23,0,0
+1687706451781,20,/api/v2/nature/naughty,200,OK,PokeApi - run 1-12,text,true,,3092,136,20,20,https://pokeapi.co/api/v2/nature/naughty,20,0,0
+1687706451802,24,/api/v2/type/fire,200,OK,PokeApi - run 1-12,text,true,,17186,131,20,20,https://pokeapi.co/api/v2/type/fire,24,0,0
+1687706451827,24,/api/v2/stat/attack,200,OK,PokeApi - run 1-12,text,true,,6681,133,20,20,https://pokeapi.co/api/v2/stat/attack,24,0,0
+1687706452320,26,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",989,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,26,0,0
+1687706452347,24,/api/v2/nature/modest,200,OK,PokeApi - run 1-13,text,true,,3076,135,20,20,https://pokeapi.co/api/v2/nature/modest,24,0,0
+1687706452372,34,/api/v2/type/fairy,200,OK,PokeApi - run 1-13,text,true,,12842,132,20,20,https://pokeapi.co/api/v2/type/fairy,34,0,0
+1687706452406,25,/api/v2/stat/defense,200,OK,PokeApi - run 1-13,text,true,,6812,134,20,20,https://pokeapi.co/api/v2/stat/defense,25,0,0
+1687706452921,63,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-5,text,true,,194904,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,27,0,0
+1687706452985,21,/api/v2/nature/bold,200,OK,PokeApi - run 1-5,text,true,,3063,133,20,20,https://pokeapi.co/api/v2/nature/bold,21,0,0
+1687706453007,24,/api/v2/type/poison,200,OK,PokeApi - run 1-5,text,true,,15921,133,20,20,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706453031,27,/api/v2/stat/speed,200,OK,PokeApi - run 1-5,text,true,,6143,132,20,20,https://pokeapi.co/api/v2/stat/speed,27,0,0
+1687706453523,80,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-18,text,true,,222109,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,26,0,0
+1687706453603,22,/api/v2/nature/hasty,200,OK,PokeApi - run 1-18,text,true,,3132,134,20,20,https://pokeapi.co/api/v2/nature/hasty,22,0,0
+1687706453625,25,/api/v2/type/electric,200,OK,PokeApi - run 1-18,text,true,,16801,135,20,20,https://pokeapi.co/api/v2/type/electric,25,0,0
+1687706453703,24,/api/v2/stat/hp,200,OK,PokeApi - run 1-18,text,true,,2366,129,20,20,https://pokeapi.co/api/v2/stat/hp,24,0,0
+1687706454118,65,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-10,text,true,,148544,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,27,0,0
+1687706454194,22,/api/v2/nature/impish,200,OK,PokeApi - run 1-10,text,true,,3089,135,20,20,https://pokeapi.co/api/v2/nature/impish,22,0,0
+1687706454217,32,/api/v2/type/ghost,200,OK,PokeApi - run 1-10,text,true,,15777,132,20,20,https://pokeapi.co/api/v2/type/ghost,32,0,0
+1687706454250,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-10,text,true,,2488,134,20,20,https://pokeapi.co/api/v2/stat/evasion,22,0,0
+1687706454721,70,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-6,text,true,,192079,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,27,0,0
+1687706454791,21,/api/v2/nature/naughty,200,OK,PokeApi - run 1-6,text,true,,3092,136,20,20,https://pokeapi.co/api/v2/nature/naughty,20,0,0
+1687706454812,25,/api/v2/type/fire,200,OK,PokeApi - run 1-6,text,true,,17121,131,20,20,https://pokeapi.co/api/v2/type/fire,25,0,0
+1687706454838,22,/api/v2/stat/attack,200,OK,PokeApi - run 1-6,text,true,,6684,133,20,20,https://pokeapi.co/api/v2/stat/attack,22,0,0
+1687706455310,21,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",990,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,21,0,0
+1687706455331,21,/api/v2/nature/modest,200,OK,PokeApi - run 1-14,text,true,,3080,135,20,20,https://pokeapi.co/api/v2/nature/modest,21,0,0
+1687706455353,27,/api/v2/type/fairy,200,OK,PokeApi - run 1-14,text,true,,12866,132,20,20,https://pokeapi.co/api/v2/type/fairy,27,0,0
+1687706455381,22,/api/v2/stat/defense,200,OK,PokeApi - run 1-14,text,true,,6810,134,20,20,https://pokeapi.co/api/v2/stat/defense,21,0,0
+1687706455916,68,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-9,text,true,,194902,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,37,0,0
+1687706455984,22,/api/v2/nature/bold,200,OK,PokeApi - run 1-9,text,true,,3063,133,20,20,https://pokeapi.co/api/v2/nature/bold,22,0,0
+1687706456006,35,/api/v2/type/poison,200,OK,PokeApi - run 1-9,text,true,,15911,133,20,20,https://pokeapi.co/api/v2/type/poison,35,0,0
+1687706456041,24,/api/v2/stat/speed,200,OK,PokeApi - run 1-9,text,true,,6145,132,20,20,https://pokeapi.co/api/v2/stat/speed,24,0,0
+1687706456515,76,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-8,text,true,,222108,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,31,0,0
+1687706456592,21,/api/v2/nature/hasty,200,OK,PokeApi - run 1-8,text,true,,3149,134,20,20,https://pokeapi.co/api/v2/nature/hasty,21,0,0
+1687706456613,25,/api/v2/type/electric,200,OK,PokeApi - run 1-8,text,true,,16819,135,20,20,https://pokeapi.co/api/v2/type/electric,25,0,0
+1687706456639,25,/api/v2/stat/hp,200,OK,PokeApi - run 1-8,text,true,,2357,129,20,20,https://pokeapi.co/api/v2/stat/hp,24,0,0
+1687706457107,90,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-1,text,true,,148544,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,33,0,0
+1687706457230,22,/api/v2/nature/impish,200,OK,PokeApi - run 1-1,text,true,,3083,135,20,20,https://pokeapi.co/api/v2/nature/impish,22,0,0
+1687706457253,28,/api/v2/type/ghost,200,OK,PokeApi - run 1-1,text,true,,15783,132,20,20,https://pokeapi.co/api/v2/type/ghost,28,0,0
+1687706457282,21,/api/v2/stat/evasion,200,OK,PokeApi - run 1-1,text,true,,2484,134,20,20,https://pokeapi.co/api/v2/stat/evasion,21,0,0
+1687706457694,70,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-15,text,true,,192085,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,27,0,0
+1687706457764,24,/api/v2/nature/naughty,200,OK,PokeApi - run 1-15,text,true,,3088,136,20,20,https://pokeapi.co/api/v2/nature/naughty,24,0,0
+1687706457788,30,/api/v2/type/fire,200,OK,PokeApi - run 1-15,text,true,,17180,131,20,20,https://pokeapi.co/api/v2/type/fire,30,0,0
+1687706457819,24,/api/v2/stat/attack,200,OK,PokeApi - run 1-15,text,true,,6675,133,20,20,https://pokeapi.co/api/v2/stat/attack,24,0,0
+1687706458287,21,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",995,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,21,0,0
+1687706458309,21,/api/v2/nature/modest,200,OK,PokeApi - run 1-11,text,true,,3080,135,20,20,https://pokeapi.co/api/v2/nature/modest,21,0,0
+1687706458331,27,/api/v2/type/fairy,200,OK,PokeApi - run 1-11,text,true,,12838,132,20,20,https://pokeapi.co/api/v2/type/fairy,27,0,0
+1687706458358,23,/api/v2/stat/defense,200,OK,PokeApi - run 1-11,text,true,,6808,134,20,20,https://pokeapi.co/api/v2/stat/defense,23,0,0
+1687706459462,48,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-3,text,true,,194904,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,28,0,0
+1687706459510,20,/api/v2/nature/bold,200,OK,PokeApi - run 1-3,text,true,,3065,133,20,20,https://pokeapi.co/api/v2/nature/bold,20,0,0
+1687706459530,30,/api/v2/type/poison,200,OK,PokeApi - run 1-3,text,true,,15915,133,20,20,https://pokeapi.co/api/v2/type/poison,29,0,0
+1687706459560,28,/api/v2/stat/speed,200,OK,PokeApi - run 1-3,text,true,,6137,132,20,20,https://pokeapi.co/api/v2/stat/speed,28,0,0
+1687706460062,59,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-16,text,true,,222109,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,26,0,0
+1687706460121,19,/api/v2/nature/hasty,200,OK,PokeApi - run 1-16,text,true,,3130,134,20,20,https://pokeapi.co/api/v2/nature/hasty,19,0,0
+1687706460140,36,/api/v2/type/electric,200,OK,PokeApi - run 1-16,text,true,,16791,135,20,20,https://pokeapi.co/api/v2/type/electric,36,0,0
+1687706460242,21,/api/v2/stat/hp,200,OK,PokeApi - run 1-16,text,true,,2356,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706460680,46,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-4,text,true,,148548,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,28,0,0
+1687706460727,21,/api/v2/nature/impish,200,OK,PokeApi - run 1-4,text,true,,3095,135,20,20,https://pokeapi.co/api/v2/nature/impish,21,0,0
+1687706460748,23,/api/v2/type/ghost,200,OK,PokeApi - run 1-4,text,true,,15801,132,20,20,https://pokeapi.co/api/v2/type/ghost,23,0,0
+1687706460772,23,/api/v2/stat/evasion,200,OK,PokeApi - run 1-4,text,true,,2486,134,20,20,https://pokeapi.co/api/v2/stat/evasion,23,0,0
+1687706461280,72,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-2,text,true,,192083,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,35,0,0
+1687706461353,24,/api/v2/nature/naughty,200,OK,PokeApi - run 1-2,text,true,,3098,136,20,20,https://pokeapi.co/api/v2/nature/naughty,24,0,0
+1687706461377,27,/api/v2/type/fire,200,OK,PokeApi - run 1-2,text,true,,17184,131,20,20,https://pokeapi.co/api/v2/type/fire,27,0,0
+1687706461405,25,/api/v2/stat/attack,200,OK,PokeApi - run 1-2,text,true,,6691,133,20,20,https://pokeapi.co/api/v2/stat/attack,25,0,0
+1687706461895,20,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",989,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,20,0,0
+1687706461915,24,/api/v2/nature/modest,200,OK,PokeApi - run 1-20,text,true,,3082,135,20,20,https://pokeapi.co/api/v2/nature/modest,24,0,0
+1687706461939,25,/api/v2/type/fairy,200,OK,PokeApi - run 1-20,text,true,,12870,132,20,20,https://pokeapi.co/api/v2/type/fairy,25,0,0
+1687706461964,22,/api/v2/stat/defense,200,OK,PokeApi - run 1-20,text,true,,6815,134,20,20,https://pokeapi.co/api/v2/stat/defense,22,0,0
+1687706462454,64,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-7,text,true,,194908,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,35,0,0
+1687706462519,20,/api/v2/nature/bold,200,OK,PokeApi - run 1-7,text,true,,3069,133,20,20,https://pokeapi.co/api/v2/nature/bold,20,0,0
+1687706462540,28,/api/v2/type/poison,200,OK,PokeApi - run 1-7,text,true,,15915,133,20,20,https://pokeapi.co/api/v2/type/poison,28,0,0
+1687706462569,23,/api/v2/stat/speed,200,OK,PokeApi - run 1-7,text,true,,6137,132,20,20,https://pokeapi.co/api/v2/stat/speed,23,0,0
+1687706463040,73,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-17,text,true,,222103,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,34,0,0
+1687706463114,21,/api/v2/nature/hasty,200,OK,PokeApi - run 1-17,text,true,,3126,134,20,20,https://pokeapi.co/api/v2/nature/hasty,21,0,0
+1687706463136,26,/api/v2/type/electric,200,OK,PokeApi - run 1-17,text,true,,16793,135,20,20,https://pokeapi.co/api/v2/type/electric,26,0,0
+1687706463215,23,/api/v2/stat/hp,200,OK,PokeApi - run 1-17,text,true,,2360,129,20,20,https://pokeapi.co/api/v2/stat/hp,23,0,0
+1687706463661,53,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-19,text,true,,148552,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,29,0,0
+1687706463754,29,/api/v2/nature/impish,200,OK,PokeApi - run 1-19,text,true,,3087,135,20,20,https://pokeapi.co/api/v2/nature/impish,29,0,0
+1687706463784,28,/api/v2/type/ghost,200,OK,PokeApi - run 1-19,text,true,,15777,132,20,20,https://pokeapi.co/api/v2/type/ghost,28,0,0
+1687706463812,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-19,text,true,,2492,134,20,20,https://pokeapi.co/api/v2/stat/evasion,21,0,0
+1687706464268,53,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-12,text,true,,192087,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,32,0,0
+1687706464321,22,/api/v2/nature/naughty,200,OK,PokeApi - run 1-12,text,true,,3092,136,20,20,https://pokeapi.co/api/v2/nature/naughty,22,0,0
+1687706464344,27,/api/v2/type/fire,200,OK,PokeApi - run 1-12,text,true,,17180,131,20,20,https://pokeapi.co/api/v2/type/fire,27,0,0
+1687706464372,26,/api/v2/stat/attack,200,OK,PokeApi - run 1-12,text,true,,6681,133,20,20,https://pokeapi.co/api/v2/stat/attack,26,0,0
+1687706464884,21,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",991,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,21,0,0
+1687706464906,24,/api/v2/nature/modest,200,OK,PokeApi - run 1-13,text,true,,3076,135,20,20,https://pokeapi.co/api/v2/nature/modest,24,0,0
+1687706464930,27,/api/v2/type/fairy,200,OK,PokeApi - run 1-13,text,true,,12844,132,20,20,https://pokeapi.co/api/v2/type/fairy,26,0,0
+1687706464957,23,/api/v2/stat/defense,200,OK,PokeApi - run 1-13,text,true,,6806,134,20,20,https://pokeapi.co/api/v2/stat/defense,23,0,0
+1687706465458,61,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-5,text,true,,194898,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,33,0,0
+1687706465519,24,/api/v2/nature/bold,200,OK,PokeApi - run 1-5,text,true,,3071,133,20,20,https://pokeapi.co/api/v2/nature/bold,24,0,0
+1687706465543,25,/api/v2/type/poison,200,OK,PokeApi - run 1-5,text,true,,15907,133,20,20,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706465568,26,/api/v2/stat/speed,200,OK,PokeApi - run 1-5,text,true,,6137,132,20,20,https://pokeapi.co/api/v2/stat/speed,26,0,0
+1687706465990,62,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-18,text,true,,222103,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,36,0,0
+1687706466052,26,/api/v2/nature/hasty,200,OK,PokeApi - run 1-18,text,true,,3136,134,20,20,https://pokeapi.co/api/v2/nature/hasty,26,0,0
+1687706466078,25,/api/v2/type/electric,200,OK,PokeApi - run 1-18,text,true,,16799,135,20,20,https://pokeapi.co/api/v2/type/electric,25,0,0
+1687706466104,18,/api/v2/stat/hp,200,OK,PokeApi - run 1-18,text,true,,2362,129,20,20,https://pokeapi.co/api/v2/stat/hp,18,0,0
+1687706466642,87,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-10,text,true,,148550,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,47,0,0
+1687706466729,29,/api/v2/nature/impish,200,OK,PokeApi - run 1-10,text,true,,3089,135,20,20,https://pokeapi.co/api/v2/nature/impish,29,0,0
+1687706466758,24,/api/v2/type/ghost,200,OK,PokeApi - run 1-10,text,true,,15781,132,20,20,https://pokeapi.co/api/v2/type/ghost,23,0,0
+1687706466782,34,/api/v2/stat/evasion,200,OK,PokeApi - run 1-10,text,true,,2486,134,20,20,https://pokeapi.co/api/v2/stat/evasion,34,0,0
+1687706467255,53,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-6,text,true,,192081,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,31,0,0
+1687706467308,21,/api/v2/nature/naughty,200,OK,PokeApi - run 1-6,text,true,,3098,136,20,20,https://pokeapi.co/api/v2/nature/naughty,21,0,0
+1687706467329,25,/api/v2/type/fire,200,OK,PokeApi - run 1-6,text,true,,17127,131,20,20,https://pokeapi.co/api/v2/type/fire,25,0,0
+1687706467355,20,/api/v2/stat/attack,200,OK,PokeApi - run 1-6,text,true,,6682,133,20,20,https://pokeapi.co/api/v2/stat/attack,20,0,0
+1687706467904,26,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,26,0,0
+1687706467930,21,/api/v2/nature/modest,200,OK,PokeApi - run 1-14,text,true,,3088,135,20,20,https://pokeapi.co/api/v2/nature/modest,21,0,0
+1687706467952,25,/api/v2/type/fairy,200,OK,PokeApi - run 1-14,text,true,,12866,132,20,20,https://pokeapi.co/api/v2/type/fairy,25,0,0
+1687706467977,26,/api/v2/stat/defense,200,OK,PokeApi - run 1-14,text,true,,6810,134,20,20,https://pokeapi.co/api/v2/stat/defense,26,0,0
+1687706468444,66,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-9,text,true,,194902,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,37,0,0
+1687706468510,27,/api/v2/nature/bold,200,OK,PokeApi - run 1-9,text,true,,3067,133,20,20,https://pokeapi.co/api/v2/nature/bold,27,0,0
+1687706468537,27,/api/v2/type/poison,200,OK,PokeApi - run 1-9,text,true,,15915,133,20,20,https://pokeapi.co/api/v2/type/poison,27,0,0
+1687706468565,23,/api/v2/stat/speed,200,OK,PokeApi - run 1-9,text,true,,6143,132,20,20,https://pokeapi.co/api/v2/stat/speed,23,0,0
+1687706469009,82,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-8,text,true,,222098,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,36,0,0
+1687706469092,23,/api/v2/nature/hasty,200,OK,PokeApi - run 1-8,text,true,,3125,134,20,20,https://pokeapi.co/api/v2/nature/hasty,23,0,0
+1687706469115,32,/api/v2/type/electric,200,OK,PokeApi - run 1-8,text,true,,16815,135,20,20,https://pokeapi.co/api/v2/type/electric,31,0,0
+1687706469147,41,/api/v2/stat/hp,200,OK,PokeApi - run 1-8,text,true,,2367,129,20,20,https://pokeapi.co/api/v2/stat/hp,41,0,0
+1687706469600,61,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-1,text,true,,148544,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,30,0,0
+1687706469661,20,/api/v2/nature/impish,200,OK,PokeApi - run 1-1,text,true,,3093,135,20,20,https://pokeapi.co/api/v2/nature/impish,20,0,0
+1687706469769,35,/api/v2/type/ghost,200,OK,PokeApi - run 1-1,text,true,,15781,132,20,20,https://pokeapi.co/api/v2/type/ghost,35,0,0
+1687706469804,23,/api/v2/stat/evasion,200,OK,PokeApi - run 1-1,text,true,,2488,134,20,20,https://pokeapi.co/api/v2/stat/evasion,23,0,0
+1687706470245,62,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-15,text,true,,192089,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,40,0,0
+1687706470308,21,/api/v2/nature/naughty,200,OK,PokeApi - run 1-15,text,true,,3086,136,20,20,https://pokeapi.co/api/v2/nature/naughty,21,0,0
+1687706470329,26,/api/v2/type/fire,200,OK,PokeApi - run 1-15,text,true,,17180,131,20,20,https://pokeapi.co/api/v2/type/fire,25,0,0
+1687706470355,22,/api/v2/stat/attack,200,OK,PokeApi - run 1-15,text,true,,6681,133,20,20,https://pokeapi.co/api/v2/stat/attack,22,0,0
+1687706470900,26,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,26,0,0
+1687706470927,21,/api/v2/nature/modest,200,OK,PokeApi - run 1-11,text,true,,3078,135,20,20,https://pokeapi.co/api/v2/nature/modest,21,0,0
+1687706470949,25,/api/v2/type/fairy,200,OK,PokeApi - run 1-11,text,true,,12836,132,20,20,https://pokeapi.co/api/v2/type/fairy,25,0,0
+1687706470975,23,/api/v2/stat/defense,200,OK,PokeApi - run 1-11,text,true,,6806,134,20,20,https://pokeapi.co/api/v2/stat/defense,23,0,0
+1687706471468,66,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-3,text,true,,194896,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,29,0,0
+1687706471534,21,/api/v2/nature/bold,200,OK,PokeApi - run 1-3,text,true,,3065,133,20,20,https://pokeapi.co/api/v2/nature/bold,21,0,0
+1687706471555,23,/api/v2/type/poison,200,OK,PokeApi - run 1-3,text,true,,15913,133,20,20,https://pokeapi.co/api/v2/type/poison,23,0,0
+1687706471578,23,/api/v2/stat/speed,200,OK,PokeApi - run 1-3,text,true,,6139,132,20,20,https://pokeapi.co/api/v2/stat/speed,23,0,0
+1687706471994,80,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-16,text,true,,222109,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,36,0,0
+1687706472074,24,/api/v2/nature/hasty,200,OK,PokeApi - run 1-16,text,true,,3136,134,20,20,https://pokeapi.co/api/v2/nature/hasty,24,0,0
+1687706472099,30,/api/v2/type/electric,200,OK,PokeApi - run 1-16,text,true,,16799,135,20,20,https://pokeapi.co/api/v2/type/electric,30,0,0
+1687706472129,22,/api/v2/stat/hp,200,OK,PokeApi - run 1-16,text,true,,2362,129,20,20,https://pokeapi.co/api/v2/stat/hp,22,0,0
+1687706472680,73,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-4,text,true,,148546,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,31,0,0
+1687706472753,24,/api/v2/nature/impish,200,OK,PokeApi - run 1-4,text,true,,3089,135,20,20,https://pokeapi.co/api/v2/nature/impish,24,0,0
+1687706472777,25,/api/v2/type/ghost,200,OK,PokeApi - run 1-4,text,true,,15809,132,20,20,https://pokeapi.co/api/v2/type/ghost,25,0,0
+1687706472802,20,/api/v2/stat/evasion,200,OK,PokeApi - run 1-4,text,true,,2490,134,20,20,https://pokeapi.co/api/v2/stat/evasion,20,0,0
+1687706473245,77,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-2,text,true,,192079,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,55,0,0
+1687706473322,26,/api/v2/nature/naughty,200,OK,PokeApi - run 1-2,text,true,,3092,136,20,20,https://pokeapi.co/api/v2/nature/naughty,26,0,0
+1687706473348,31,/api/v2/type/fire,200,OK,PokeApi - run 1-2,text,true,,17180,131,20,20,https://pokeapi.co/api/v2/type/fire,30,0,0
+1687706473379,23,/api/v2/stat/attack,200,OK,PokeApi - run 1-2,text,true,,6679,133,20,20,https://pokeapi.co/api/v2/stat/attack,23,0,0
+1687706473905,27,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,27,0,0
+1687706473932,21,/api/v2/nature/modest,200,OK,PokeApi - run 1-20,text,true,,3074,135,20,20,https://pokeapi.co/api/v2/nature/modest,20,0,0
+1687706473953,25,/api/v2/type/fairy,200,OK,PokeApi - run 1-20,text,true,,12864,132,20,20,https://pokeapi.co/api/v2/type/fairy,25,0,0
+1687706473979,24,/api/v2/stat/defense,200,OK,PokeApi - run 1-20,text,true,,6813,134,20,20,https://pokeapi.co/api/v2/stat/defense,24,0,0
+1687706474454,62,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-7,text,true,,194904,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,27,0,0
+1687706474517,21,/api/v2/nature/bold,200,OK,PokeApi - run 1-7,text,true,,3065,133,20,20,https://pokeapi.co/api/v2/nature/bold,21,0,0
+1687706474538,31,/api/v2/type/poison,200,OK,PokeApi - run 1-7,text,true,,15917,133,20,20,https://pokeapi.co/api/v2/type/poison,31,0,0
+1687706474569,21,/api/v2/stat/speed,200,OK,PokeApi - run 1-7,text,true,,6139,132,20,20,https://pokeapi.co/api/v2/stat/speed,21,0,0
+1687706474997,79,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-17,text,true,,222107,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,35,0,0
+1687706475077,20,/api/v2/nature/hasty,200,OK,PokeApi - run 1-17,text,true,,3128,134,20,20,https://pokeapi.co/api/v2/nature/hasty,20,0,0
+1687706475098,24,/api/v2/type/electric,200,OK,PokeApi - run 1-17,text,true,,16801,135,20,20,https://pokeapi.co/api/v2/type/electric,24,0,0
+1687706475123,22,/api/v2/stat/hp,200,OK,PokeApi - run 1-17,text,true,,2366,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706475623,46,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-19,text,true,,148546,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,29,0,0
+1687706475669,32,/api/v2/nature/impish,200,OK,PokeApi - run 1-19,text,true,,3085,135,20,20,https://pokeapi.co/api/v2/nature/impish,32,0,0
+1687706475785,37,/api/v2/type/ghost,200,OK,PokeApi - run 1-19,text,true,,15781,132,20,20,https://pokeapi.co/api/v2/type/ghost,37,0,0
+1687706475823,27,/api/v2/stat/evasion,200,OK,PokeApi - run 1-19,text,true,,2492,134,20,20,https://pokeapi.co/api/v2/stat/evasion,27,0,0
+1687706476265,70,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-12,text,true,,192083,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,37,0,0
+1687706476336,21,/api/v2/nature/naughty,200,OK,PokeApi - run 1-12,text,true,,3096,136,20,20,https://pokeapi.co/api/v2/nature/naughty,21,0,0
+1687706476357,27,/api/v2/type/fire,200,OK,PokeApi - run 1-12,text,true,,17186,131,20,20,https://pokeapi.co/api/v2/type/fire,26,0,0
+1687706476384,23,/api/v2/stat/attack,200,OK,PokeApi - run 1-12,text,true,,6679,133,20,20,https://pokeapi.co/api/v2/stat/attack,23,0,0
+1687706476899,25,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",989,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,25,0,0
+1687706476924,22,/api/v2/nature/modest,200,OK,PokeApi - run 1-13,text,true,,3086,135,20,20,https://pokeapi.co/api/v2/nature/modest,22,0,0
+1687706476946,39,/api/v2/type/fairy,200,OK,PokeApi - run 1-13,text,true,,12838,132,20,20,https://pokeapi.co/api/v2/type/fairy,38,0,0
+1687706476984,24,/api/v2/stat/defense,200,OK,PokeApi - run 1-13,text,true,,6816,134,20,20,https://pokeapi.co/api/v2/stat/defense,23,0,0
+1687706477456,68,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-5,text,true,,194902,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,32,0,0
+1687706477525,20,/api/v2/nature/bold,200,OK,PokeApi - run 1-5,text,true,,3061,133,20,20,https://pokeapi.co/api/v2/nature/bold,20,0,0
+1687706477545,25,/api/v2/type/poison,200,OK,PokeApi - run 1-5,text,true,,15921,133,20,20,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706477570,21,/api/v2/stat/speed,200,OK,PokeApi - run 1-5,text,true,,6135,132,20,20,https://pokeapi.co/api/v2/stat/speed,21,0,0
+1687706478064,65,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-18,text,true,,222111,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,32,0,0
+1687706478129,21,/api/v2/nature/hasty,200,OK,PokeApi - run 1-18,text,true,,3136,134,20,20,https://pokeapi.co/api/v2/nature/hasty,21,0,0
+1687706478150,27,/api/v2/type/electric,200,OK,PokeApi - run 1-18,text,true,,16793,135,20,20,https://pokeapi.co/api/v2/type/electric,27,0,0
+1687706478306,21,/api/v2/stat/hp,200,OK,PokeApi - run 1-18,text,true,,2360,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706478621,48,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-10,text,true,,148550,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,26,0,0
+1687706478670,22,/api/v2/nature/impish,200,OK,PokeApi - run 1-10,text,true,,3085,135,20,20,https://pokeapi.co/api/v2/nature/impish,21,0,0
+1687706478788,31,/api/v2/type/ghost,200,OK,PokeApi - run 1-10,text,true,,15781,132,20,20,https://pokeapi.co/api/v2/type/ghost,31,0,0
+1687706478820,21,/api/v2/stat/evasion,200,OK,PokeApi - run 1-10,text,true,,2488,134,20,20,https://pokeapi.co/api/v2/stat/evasion,21,0,0
+1687706479273,56,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-6,text,true,,192083,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,25,0,0
+1687706479330,21,/api/v2/nature/naughty,200,OK,PokeApi - run 1-6,text,true,,3086,136,20,20,https://pokeapi.co/api/v2/nature/naughty,21,0,0
+1687706479356,26,/api/v2/type/fire,200,OK,PokeApi - run 1-6,text,true,,17125,131,20,20,https://pokeapi.co/api/v2/type/fire,26,0,0
+1687706479383,19,/api/v2/stat/attack,200,OK,PokeApi - run 1-6,text,true,,6682,133,20,20,https://pokeapi.co/api/v2/stat/attack,19,0,0
+1687706479895,22,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",996,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,22,0,0
+1687706479917,27,/api/v2/nature/modest,200,OK,PokeApi - run 1-14,text,true,,3078,135,20,20,https://pokeapi.co/api/v2/nature/modest,27,0,0
+1687706479944,31,/api/v2/type/fairy,200,OK,PokeApi - run 1-14,text,true,,12866,132,20,20,https://pokeapi.co/api/v2/type/fairy,31,0,0
+1687706479975,22,/api/v2/stat/defense,200,OK,PokeApi - run 1-14,text,true,,6814,134,20,20,https://pokeapi.co/api/v2/stat/defense,22,0,0
+1687706480449,67,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-9,text,true,,194902,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,34,0,0
+1687706480516,32,/api/v2/nature/bold,200,OK,PokeApi - run 1-9,text,true,,3063,133,20,20,https://pokeapi.co/api/v2/nature/bold,32,0,0
+1687706480548,30,/api/v2/type/poison,200,OK,PokeApi - run 1-9,text,true,,15911,133,20,20,https://pokeapi.co/api/v2/type/poison,30,0,0
+1687706480579,21,/api/v2/stat/speed,200,OK,PokeApi - run 1-9,text,true,,6137,132,20,20,https://pokeapi.co/api/v2/stat/speed,20,0,0
+1687706480917,71,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-8,text,true,,222108,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,28,0,0
+1687706480988,23,/api/v2/nature/hasty,200,OK,PokeApi - run 1-8,text,true,,3133,134,20,20,https://pokeapi.co/api/v2/nature/hasty,23,0,0
+1687706481011,36,/api/v2/type/electric,200,OK,PokeApi - run 1-8,text,true,,16815,135,20,20,https://pokeapi.co/api/v2/type/electric,35,0,0
+1687706481048,21,/api/v2/stat/hp,200,OK,PokeApi - run 1-8,text,true,,2365,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706481567,60,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-1,text,true,,148548,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,30,0,0
+1687706481627,21,/api/v2/nature/impish,200,OK,PokeApi - run 1-1,text,true,,3081,135,20,20,https://pokeapi.co/api/v2/nature/impish,21,0,0
+1687706481648,26,/api/v2/type/ghost,200,OK,PokeApi - run 1-1,text,true,,15793,132,20,20,https://pokeapi.co/api/v2/type/ghost,26,0,0
+1687706481674,21,/api/v2/stat/evasion,200,OK,PokeApi - run 1-1,text,true,,2494,134,20,20,https://pokeapi.co/api/v2/stat/evasion,21,0,0
+1687706482264,54,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-15,text,true,,192085,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,25,0,0
+1687706482318,23,/api/v2/nature/naughty,200,OK,PokeApi - run 1-15,text,true,,3100,136,20,20,https://pokeapi.co/api/v2/nature/naughty,22,0,0
+1687706482341,26,/api/v2/type/fire,200,OK,PokeApi - run 1-15,text,true,,17180,131,20,20,https://pokeapi.co/api/v2/type/fire,26,0,0
+1687706482367,30,/api/v2/stat/attack,200,OK,PokeApi - run 1-15,text,true,,6687,133,20,20,https://pokeapi.co/api/v2/stat/attack,30,0,0
+1687706482897,24,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,24,0,0
+1687706482922,25,/api/v2/nature/modest,200,OK,PokeApi - run 1-11,text,true,,3088,135,20,20,https://pokeapi.co/api/v2/nature/modest,25,0,0
+1687706482947,28,/api/v2/type/fairy,200,OK,PokeApi - run 1-11,text,true,,12838,132,20,20,https://pokeapi.co/api/v2/type/fairy,28,0,0
+1687706482975,24,/api/v2/stat/defense,200,OK,PokeApi - run 1-11,text,true,,6816,134,20,20,https://pokeapi.co/api/v2/stat/defense,24,0,0
+1687706483460,64,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-3,text,true,,194898,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,28,0,0
+1687706483525,27,/api/v2/nature/bold,200,OK,PokeApi - run 1-3,text,true,,3065,133,20,20,https://pokeapi.co/api/v2/nature/bold,27,0,0
+1687706483552,26,/api/v2/type/poison,200,OK,PokeApi - run 1-3,text,true,,15911,133,20,20,https://pokeapi.co/api/v2/type/poison,25,0,0
+1687706483578,22,/api/v2/stat/speed,200,OK,PokeApi - run 1-3,text,true,,6147,132,20,20,https://pokeapi.co/api/v2/stat/speed,22,0,0
+1687706484038,49,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-16,text,true,,222103,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,32,0,0
+1687706484087,22,/api/v2/nature/hasty,200,OK,PokeApi - run 1-16,text,true,,3134,134,20,20,https://pokeapi.co/api/v2/nature/hasty,22,0,0
+1687706484109,44,/api/v2/type/electric,200,OK,PokeApi - run 1-16,text,true,,16797,135,20,20,https://pokeapi.co/api/v2/type/electric,44,0,0
+1687706484154,25,/api/v2/stat/hp,200,OK,PokeApi - run 1-16,text,true,,2366,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706484652,60,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-4,text,true,,148548,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,33,0,0
+1687706484713,22,/api/v2/nature/impish,200,OK,PokeApi - run 1-4,text,true,,3087,135,20,20,https://pokeapi.co/api/v2/nature/impish,22,0,0
+1687706484735,27,/api/v2/type/ghost,200,OK,PokeApi - run 1-4,text,true,,15811,132,20,20,https://pokeapi.co/api/v2/type/ghost,26,0,0
+1687706484762,39,/api/v2/stat/evasion,200,OK,PokeApi - run 1-4,text,true,,2492,134,20,20,https://pokeapi.co/api/v2/stat/evasion,39,0,0
+1687706485239,49,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-2,text,true,,192083,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,28,0,0
+1687706485342,20,/api/v2/nature/naughty,200,OK,PokeApi - run 1-2,text,true,,3092,136,20,20,https://pokeapi.co/api/v2/nature/naughty,20,0,0
+1687706485363,25,/api/v2/type/fire,200,OK,PokeApi - run 1-2,text,true,,17186,131,20,20,https://pokeapi.co/api/v2/type/fire,24,0,0
+1687706485388,24,/api/v2/stat/attack,200,OK,PokeApi - run 1-2,text,true,,6683,133,20,20,https://pokeapi.co/api/v2/stat/attack,24,0,0
+1687706485896,21,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",993,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,21,0,0
+1687706485918,22,/api/v2/nature/modest,200,OK,PokeApi - run 1-20,text,true,,3078,135,20,20,https://pokeapi.co/api/v2/nature/modest,22,0,0
+1687706485940,25,/api/v2/type/fairy,200,OK,PokeApi - run 1-20,text,true,,12858,132,20,20,https://pokeapi.co/api/v2/type/fairy,25,0,0
+1687706485966,29,/api/v2/stat/defense,200,OK,PokeApi - run 1-20,text,true,,6811,134,20,20,https://pokeapi.co/api/v2/stat/defense,28,0,0
+1687706486458,44,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-7,text,true,,194900,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,26,0,0
+1687706486502,21,/api/v2/nature/bold,200,OK,PokeApi - run 1-7,text,true,,3065,133,20,20,https://pokeapi.co/api/v2/nature/bold,21,0,0
+1687706486523,31,/api/v2/type/poison,200,OK,PokeApi - run 1-7,text,true,,15913,133,20,20,https://pokeapi.co/api/v2/type/poison,31,0,0
+1687706486555,21,/api/v2/stat/speed,200,OK,PokeApi - run 1-7,text,true,,6137,132,20,20,https://pokeapi.co/api/v2/stat/speed,21,0,0
+1687706487047,55,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-17,text,true,,222105,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,27,0,0
+1687706487102,25,/api/v2/nature/hasty,200,OK,PokeApi - run 1-17,text,true,,3130,134,20,20,https://pokeapi.co/api/v2/nature/hasty,25,0,0
+1687706487127,30,/api/v2/type/electric,200,OK,PokeApi - run 1-17,text,true,,16803,135,20,20,https://pokeapi.co/api/v2/type/electric,29,0,0
+1687706487157,20,/api/v2/stat/hp,200,OK,PokeApi - run 1-17,text,true,,2364,129,20,20,https://pokeapi.co/api/v2/stat/hp,20,0,0
+1687706487566,54,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-19,text,true,,148550,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,27,0,0
+1687706487620,24,/api/v2/nature/impish,200,OK,PokeApi - run 1-19,text,true,,3095,135,20,20,https://pokeapi.co/api/v2/nature/impish,24,0,0
+1687706487645,25,/api/v2/type/ghost,200,OK,PokeApi - run 1-19,text,true,,15783,132,20,20,https://pokeapi.co/api/v2/type/ghost,24,0,0
+1687706487670,21,/api/v2/stat/evasion,200,OK,PokeApi - run 1-19,text,true,,2494,134,20,20,https://pokeapi.co/api/v2/stat/evasion,21,0,0
+1687706488254,47,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-12,text,true,,192081,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,24,0,0
+1687706488302,21,/api/v2/nature/naughty,200,OK,PokeApi - run 1-12,text,true,,3092,136,20,20,https://pokeapi.co/api/v2/nature/naughty,21,0,0
+1687706488323,27,/api/v2/type/fire,200,OK,PokeApi - run 1-12,text,true,,17186,131,20,20,https://pokeapi.co/api/v2/type/fire,26,0,0
+1687706488350,30,/api/v2/stat/attack,200,OK,PokeApi - run 1-12,text,true,,6685,133,20,20,https://pokeapi.co/api/v2/stat/attack,30,0,0
+1687706488887,34,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",985,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,33,0,0
+1687706488922,23,/api/v2/nature/modest,200,OK,PokeApi - run 1-13,text,true,,3080,135,20,20,https://pokeapi.co/api/v2/nature/modest,23,0,0
+1687706488946,29,/api/v2/type/fairy,200,OK,PokeApi - run 1-13,text,true,,12842,132,20,20,https://pokeapi.co/api/v2/type/fairy,27,0,0
+1687706488975,24,/api/v2/stat/defense,200,OK,PokeApi - run 1-13,text,true,,6812,134,20,20,https://pokeapi.co/api/v2/stat/defense,24,0,0
+1687706489458,70,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-5,text,true,,194906,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,31,0,0
+1687706489528,24,/api/v2/nature/bold,200,OK,PokeApi - run 1-5,text,true,,3063,133,20,20,https://pokeapi.co/api/v2/nature/bold,24,0,0
+1687706489553,41,/api/v2/type/poison,200,OK,PokeApi - run 1-5,text,true,,15913,133,20,20,https://pokeapi.co/api/v2/type/poison,40,0,0
+1687706489594,21,/api/v2/stat/speed,200,OK,PokeApi - run 1-5,text,true,,6135,132,20,20,https://pokeapi.co/api/v2/stat/speed,20,0,0
+1687706489931,72,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-18,text,true,,222101,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,29,0,0
+1687706490003,22,/api/v2/nature/hasty,200,OK,PokeApi - run 1-18,text,true,,3126,134,20,20,https://pokeapi.co/api/v2/nature/hasty,22,0,0
+1687706490025,30,/api/v2/type/electric,200,OK,PokeApi - run 1-18,text,true,,16797,135,20,20,https://pokeapi.co/api/v2/type/electric,29,0,0
+1687706490055,21,/api/v2/stat/hp,200,OK,PokeApi - run 1-18,text,true,,2360,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706490577,48,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-10,text,true,,148546,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,26,0,0
+1687706490626,22,/api/v2/nature/impish,200,OK,PokeApi - run 1-10,text,true,,3085,135,20,20,https://pokeapi.co/api/v2/nature/impish,22,0,0
+1687706490648,32,/api/v2/type/ghost,200,OK,PokeApi - run 1-10,text,true,,15785,132,20,20,https://pokeapi.co/api/v2/type/ghost,32,0,0
+1687706490680,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-10,text,true,,2488,134,20,20,https://pokeapi.co/api/v2/stat/evasion,22,0,0
+1687706491267,48,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-6,text,true,,192085,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,30,0,0
+1687706491375,25,/api/v2/nature/naughty,200,OK,PokeApi - run 1-6,text,true,,3082,136,20,20,https://pokeapi.co/api/v2/nature/naughty,25,0,0
+1687706491401,30,/api/v2/type/fire,200,OK,PokeApi - run 1-6,text,true,,17129,131,20,20,https://pokeapi.co/api/v2/type/fire,30,0,0
+1687706491431,22,/api/v2/stat/attack,200,OK,PokeApi - run 1-6,text,true,,6688,133,20,20,https://pokeapi.co/api/v2/stat/attack,21,0,0
+1687706491893,23,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",984,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,23,0,0
+1687706491916,32,/api/v2/nature/modest,200,OK,PokeApi - run 1-14,text,true,,3078,135,20,20,https://pokeapi.co/api/v2/nature/modest,32,0,0
+1687706491948,27,/api/v2/type/fairy,200,OK,PokeApi - run 1-14,text,true,,12856,132,20,20,https://pokeapi.co/api/v2/type/fairy,27,0,0
+1687706491976,21,/api/v2/stat/defense,200,OK,PokeApi - run 1-14,text,true,,6820,134,20,20,https://pokeapi.co/api/v2/stat/defense,21,0,0
+1687706492444,68,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-9,text,true,,194900,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,29,0,0
+1687706492513,22,/api/v2/nature/bold,200,OK,PokeApi - run 1-9,text,true,,3063,133,20,20,https://pokeapi.co/api/v2/nature/bold,22,0,0
+1687706492535,27,/api/v2/type/poison,200,OK,PokeApi - run 1-9,text,true,,15921,133,20,20,https://pokeapi.co/api/v2/type/poison,27,0,0
+1687706492562,23,/api/v2/stat/speed,200,OK,PokeApi - run 1-9,text,true,,6143,132,20,20,https://pokeapi.co/api/v2/stat/speed,22,0,0
+1687706493043,59,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-8,text,true,,222100,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,29,0,0
+1687706493102,24,/api/v2/nature/hasty,200,OK,PokeApi - run 1-8,text,true,,3127,134,20,20,https://pokeapi.co/api/v2/nature/hasty,24,0,0
+1687706493126,27,/api/v2/type/electric,200,OK,PokeApi - run 1-8,text,true,,16813,135,20,20,https://pokeapi.co/api/v2/type/electric,27,0,0
+1687706493153,22,/api/v2/stat/hp,200,OK,PokeApi - run 1-8,text,true,,2365,129,20,20,https://pokeapi.co/api/v2/stat/hp,22,0,0
+1687706493590,50,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-1,text,true,,148558,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,25,0,0
+1687706493641,19,/api/v2/nature/impish,200,OK,PokeApi - run 1-1,text,true,,3081,135,20,20,https://pokeapi.co/api/v2/nature/impish,19,0,0
+1687706493661,25,/api/v2/type/ghost,200,OK,PokeApi - run 1-1,text,true,,15787,132,20,20,https://pokeapi.co/api/v2/type/ghost,25,0,0
+1687706493687,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-1,text,true,,2492,134,20,20,https://pokeapi.co/api/v2/stat/evasion,22,0,0
+1687706494263,65,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-15,text,true,,192081,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,43,0,0
+1687706494344,23,/api/v2/nature/naughty,200,OK,PokeApi - run 1-15,text,true,,3086,136,20,20,https://pokeapi.co/api/v2/nature/naughty,23,0,0
+1687706494367,27,/api/v2/type/fire,200,OK,PokeApi - run 1-15,text,true,,17188,131,20,20,https://pokeapi.co/api/v2/type/fire,27,0,0
+1687706494394,22,/api/v2/stat/attack,200,OK,PokeApi - run 1-15,text,true,,6687,133,20,20,https://pokeapi.co/api/v2/stat/attack,22,0,0
+1687706494893,28,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,28,0,0
+1687706494921,21,/api/v2/nature/modest,200,OK,PokeApi - run 1-11,text,true,,3076,135,20,20,https://pokeapi.co/api/v2/nature/modest,21,0,0
+1687706494943,25,/api/v2/type/fairy,200,OK,PokeApi - run 1-11,text,true,,12840,132,20,20,https://pokeapi.co/api/v2/type/fairy,25,0,0
+1687706494968,22,/api/v2/stat/defense,200,OK,PokeApi - run 1-11,text,true,,6812,134,20,20,https://pokeapi.co/api/v2/stat/defense,22,0,0
+1687706495453,58,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-3,text,true,,194902,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,27,0,0
+1687706495512,22,/api/v2/nature/bold,200,OK,PokeApi - run 1-3,text,true,,3065,133,20,20,https://pokeapi.co/api/v2/nature/bold,22,0,0
+1687706495534,24,/api/v2/type/poison,200,OK,PokeApi - run 1-3,text,true,,15921,133,20,20,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706495559,26,/api/v2/stat/speed,200,OK,PokeApi - run 1-3,text,true,,6135,132,20,20,https://pokeapi.co/api/v2/stat/speed,26,0,0
+1687706496052,122,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-16,text,true,,222132,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,82,0,61
+1687706496175,23,/api/v2/nature/hasty,200,OK,PokeApi - run 1-16,text,true,,3140,134,20,20,https://pokeapi.co/api/v2/nature/hasty,23,0,0
+1687706496198,26,/api/v2/type/electric,200,OK,PokeApi - run 1-16,text,true,,16797,135,20,20,https://pokeapi.co/api/v2/type/electric,26,0,0
+1687706496380,22,/api/v2/stat/hp,200,OK,PokeApi - run 1-16,text,true,,2363,129,20,20,https://pokeapi.co/api/v2/stat/hp,22,0,0
+1687706496647,119,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-4,text,true,,148546,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,88,0,58
+1687706496882,26,/api/v2/nature/impish,200,OK,PokeApi - run 1-4,text,true,,3087,135,20,20,https://pokeapi.co/api/v2/nature/impish,26,0,0
+1687706496908,24,/api/v2/type/ghost,200,OK,PokeApi - run 1-4,text,true,,15807,132,20,20,https://pokeapi.co/api/v2/type/ghost,22,0,0
+1687706496932,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-4,text,true,,2488,134,20,20,https://pokeapi.co/api/v2/stat/evasion,22,0,0
+1687706497222,106,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-2,text,true,,192089,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,68,0,47
+1687706497357,25,/api/v2/nature/naughty,200,OK,PokeApi - run 1-2,text,true,,3086,136,20,20,https://pokeapi.co/api/v2/nature/naughty,25,0,0
+1687706497382,32,/api/v2/type/fire,200,OK,PokeApi - run 1-2,text,true,,17182,131,20,20,https://pokeapi.co/api/v2/type/fire,28,0,0
+1687706497414,22,/api/v2/stat/attack,200,OK,PokeApi - run 1-2,text,true,,6679,133,20,20,https://pokeapi.co/api/v2/stat/attack,22,0,0
+1687706497897,76,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",985,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,76,0,48
+1687706497974,24,/api/v2/nature/modest,200,OK,PokeApi - run 1-20,text,true,,3088,135,20,20,https://pokeapi.co/api/v2/nature/modest,22,0,0
+1687706497998,28,/api/v2/type/fairy,200,OK,PokeApi - run 1-20,text,true,,12862,132,20,20,https://pokeapi.co/api/v2/type/fairy,25,0,0
+1687706498026,27,/api/v2/stat/defense,200,OK,PokeApi - run 1-20,text,true,,6815,134,20,20,https://pokeapi.co/api/v2/stat/defense,23,0,0
+1687706498476,160,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-7,text,true,,194906,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,105,0,84
+1687706498636,23,/api/v2/nature/bold,200,OK,PokeApi - run 1-7,text,true,,3076,133,20,20,https://pokeapi.co/api/v2/nature/bold,23,0,0
+1687706498660,28,/api/v2/type/poison,200,OK,PokeApi - run 1-7,text,true,,15904,133,20,20,https://pokeapi.co/api/v2/type/poison,27,0,0
+1687706498688,23,/api/v2/stat/speed,200,OK,PokeApi - run 1-7,text,true,,6139,132,20,20,https://pokeapi.co/api/v2/stat/speed,23,0,0
+1687706499065,118,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-17,text,true,,222117,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,74,0,44
+1687706499183,21,/api/v2/nature/hasty,200,OK,PokeApi - run 1-17,text,true,,3132,134,20,20,https://pokeapi.co/api/v2/nature/hasty,21,0,0
+1687706499204,45,/api/v2/type/electric,200,OK,PokeApi - run 1-17,text,true,,16797,135,20,20,https://pokeapi.co/api/v2/type/electric,45,0,0
+1687706499440,22,/api/v2/stat/hp,200,OK,PokeApi - run 1-17,text,true,,2360,129,20,20,https://pokeapi.co/api/v2/stat/hp,22,0,0
+1687706499671,109,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-19,text,true,,148550,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,78,0,49
+1687706499880,21,/api/v2/nature/impish,200,OK,PokeApi - run 1-19,text,true,,3083,135,20,20,https://pokeapi.co/api/v2/nature/impish,21,0,0
+1687706499901,23,/api/v2/type/ghost,200,OK,PokeApi - run 1-19,text,true,,15783,132,20,20,https://pokeapi.co/api/v2/type/ghost,22,0,0
+1687706499925,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-19,text,true,,2494,134,20,20,https://pokeapi.co/api/v2/stat/evasion,20,0,0
+1687706500269,132,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-12,text,true,,192079,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,87,0,56
+1687706500404,26,/api/v2/nature/naughty,200,OK,PokeApi - run 1-12,text,true,,3092,136,20,20,https://pokeapi.co/api/v2/nature/naughty,26,0,0
+1687706500430,33,/api/v2/type/fire,200,OK,PokeApi - run 1-12,text,true,,17186,131,20,20,https://pokeapi.co/api/v2/type/fire,22,0,0
+1687706500464,23,/api/v2/stat/attack,200,OK,PokeApi - run 1-12,text,true,,6686,133,20,20,https://pokeapi.co/api/v2/stat/attack,23,0,0
+1687706500883,60,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",991,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,60,0,40
+1687706500943,24,/api/v2/nature/modest,200,OK,PokeApi - run 1-13,text,true,,3086,135,20,20,https://pokeapi.co/api/v2/nature/modest,24,0,0
+1687706500967,22,/api/v2/type/fairy,200,OK,PokeApi - run 1-13,text,true,,12862,132,20,20,https://pokeapi.co/api/v2/type/fairy,20,0,0
+1687706500989,22,/api/v2/stat/defense,200,OK,PokeApi - run 1-13,text,true,,6810,134,20,20,https://pokeapi.co/api/v2/stat/defense,21,0,0
+1687706501439,111,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-5,text,true,,194914,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,69,0,44
+1687706501550,22,/api/v2/nature/bold,200,OK,PokeApi - run 1-5,text,true,,3063,133,20,20,https://pokeapi.co/api/v2/nature/bold,22,0,0
+1687706501572,24,/api/v2/type/poison,200,OK,PokeApi - run 1-5,text,true,,15921,133,20,20,https://pokeapi.co/api/v2/type/poison,22,0,0
+1687706501597,29,/api/v2/stat/speed,200,OK,PokeApi - run 1-5,text,true,,6141,132,20,20,https://pokeapi.co/api/v2/stat/speed,29,0,0
+1687706502049,111,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-18,text,true,,222132,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,65,0,44
+1687706502161,20,/api/v2/nature/hasty,200,OK,PokeApi - run 1-18,text,true,,3130,134,20,20,https://pokeapi.co/api/v2/nature/hasty,20,0,0
+1687706502182,28,/api/v2/type/electric,200,OK,PokeApi - run 1-18,text,true,,16803,135,20,20,https://pokeapi.co/api/v2/type/electric,28,0,0
+1687706502210,30,/api/v2/stat/hp,200,OK,PokeApi - run 1-18,text,true,,2367,129,20,20,https://pokeapi.co/api/v2/stat/hp,30,0,0
+1687706502533,115,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-10,text,true,,148547,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,82,0,56
+1687706502648,29,/api/v2/nature/impish,200,OK,PokeApi - run 1-10,text,true,,3090,135,20,20,https://pokeapi.co/api/v2/nature/impish,29,0,0
+1687706502678,29,/api/v2/type/ghost,200,OK,PokeApi - run 1-10,text,true,,15785,132,20,20,https://pokeapi.co/api/v2/type/ghost,21,0,0
+1687706502707,25,/api/v2/stat/evasion,200,OK,PokeApi - run 1-10,text,true,,2491,134,20,20,https://pokeapi.co/api/v2/stat/evasion,25,0,0
+1687706503210,110,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-6,text,true,,192087,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,75,0,54
+1687706503437,27,/api/v2/nature/naughty,200,OK,PokeApi - run 1-6,text,true,,3088,136,20,20,https://pokeapi.co/api/v2/nature/naughty,27,0,0
+1687706503464,25,/api/v2/type/fire,200,OK,PokeApi - run 1-6,text,true,,17125,131,20,20,https://pokeapi.co/api/v2/type/fire,23,0,0
+1687706503490,22,/api/v2/stat/attack,200,OK,PokeApi - run 1-6,text,true,,6682,133,20,20,https://pokeapi.co/api/v2/stat/attack,22,0,0
+1687706503892,62,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,62,0,41
+1687706503954,22,/api/v2/nature/modest,200,OK,PokeApi - run 1-14,text,true,,3082,135,20,20,https://pokeapi.co/api/v2/nature/modest,22,0,0
+1687706503976,25,/api/v2/type/fairy,200,OK,PokeApi - run 1-14,text,true,,12862,132,20,20,https://pokeapi.co/api/v2/type/fairy,20,0,0
+1687706504002,22,/api/v2/stat/defense,200,OK,PokeApi - run 1-14,text,true,,6820,134,20,20,https://pokeapi.co/api/v2/stat/defense,22,0,0
+1687706504453,105,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-9,text,true,,194902,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,59,0,37
+1687706504559,21,/api/v2/nature/bold,200,OK,PokeApi - run 1-9,text,true,,3059,133,20,20,https://pokeapi.co/api/v2/nature/bold,21,0,0
+1687706504580,25,/api/v2/type/poison,200,OK,PokeApi - run 1-9,text,true,,15915,133,20,20,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706504605,22,/api/v2/stat/speed,200,OK,PokeApi - run 1-9,text,true,,6139,132,20,20,https://pokeapi.co/api/v2/stat/speed,22,0,0
+1687706505063,126,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-8,text,true,,222107,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,81,0,60
+1687706505189,28,/api/v2/nature/hasty,200,OK,PokeApi - run 1-8,text,true,,3130,134,20,20,https://pokeapi.co/api/v2/nature/hasty,28,0,0
+1687706505218,28,/api/v2/type/electric,200,OK,PokeApi - run 1-8,text,true,,16818,135,20,20,https://pokeapi.co/api/v2/type/electric,28,0,0
+1687706505446,24,/api/v2/stat/hp,200,OK,PokeApi - run 1-8,text,true,,2358,129,20,20,https://pokeapi.co/api/v2/stat/hp,24,0,0
+1687706505565,118,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-1,text,true,,148550,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,82,0,54
+1687706505683,29,/api/v2/nature/impish,200,OK,PokeApi - run 1-1,text,true,,3087,135,20,20,https://pokeapi.co/api/v2/nature/impish,29,0,0
+1687706505712,29,/api/v2/type/ghost,200,OK,PokeApi - run 1-1,text,true,,15783,132,20,20,https://pokeapi.co/api/v2/type/ghost,24,0,0
+1687706505893,24,/api/v2/stat/evasion,200,OK,PokeApi - run 1-1,text,true,,2488,134,20,20,https://pokeapi.co/api/v2/stat/evasion,24,0,0
+1687706506244,106,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-15,text,true,,192074,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,62,0,39
+1687706506430,24,/api/v2/nature/naughty,200,OK,PokeApi - run 1-15,text,true,,3087,136,20,20,https://pokeapi.co/api/v2/nature/naughty,24,0,0
+1687706506455,28,/api/v2/type/fire,200,OK,PokeApi - run 1-15,text,true,,17173,131,20,20,https://pokeapi.co/api/v2/type/fire,26,0,0
+1687706506483,26,/api/v2/stat/attack,200,OK,PokeApi - run 1-15,text,true,,6691,133,20,20,https://pokeapi.co/api/v2/stat/attack,26,0,0
+1687706506899,64,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",986,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,64,0,43
+1687706506963,22,/api/v2/nature/modest,200,OK,PokeApi - run 1-11,text,true,,3080,135,20,20,https://pokeapi.co/api/v2/nature/modest,21,0,0
+1687706506985,29,/api/v2/type/fairy,200,OK,PokeApi - run 1-11,text,true,,12862,132,20,20,https://pokeapi.co/api/v2/type/fairy,27,0,0
+1687706507014,20,/api/v2/stat/defense,200,OK,PokeApi - run 1-11,text,true,,6816,134,20,20,https://pokeapi.co/api/v2/stat/defense,19,0,0
+1687706507462,117,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-3,text,true,,194900,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,71,0,45
+1687706507579,21,/api/v2/nature/bold,200,OK,PokeApi - run 1-3,text,true,,3069,133,20,20,https://pokeapi.co/api/v2/nature/bold,21,0,0
+1687706507600,24,/api/v2/type/poison,200,OK,PokeApi - run 1-3,text,true,,15917,133,20,20,https://pokeapi.co/api/v2/type/poison,22,0,0
+1687706507624,21,/api/v2/stat/speed,200,OK,PokeApi - run 1-3,text,true,,6143,132,20,20,https://pokeapi.co/api/v2/stat/speed,21,0,0
+1687706507846,81,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-16,text,true,,222128,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,28,0,0
+1687706507927,23,/api/v2/nature/hasty,200,OK,PokeApi - run 1-16,text,true,,3130,134,20,20,https://pokeapi.co/api/v2/nature/hasty,22,0,0
+1687706507950,27,/api/v2/type/electric,200,OK,PokeApi - run 1-16,text,true,,16795,135,20,20,https://pokeapi.co/api/v2/type/electric,27,0,0
+1687706507977,21,/api/v2/stat/hp,200,OK,PokeApi - run 1-16,text,true,,2365,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706508489,62,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-4,text,true,,148548,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,28,0,0
+1687706508551,24,/api/v2/nature/impish,200,OK,PokeApi - run 1-4,text,true,,3089,135,20,20,https://pokeapi.co/api/v2/nature/impish,24,0,0
+1687706508575,26,/api/v2/type/ghost,200,OK,PokeApi - run 1-4,text,true,,15809,132,20,20,https://pokeapi.co/api/v2/type/ghost,26,0,0
+1687706508601,34,/api/v2/stat/evasion,200,OK,PokeApi - run 1-4,text,true,,2492,134,20,20,https://pokeapi.co/api/v2/stat/evasion,34,0,0
+1687706509181,67,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-2,text,true,,192089,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,42,0,0
+1687706509249,22,/api/v2/nature/naughty,200,OK,PokeApi - run 1-2,text,true,,3090,136,20,20,https://pokeapi.co/api/v2/nature/naughty,22,0,0
+1687706509271,29,/api/v2/type/fire,200,OK,PokeApi - run 1-2,text,true,,17188,131,20,20,https://pokeapi.co/api/v2/type/fire,29,0,0
+1687706509300,23,/api/v2/stat/attack,200,OK,PokeApi - run 1-2,text,true,,6683,133,20,20,https://pokeapi.co/api/v2/stat/attack,23,0,0
+1687706509839,23,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",989,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,23,0,0
+1687706509965,20,/api/v2/nature/modest,200,OK,PokeApi - run 1-20,text,true,,3082,135,20,20,https://pokeapi.co/api/v2/nature/modest,20,0,0
+1687706509986,28,/api/v2/type/fairy,200,OK,PokeApi - run 1-20,text,true,,12866,132,20,20,https://pokeapi.co/api/v2/type/fairy,26,0,0
+1687706510015,22,/api/v2/stat/defense,200,OK,PokeApi - run 1-20,text,true,,6813,134,20,20,https://pokeapi.co/api/v2/stat/defense,21,0,0
+1687706510357,48,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-7,text,true,,194896,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,26,0,0
+1687706510461,29,/api/v2/nature/bold,200,OK,PokeApi - run 1-7,text,true,,3060,133,20,20,https://pokeapi.co/api/v2/nature/bold,29,0,0
+1687706510490,24,/api/v2/type/poison,200,OK,PokeApi - run 1-7,text,true,,15898,133,20,20,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706510514,21,/api/v2/stat/speed,200,OK,PokeApi - run 1-7,text,true,,6139,132,20,20,https://pokeapi.co/api/v2/stat/speed,21,0,0
+1687706510798,58,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-17,text,true,,222107,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,27,0,0
+1687706511016,23,/api/v2/nature/hasty,200,OK,PokeApi - run 1-17,text,true,,3126,134,20,20,https://pokeapi.co/api/v2/nature/hasty,23,0,0
+1687706511039,29,/api/v2/type/electric,200,OK,PokeApi - run 1-17,text,true,,16793,135,20,20,https://pokeapi.co/api/v2/type/electric,28,0,0
+1687706511068,22,/api/v2/stat/hp,200,OK,PokeApi - run 1-17,text,true,,2360,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706511520,56,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-19,text,true,,148556,138,20,20,https://pokeapi.co/api/v2/pokemon/togekiss,25,0,0
+1687706511576,28,/api/v2/nature/impish,200,OK,PokeApi - run 1-19,text,true,,3091,135,20,20,https://pokeapi.co/api/v2/nature/impish,28,0,0
+1687706511605,24,/api/v2/type/ghost,200,OK,PokeApi - run 1-19,text,true,,15783,132,20,20,https://pokeapi.co/api/v2/type/ghost,24,0,0
+1687706511630,21,/api/v2/stat/evasion,200,OK,PokeApi - run 1-19,text,true,,2486,134,20,20,https://pokeapi.co/api/v2/stat/evasion,21,0,0
+1687706512177,123,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-12,text,true,,192079,138,20,20,https://pokeapi.co/api/v2/pokemon/arcanine,73,0,0
+1687706512300,22,/api/v2/nature/naughty,200,OK,PokeApi - run 1-12,text,true,,3086,136,20,20,https://pokeapi.co/api/v2/nature/naughty,22,0,0
+1687706512322,32,/api/v2/type/fire,200,OK,PokeApi - run 1-12,text,true,,17184,131,20,20,https://pokeapi.co/api/v2/type/fire,32,0,0
+1687706512355,23,/api/v2/stat/attack,200,OK,PokeApi - run 1-12,text,true,,6686,133,20,20,https://pokeapi.co/api/v2/stat/attack,23,0,0
+1687706512867,22,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,136,20,20,https://pokeapi.co/api/v2/pokemon/agumon,22,0,0
+1687706512923,23,/api/v2/nature/modest,200,OK,PokeApi - run 1-13,text,true,,3082,135,20,20,https://pokeapi.co/api/v2/nature/modest,22,0,0
+1687706512946,22,/api/v2/type/fairy,200,OK,PokeApi - run 1-13,text,true,,12866,132,20,20,https://pokeapi.co/api/v2/type/fairy,20,0,0
+1687706512968,20,/api/v2/stat/defense,200,OK,PokeApi - run 1-13,text,true,,6810,134,20,20,https://pokeapi.co/api/v2/stat/defense,19,0,0
+1687706513408,64,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-5,text,true,,194896,136,20,20,https://pokeapi.co/api/v2/pokemon/crobat,32,0,0
+1687706513501,22,/api/v2/nature/bold,200,OK,PokeApi - run 1-5,text,true,,3067,133,20,20,https://pokeapi.co/api/v2/nature/bold,22,0,0
+1687706513523,28,/api/v2/type/poison,200,OK,PokeApi - run 1-5,text,true,,15921,133,20,20,https://pokeapi.co/api/v2/type/poison,28,0,0
+1687706513551,21,/api/v2/stat/speed,200,OK,PokeApi - run 1-5,text,true,,6151,132,20,20,https://pokeapi.co/api/v2/stat/speed,21,0,0
+1687706513871,58,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-18,text,true,,222126,137,20,20,https://pokeapi.co/api/v2/pokemon/jolteon,29,0,0
+1687706513931,22,/api/v2/nature/hasty,200,OK,PokeApi - run 1-18,text,true,,3134,134,20,20,https://pokeapi.co/api/v2/nature/hasty,22,0,0
+1687706513954,26,/api/v2/type/electric,200,OK,PokeApi - run 1-18,text,true,,16797,135,20,20,https://pokeapi.co/api/v2/type/electric,26,0,0
+1687706513980,21,/api/v2/stat/hp,200,OK,PokeApi - run 1-18,text,true,,2361,129,20,20,https://pokeapi.co/api/v2/stat/hp,21,0,0
+1687706514399,62,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-10,text,true,,148553,138,19,19,https://pokeapi.co/api/v2/pokemon/togekiss,26,0,0
+1687706514462,22,/api/v2/nature/impish,200,OK,PokeApi - run 1-10,text,true,,3086,135,19,19,https://pokeapi.co/api/v2/nature/impish,22,0,0
+1687706514484,25,/api/v2/type/ghost,200,OK,PokeApi - run 1-10,text,true,,15787,132,19,19,https://pokeapi.co/api/v2/type/ghost,25,0,0
+1687706514509,25,/api/v2/stat/evasion,200,OK,PokeApi - run 1-10,text,true,,2487,134,19,19,https://pokeapi.co/api/v2/stat/evasion,25,0,0
+1687706515092,52,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-6,text,true,,192075,138,18,18,https://pokeapi.co/api/v2/pokemon/arcanine,27,0,0
+1687706515145,25,/api/v2/nature/naughty,200,OK,PokeApi - run 1-6,text,true,,3084,136,18,18,https://pokeapi.co/api/v2/nature/naughty,25,0,0
+1687706515170,28,/api/v2/type/fire,200,OK,PokeApi - run 1-6,text,true,,17129,131,18,18,https://pokeapi.co/api/v2/type/fire,27,0,0
+1687706515198,24,/api/v2/stat/attack,200,OK,PokeApi - run 1-6,text,true,,6688,133,18,18,https://pokeapi.co/api/v2/stat/attack,24,0,0
+1687706515863,24,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",990,136,17,17,https://pokeapi.co/api/v2/pokemon/agumon,24,0,0
+1687706515888,21,/api/v2/nature/modest,200,OK,PokeApi - run 1-14,text,true,,3086,135,17,17,https://pokeapi.co/api/v2/nature/modest,20,0,0
+1687706515909,26,/api/v2/type/fairy,200,OK,PokeApi - run 1-14,text,true,,12868,132,17,17,https://pokeapi.co/api/v2/type/fairy,24,0,0
+1687706515935,26,/api/v2/stat/defense,200,OK,PokeApi - run 1-14,text,true,,6806,134,17,17,https://pokeapi.co/api/v2/stat/defense,22,0,0
+1687706516420,55,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-9,text,true,,194900,136,16,16,https://pokeapi.co/api/v2/pokemon/crobat,25,0,0
+1687706516476,22,/api/v2/nature/bold,200,OK,PokeApi - run 1-9,text,true,,3061,133,16,16,https://pokeapi.co/api/v2/nature/bold,22,0,0
+1687706516498,26,/api/v2/type/poison,200,OK,PokeApi - run 1-9,text,true,,15911,133,16,16,https://pokeapi.co/api/v2/type/poison,26,0,0
+1687706516525,41,/api/v2/stat/speed,200,OK,PokeApi - run 1-9,text,true,,6141,132,16,16,https://pokeapi.co/api/v2/stat/speed,41,0,0
+1687706516788,60,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-8,text,true,,222099,137,15,15,https://pokeapi.co/api/v2/pokemon/jolteon,33,0,0
+1687706516960,22,/api/v2/nature/hasty,200,OK,PokeApi - run 1-8,text,true,,3130,134,15,15,https://pokeapi.co/api/v2/nature/hasty,22,0,0
+1687706516982,25,/api/v2/type/electric,200,OK,PokeApi - run 1-8,text,true,,16812,135,15,15,https://pokeapi.co/api/v2/type/electric,25,0,0
+1687706517007,23,/api/v2/stat/hp,200,OK,PokeApi - run 1-8,text,true,,2364,129,15,15,https://pokeapi.co/api/v2/stat/hp,22,0,0
+1687706517443,47,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-1,text,true,,148550,138,14,14,https://pokeapi.co/api/v2/pokemon/togekiss,27,0,0
+1687706517490,21,/api/v2/nature/impish,200,OK,PokeApi - run 1-1,text,true,,3085,135,14,14,https://pokeapi.co/api/v2/nature/impish,21,0,0
+1687706517511,27,/api/v2/type/ghost,200,OK,PokeApi - run 1-1,text,true,,15783,132,14,14,https://pokeapi.co/api/v2/type/ghost,26,0,0
+1687706517538,22,/api/v2/stat/evasion,200,OK,PokeApi - run 1-1,text,true,,2500,134,14,14,https://pokeapi.co/api/v2/stat/evasion,22,0,0
+1687706518129,52,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-15,text,true,,192078,138,13,13,https://pokeapi.co/api/v2/pokemon/arcanine,29,0,0
+1687706518182,21,/api/v2/nature/naughty,200,OK,PokeApi - run 1-15,text,true,,3085,136,13,13,https://pokeapi.co/api/v2/nature/naughty,21,0,0
+1687706518204,35,/api/v2/type/fire,200,OK,PokeApi - run 1-15,text,true,,17171,131,13,13,https://pokeapi.co/api/v2/type/fire,35,0,0
+1687706518239,21,/api/v2/stat/attack,200,OK,PokeApi - run 1-15,text,true,,6681,133,13,13,https://pokeapi.co/api/v2/stat/attack,21,0,0
+1687706518860,22,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",998,136,12,12,https://pokeapi.co/api/v2/pokemon/agumon,22,0,0
+1687706518924,22,/api/v2/nature/modest,200,OK,PokeApi - run 1-11,text,true,,3084,135,12,12,https://pokeapi.co/api/v2/nature/modest,21,0,0
+1687706518947,24,/api/v2/type/fairy,200,OK,PokeApi - run 1-11,text,true,,12858,132,12,12,https://pokeapi.co/api/v2/type/fairy,22,0,0
+1687706518971,23,/api/v2/stat/defense,200,OK,PokeApi - run 1-11,text,true,,6806,134,12,12,https://pokeapi.co/api/v2/stat/defense,22,0,0
+1687706519410,56,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-3,text,true,,194900,136,11,11,https://pokeapi.co/api/v2/pokemon/crobat,27,0,0
+1687706519466,22,/api/v2/nature/bold,200,OK,PokeApi - run 1-3,text,true,,3067,133,11,11,https://pokeapi.co/api/v2/nature/bold,22,0,0
+1687706519488,27,/api/v2/type/poison,200,OK,PokeApi - run 1-3,text,true,,15915,133,11,11,https://pokeapi.co/api/v2/type/poison,27,0,0
+1687706519515,22,/api/v2/stat/speed,200,OK,PokeApi - run 1-3,text,true,,6141,132,11,11,https://pokeapi.co/api/v2/stat/speed,22,0,0
+1687706520045,66,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-16,text,true,,222138,137,10,10,https://pokeapi.co/api/v2/pokemon/jolteon,25,0,0
+1687706520112,21,/api/v2/nature/hasty,200,OK,PokeApi - run 1-16,text,true,,3138,134,10,10,https://pokeapi.co/api/v2/nature/hasty,21,0,0
+1687706520133,27,/api/v2/type/electric,200,OK,PokeApi - run 1-16,text,true,,16799,135,10,10,https://pokeapi.co/api/v2/type/electric,26,0,0
+1687706520160,20,/api/v2/stat/hp,200,OK,PokeApi - run 1-16,text,true,,2363,129,10,10,https://pokeapi.co/api/v2/stat/hp,20,0,0
+1687706520649,52,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-4,text,true,,148544,138,9,9,https://pokeapi.co/api/v2/pokemon/togekiss,25,0,0
+1687706520701,20,/api/v2/nature/impish,200,OK,PokeApi - run 1-4,text,true,,3091,135,9,9,https://pokeapi.co/api/v2/nature/impish,20,0,0
+1687706520721,41,/api/v2/type/ghost,200,OK,PokeApi - run 1-4,text,true,,15809,132,9,9,https://pokeapi.co/api/v2/type/ghost,41,0,0
+1687706520997,20,/api/v2/stat/evasion,200,OK,PokeApi - run 1-4,text,true,,2492,134,9,9,https://pokeapi.co/api/v2/stat/evasion,20,0,0
+1687706521253,58,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-2,text,true,,192107,138,8,8,https://pokeapi.co/api/v2/pokemon/arcanine,26,0,0
+1687706521480,24,/api/v2/nature/naughty,200,OK,PokeApi - run 1-2,text,true,,3090,136,8,8,https://pokeapi.co/api/v2/nature/naughty,24,0,0
+1687706521504,23,/api/v2/type/fire,200,OK,PokeApi - run 1-2,text,true,,17178,131,8,8,https://pokeapi.co/api/v2/type/fire,23,0,0
+1687706521528,22,/api/v2/stat/attack,200,OK,PokeApi - run 1-2,text,true,,6677,133,8,8,https://pokeapi.co/api/v2/stat/attack,22,0,0
+1687706521804,29,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,136,7,7,https://pokeapi.co/api/v2/pokemon/agumon,29,0,0
+1687706521975,22,/api/v2/nature/modest,200,OK,PokeApi - run 1-20,text,true,,3088,135,7,7,https://pokeapi.co/api/v2/nature/modest,22,0,0
+1687706521997,26,/api/v2/type/fairy,200,OK,PokeApi - run 1-20,text,true,,12868,132,7,7,https://pokeapi.co/api/v2/type/fairy,23,0,0
+1687706522024,21,/api/v2/stat/defense,200,OK,PokeApi - run 1-20,text,true,,6813,134,7,7,https://pokeapi.co/api/v2/stat/defense,21,0,0
+1687706522417,45,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-7,text,true,,194900,136,6,6,https://pokeapi.co/api/v2/pokemon/crobat,27,0,0
+1687706522462,26,/api/v2/nature/bold,200,OK,PokeApi - run 1-7,text,true,,3066,133,6,6,https://pokeapi.co/api/v2/nature/bold,26,0,0
+1687706522488,24,/api/v2/type/poison,200,OK,PokeApi - run 1-7,text,true,,15906,133,6,6,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706522513,29,/api/v2/stat/speed,200,OK,PokeApi - run 1-7,text,true,,6145,132,6,6,https://pokeapi.co/api/v2/stat/speed,29,0,0
+1687706522903,59,/api/v2/pokemon/jolteon,200,OK,PokeApi - run 1-17,text,true,,222113,137,5,5,https://pokeapi.co/api/v2/pokemon/jolteon,30,0,0
+1687706522963,25,/api/v2/nature/hasty,200,OK,PokeApi - run 1-17,text,true,,3130,134,5,5,https://pokeapi.co/api/v2/nature/hasty,25,0,0
+1687706522989,26,/api/v2/type/electric,200,OK,PokeApi - run 1-17,text,true,,16797,135,5,5,https://pokeapi.co/api/v2/type/electric,26,0,0
+1687706523016,20,/api/v2/stat/hp,200,OK,PokeApi - run 1-17,text,true,,2362,129,5,5,https://pokeapi.co/api/v2/stat/hp,20,0,0
+1687706523664,51,/api/v2/pokemon/togekiss,200,OK,PokeApi - run 1-19,text,true,,148546,138,4,4,https://pokeapi.co/api/v2/pokemon/togekiss,25,0,0
+1687706523715,23,/api/v2/nature/impish,200,OK,PokeApi - run 1-19,text,true,,3087,135,4,4,https://pokeapi.co/api/v2/nature/impish,23,0,0
+1687706523739,29,/api/v2/type/ghost,200,OK,PokeApi - run 1-19,text,true,,15789,132,4,4,https://pokeapi.co/api/v2/type/ghost,29,0,0
+1687706523999,21,/api/v2/stat/evasion,200,OK,PokeApi - run 1-19,text,true,,2492,134,4,4,https://pokeapi.co/api/v2/stat/evasion,21,0,0
+1687706524194,69,/api/v2/pokemon/arcanine,200,OK,PokeApi - run 1-12,text,true,,192077,138,3,3,https://pokeapi.co/api/v2/pokemon/arcanine,30,0,0
+1687706524263,21,/api/v2/nature/naughty,200,OK,PokeApi - run 1-12,text,true,,3090,136,3,3,https://pokeapi.co/api/v2/nature/naughty,21,0,0
+1687706524408,28,/api/v2/type/fire,200,OK,PokeApi - run 1-12,text,true,,17180,131,3,3,https://pokeapi.co/api/v2/type/fire,28,0,0
+1687706524436,28,/api/v2/stat/attack,200,OK,PokeApi - run 1-12,text,true,,6680,133,3,3,https://pokeapi.co/api/v2/stat/attack,28,0,0
+1687706524873,22,/api/v2/pokemon/agumon,404,Not Found,PokeApi - run 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",997,136,2,2,https://pokeapi.co/api/v2/pokemon/agumon,22,0,0
+1687706524993,24,/api/v2/nature/modest,200,OK,PokeApi - run 1-13,text,true,,3076,135,2,2,https://pokeapi.co/api/v2/nature/modest,24,0,0
+1687706525017,23,/api/v2/type/fairy,200,OK,PokeApi - run 1-13,text,true,,12862,132,2,2,https://pokeapi.co/api/v2/type/fairy,21,0,0
+1687706525040,27,/api/v2/stat/defense,200,OK,PokeApi - run 1-13,text,true,,6826,134,2,2,https://pokeapi.co/api/v2/stat/defense,26,0,0
+1687706525429,75,/api/v2/pokemon/crobat,200,OK,PokeApi - run 1-5,text,true,,194906,136,1,1,https://pokeapi.co/api/v2/pokemon/crobat,39,0,0
+1687706525504,22,/api/v2/nature/bold,200,OK,PokeApi - run 1-5,text,true,,3061,133,1,1,https://pokeapi.co/api/v2/nature/bold,22,0,0
+1687706525526,24,/api/v2/type/poison,200,OK,PokeApi - run 1-5,text,true,,15909,133,1,1,https://pokeapi.co/api/v2/type/poison,24,0,0
+1687706525551,24,/api/v2/stat/speed,200,OK,PokeApi - run 1-5,text,true,,6151,132,1,1,https://pokeapi.co/api/v2/stat/speed,24,0,0

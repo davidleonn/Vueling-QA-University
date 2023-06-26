@@ -1,0 +1,49 @@
+---
+baseUrl: null
+execution:
+- executor: jmeter
+  scenario: smoke
+reporting:
+- failed-labels: false
+  module: final-stats
+  percentiles: true
+  summary: true
+  test-duration: true
+- module: blazemeter
+  project: Taurus test project
+  report-name: Taurus test report - Demo
+  test: Taurus test
+scenarios:
+  load:
+    script: ${BASE_DIR}\pokeapi.jmx
+    variables:
+      ErrorsPath: ${BASE_DIR}\Errors.csv
+      Protocol: https
+      RampUp: 0
+      ResultsPath: ${BASE_DIR}\Results.csv
+      Rpm: 5
+      TestDuration: 60
+      Threads: 2
+      Url: pokeapi.co
+  smoke:
+    script: ${BASE_DIR}\pokeapi.jmx
+    variables:
+      ErrorsPath: ${BASE_DIR}\Errors.csv
+      Protocol: https
+      RampUp: 0
+      ResultsPath: ${BASE_DIR}\Results.csv
+      Rpm: 5
+      TestDuration: 60
+      Threads: 2
+      Url: pokeapi.co
+services:
+- module: shellexec
+  post-process:
+  - mkdir ${BASE_DIR}\HTML
+  - jmeter -g ${BASE_DIR}\Results.csv -o ${BASE_DIR}\HTML
+settings:
+  artifacts-dir: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+  env:
+    BASE_DIR: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+testName: null
+

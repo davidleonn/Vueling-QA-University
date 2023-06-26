@@ -1,0 +1,634 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687706437470,138,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-14,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,137,0,116
+1687706437470,138,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-2,text,true,,1760,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,137,0,114
+1687706437472,141,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-19,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,141,0,117
+1687706437470,144,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-6,text,true,,1760,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,144,0,122
+1687706437470,144,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-10,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,144,0,121
+1687706437470,144,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-17,text,true,,1759,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,144,0,121
+1687706437470,145,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-12,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,145,0,119
+1687706437470,145,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-8,text,true,,1753,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,145,0,123
+1687706437471,145,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-18,text,true,,1760,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,145,0,122
+1687706437470,146,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-15,text,true,,1759,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,146,0,125
+1687706437470,147,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-9,text,true,,1770,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,147,0,124
+1687706437470,147,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-1,text,true,,1762,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,147,0,124
+1687706437471,147,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-13,text,true,,1758,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,147,0,126
+1687706437470,151,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-4,text,true,,1765,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,151,0,123
+1687706437471,149,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-20,text,true,,1762,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,149,0,126
+1687706437470,149,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-11,text,true,,1755,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,149,0,126
+1687706437470,150,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-16,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,149,0,127
+1687706437470,149,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-3,text,true,,1765,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,149,0,122
+1687706437470,152,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-5,text,true,,1755,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,152,0,125
+1687706437470,153,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-7,text,true,,1761,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,153,0,126
+1687706437609,23,/api/v2/contest-type/3,200,OK,PokeApi - run 1-14,text,true,,1773,136,20,20,https://pokeapi.co/api/v2/contest-type/3,22,0,0
+1687706437615,25,/api/v2/contest-type/2,200,OK,PokeApi - run 1-17,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/2,25,0,0
+1687706437617,24,/api/v2/contest-type/4,200,OK,PokeApi - run 1-15,text,true,,1751,136,20,20,https://pokeapi.co/api/v2/contest-type/4,24,0,0
+1687706437621,25,/api/v2/contest-type/4,200,OK,PokeApi - run 1-4,text,true,,1753,136,20,20,https://pokeapi.co/api/v2/contest-type/4,24,0,0
+1687706437621,28,/api/v2/contest-type/2,200,OK,PokeApi - run 1-11,text,true,,1751,136,20,20,https://pokeapi.co/api/v2/contest-type/2,28,0,0
+1687706437609,40,/api/v2/contest-type/1,200,OK,PokeApi - run 1-2,text,true,,1751,136,20,20,https://pokeapi.co/api/v2/contest-type/1,40,0,0
+1687706437613,37,/api/v2/contest-type/3,200,OK,PokeApi - run 1-19,text,true,,1779,136,20,20,https://pokeapi.co/api/v2/contest-type/3,36,0,0
+1687706437614,36,/api/v2/contest-type/3,200,OK,PokeApi - run 1-6,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/3,36,0,0
+1687706437614,36,/api/v2/contest-type/1,200,OK,PokeApi - run 1-10,text,true,,1759,136,20,20,https://pokeapi.co/api/v2/contest-type/1,36,0,0
+1687706437616,35,/api/v2/contest-type/2,200,OK,PokeApi - run 1-8,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/2,33,0,0
+1687706437617,34,/api/v2/contest-type/5,200,OK,PokeApi - run 1-1,text,true,,1760,136,20,20,https://pokeapi.co/api/v2/contest-type/5,34,0,0
+1687706437618,33,/api/v2/contest-type/5,200,OK,PokeApi - run 1-13,text,true,,1768,136,20,20,https://pokeapi.co/api/v2/contest-type/5,33,0,0
+1687706437616,35,/api/v2/contest-type/5,200,OK,PokeApi - run 1-18,text,true,,1760,136,20,20,https://pokeapi.co/api/v2/contest-type/5,35,0,0
+1687706437615,36,/api/v2/contest-type/1,200,OK,PokeApi - run 1-12,text,true,,1753,136,20,20,https://pokeapi.co/api/v2/contest-type/1,36,0,0
+1687706437621,31,/api/v2/contest-type/3,200,OK,PokeApi - run 1-16,text,true,,1756,136,20,20,https://pokeapi.co/api/v2/contest-type/3,31,0,0
+1687706437617,35,/api/v2/contest-type/5,200,OK,PokeApi - run 1-9,text,true,,1764,136,20,20,https://pokeapi.co/api/v2/contest-type/5,35,0,0
+1687706437621,32,/api/v2/contest-type/2,200,OK,PokeApi - run 1-3,text,true,,1757,136,20,20,https://pokeapi.co/api/v2/contest-type/2,31,0,0
+1687706437623,30,/api/v2/contest-type/4,200,OK,PokeApi - run 1-7,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/4,29,0,0
+1687706437621,32,/api/v2/contest-type/1,200,OK,PokeApi - run 1-20,text,true,,1754,136,20,20,https://pokeapi.co/api/v2/contest-type/1,31,0,0
+1687706437622,31,/api/v2/contest-type/4,200,OK,PokeApi - run 1-5,text,true,,1757,136,20,20,https://pokeapi.co/api/v2/contest-type/4,31,0,0
+1687706437641,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-17,text,true,,1820,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,23,0,0
+1687706437641,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-15,text,true,,2268,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,23,0,0
+1687706437632,31,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,31,0,0
+1687706437646,20,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-4,text,true,,2278,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,20,0,0
+1687706437650,20,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",990,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,20,0,0
+1687706437650,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-11,text,true,,1814,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,21,0,0
+1687706437650,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-2,text,true,,2352,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,23,0,0
+1687706437651,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-1,text,true,,5915,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,20,0,0
+1687706437651,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-18,text,true,,5919,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,22,0,0
+1687706437650,26,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-10,text,true,,2350,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,26,0,0
+1687706437651,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-8,text,true,,1820,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,25,0,0
+1687706437653,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-3,text,true,,1816,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,24,0,0
+1687706437653,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-9,text,true,,5917,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,23,0,0
+1687706437651,26,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-12,text,true,,2346,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,26,0,0
+1687706437653,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-7,text,true,,2272,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,24,0,0
+1687706437651,27,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-13,text,true,,5925,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,26,0,0
+1687706437653,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-5,text,true,,2274,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,25,0,0
+1687706437653,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-20,text,true,,2354,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,25,0,0
+1687706437650,190,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",979,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,190,0,0
+1687706437653,211,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",983,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,211,0,0
+1687706449159,28,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-17,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,28,0,0
+1687706449188,23,/api/v2/contest-type/1,200,OK,PokeApi - run 1-17,text,true,,1749,136,20,20,https://pokeapi.co/api/v2/contest-type/1,23,0,0
+1687706449212,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-17,text,true,,2356,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,21,0,0
+1687706449762,22,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-14,text,true,,1763,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,22,0,0
+1687706449785,33,/api/v2/contest-type/2,200,OK,PokeApi - run 1-14,text,true,,1775,136,20,20,https://pokeapi.co/api/v2/contest-type/2,33,0,0
+1687706449819,20,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-14,text,true,,1812,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,20,0,0
+1687706450359,26,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-15,text,true,,1760,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,26,0,0
+1687706450385,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-15,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/3,20,0,0
+1687706450406,212,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",979,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,212,0,0
+1687706450963,26,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-4,text,true,,1763,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,26,0,0
+1687706450989,23,/api/v2/contest-type/4,200,OK,PokeApi - run 1-4,text,true,,1759,136,20,20,https://pokeapi.co/api/v2/contest-type/4,23,0,0
+1687706451013,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-4,text,true,,2268,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,22,0,0
+1687706451561,39,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-19,text,true,,1756,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,39,0,0
+1687706451600,80,/api/v2/contest-type/5,200,OK,PokeApi - run 1-19,text,true,,1758,136,20,20,https://pokeapi.co/api/v2/contest-type/5,80,0,0
+1687706451686,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-19,text,true,,5931,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,23,0,0
+1687706452157,22,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-11,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,22,0,0
+1687706452179,22,/api/v2/contest-type/1,200,OK,PokeApi - run 1-11,text,true,,1754,136,20,20,https://pokeapi.co/api/v2/contest-type/1,22,0,0
+1687706452201,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-11,text,true,,2348,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,23,0,0
+1687706452754,23,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-2,text,true,,1755,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,22,0,0
+1687706452777,22,/api/v2/contest-type/2,200,OK,PokeApi - run 1-2,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/2,21,0,0
+1687706452799,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-2,text,true,,1810,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,21,0,0
+1687706453353,22,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-1,text,true,,1754,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,22,0,0
+1687706453375,20,/api/v2/contest-type/3,200,OK,PokeApi - run 1-1,text,true,,1785,136,20,20,https://pokeapi.co/api/v2/contest-type/3,20,0,0
+1687706453396,20,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",988,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,20,0,0
+1687706453955,21,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-18,text,true,,1759,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,20,0,0
+1687706453976,19,/api/v2/contest-type/4,200,OK,PokeApi - run 1-18,text,true,,1769,136,20,20,https://pokeapi.co/api/v2/contest-type/4,19,0,0
+1687706453995,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-18,text,true,,2278,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,21,0,0
+1687706454555,25,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-10,text,true,,1754,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,25,0,0
+1687706454581,21,/api/v2/contest-type/5,200,OK,PokeApi - run 1-10,text,true,,1760,136,20,20,https://pokeapi.co/api/v2/contest-type/5,21,0,0
+1687706454602,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-10,text,true,,5919,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,23,0,0
+1687706455152,27,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-8,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,26,0,0
+1687706455179,23,/api/v2/contest-type/1,200,OK,PokeApi - run 1-8,text,true,,1751,136,20,20,https://pokeapi.co/api/v2/contest-type/1,23,0,0
+1687706455202,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-8,text,true,,2342,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,21,0,0
+1687706455753,22,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-9,text,true,,1753,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,22,0,0
+1687706455775,20,/api/v2/contest-type/2,200,OK,PokeApi - run 1-9,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/2,20,0,0
+1687706455795,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-9,text,true,,1826,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,22,0,0
+1687706456356,25,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-3,text,true,,1752,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,25,0,0
+1687706456382,22,/api/v2/contest-type/3,200,OK,PokeApi - run 1-3,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706456404,21,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,21,0,0
+1687706456951,24,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-12,text,true,,1755,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,24,0,0
+1687706456976,22,/api/v2/contest-type/4,200,OK,PokeApi - run 1-12,text,true,,1769,136,20,20,https://pokeapi.co/api/v2/contest-type/4,22,0,0
+1687706456999,55,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-12,text,true,,2274,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,54,0,0
+1687706457552,23,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-7,text,true,,1758,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,23,0,0
+1687706457575,21,/api/v2/contest-type/5,200,OK,PokeApi - run 1-7,text,true,,1764,136,20,20,https://pokeapi.co/api/v2/contest-type/5,21,0,0
+1687706457596,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-7,text,true,,5919,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,22,0,0
+1687706458147,23,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-20,text,true,,1761,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,23,0,0
+1687706458170,26,/api/v2/contest-type/2,200,OK,PokeApi - run 1-20,text,true,,1753,136,20,20,https://pokeapi.co/api/v2/contest-type/2,26,0,0
+1687706458197,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-20,text,true,,1814,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,21,0,0
+1687706458747,26,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-13,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,23,0,0
+1687706458773,24,/api/v2/contest-type/1,200,OK,PokeApi - run 1-13,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/1,24,0,0
+1687706458797,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-13,text,true,,2352,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,25,0,0
+1687706459353,22,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-5,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,22,0,0
+1687706459376,25,/api/v2/contest-type/3,200,OK,PokeApi - run 1-5,text,true,,1779,136,20,20,https://pokeapi.co/api/v2/contest-type/3,25,0,0
+1687706459401,22,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",985,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,22,0,0
+1687706459789,28,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-6,text,true,,1757,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,28,0,0
+1687706459817,21,/api/v2/contest-type/4,200,OK,PokeApi - run 1-6,text,true,,1759,136,20,20,https://pokeapi.co/api/v2/contest-type/4,21,0,0
+1687706459838,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-6,text,true,,2272,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,21,0,0
+1687706460361,29,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-16,text,true,,1762,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,28,0,0
+1687706460390,25,/api/v2/contest-type/5,200,OK,PokeApi - run 1-16,text,true,,1768,136,20,20,https://pokeapi.co/api/v2/contest-type/5,25,0,0
+1687706460415,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-16,text,true,,5923,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,24,0,0
+1687706461339,30,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-17,text,true,,1760,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,29,0,0
+1687706461369,26,/api/v2/contest-type/1,200,OK,PokeApi - run 1-17,text,true,,1759,136,20,20,https://pokeapi.co/api/v2/contest-type/1,26,0,0
+1687706461395,27,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-17,text,true,,2352,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,27,0,0
+1687706461937,26,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-14,text,true,,1765,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,25,0,0
+1687706461963,23,/api/v2/contest-type/2,200,OK,PokeApi - run 1-14,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/2,22,0,0
+1687706461986,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-14,text,true,,1810,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,22,0,0
+1687706462356,21,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-15,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,21,0,0
+1687706462377,28,/api/v2/contest-type/3,200,OK,PokeApi - run 1-15,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/3,28,0,0
+1687706462406,25,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",984,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,25,0,0
+1687706463140,22,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-4,text,true,,1755,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,22,0,0
+1687706463162,22,/api/v2/contest-type/4,200,OK,PokeApi - run 1-4,text,true,,1757,136,20,20,https://pokeapi.co/api/v2/contest-type/4,21,0,0
+1687706463184,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-4,text,true,,2272,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,21,0,0
+1687706463664,24,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-19,text,true,,1760,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,22,0,0
+1687706463753,22,/api/v2/contest-type/5,200,OK,PokeApi - run 1-19,text,true,,1760,136,20,20,https://pokeapi.co/api/v2/contest-type/5,21,0,0
+1687706463775,30,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-19,text,true,,5913,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,27,0,0
+1687706464344,25,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-11,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,24,0,0
+1687706464369,25,/api/v2/contest-type/1,200,OK,PokeApi - run 1-11,text,true,,1754,136,20,20,https://pokeapi.co/api/v2/contest-type/1,25,0,0
+1687706464395,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-11,text,true,,2348,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,22,0,0
+1687706464947,30,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-2,text,true,,1765,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,30,0,0
+1687706464978,23,/api/v2/contest-type/2,200,OK,PokeApi - run 1-2,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/2,23,0,0
+1687706465002,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-2,text,true,,1816,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,25,0,0
+1687706465551,23,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-1,text,true,,1762,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,21,0,0
+1687706465575,22,/api/v2/contest-type/3,200,OK,PokeApi - run 1-1,text,true,,1775,136,20,20,https://pokeapi.co/api/v2/contest-type/3,22,0,0
+1687706465597,21,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",990,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,21,0,0
+1687706466153,23,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-18,text,true,,1755,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,23,0,0
+1687706466177,21,/api/v2/contest-type/4,200,OK,PokeApi - run 1-18,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/4,21,0,0
+1687706466198,29,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-18,text,true,,2272,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,29,0,0
+1687706466741,23,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-10,text,true,,1756,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,23,0,0
+1687706466776,21,/api/v2/contest-type/5,200,OK,PokeApi - run 1-10,text,true,,1758,136,20,20,https://pokeapi.co/api/v2/contest-type/5,21,0,0
+1687706466797,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-10,text,true,,5921,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,21,0,0
+1687706467340,24,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-8,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,24,0,0
+1687706467364,25,/api/v2/contest-type/1,200,OK,PokeApi - run 1-8,text,true,,1751,136,20,20,https://pokeapi.co/api/v2/contest-type/1,25,0,0
+1687706467390,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-8,text,true,,2354,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,21,0,0
+1687706467949,28,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-9,text,true,,1761,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,28,0,0
+1687706467977,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-9,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/2,21,0,0
+1687706467998,30,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-9,text,true,,1812,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,30,0,0
+1687706468542,27,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-3,text,true,,1766,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,27,0,0
+1687706468570,23,/api/v2/contest-type/3,200,OK,PokeApi - run 1-3,text,true,,1777,136,20,20,https://pokeapi.co/api/v2/contest-type/3,22,0,0
+1687706468593,22,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,22,0,0
+1687706469109,30,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-12,text,true,,1761,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,29,0,0
+1687706469139,26,/api/v2/contest-type/4,200,OK,PokeApi - run 1-12,text,true,,1753,136,20,20,https://pokeapi.co/api/v2/contest-type/4,26,0,0
+1687706469166,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-12,text,true,,2278,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,21,0,0
+1687706469745,24,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-7,text,true,,1758,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,24,0,0
+1687706469776,21,/api/v2/contest-type/5,200,OK,PokeApi - run 1-7,text,true,,1756,136,20,20,https://pokeapi.co/api/v2/contest-type/5,21,0,0
+1687706469798,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-7,text,true,,5919,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,20,0,0
+1687706470341,27,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-20,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,26,0,0
+1687706470368,21,/api/v2/contest-type/1,200,OK,PokeApi - run 1-20,text,true,,1756,136,20,20,https://pokeapi.co/api/v2/contest-type/1,21,0,0
+1687706470389,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-20,text,true,,2360,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,23,0,0
+1687706470938,32,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-13,text,true,,1753,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,32,0,0
+1687706470970,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-13,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/2,21,0,0
+1687706470992,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-13,text,true,,1818,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,21,0,0
+1687706471542,27,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-5,text,true,,1762,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,27,0,0
+1687706471570,22,/api/v2/contest-type/3,200,OK,PokeApi - run 1-5,text,true,,1779,136,20,20,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706471592,24,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,24,0,0
+1687706472142,41,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-6,text,true,,1757,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,41,0,0
+1687706472184,21,/api/v2/contest-type/4,200,OK,PokeApi - run 1-6,text,true,,1759,136,20,20,https://pokeapi.co/api/v2/contest-type/4,20,0,0
+1687706472205,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-6,text,true,,2272,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,22,0,0
+1687706472732,39,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-16,text,true,,1754,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,38,0,0
+1687706472805,21,/api/v2/contest-type/5,200,OK,PokeApi - run 1-16,text,true,,1760,136,20,20,https://pokeapi.co/api/v2/contest-type/5,21,0,0
+1687706472826,28,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-16,text,true,,5915,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,27,0,0
+1687706473329,25,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-17,text,true,,1762,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,25,0,0
+1687706473354,22,/api/v2/contest-type/1,200,OK,PokeApi - run 1-17,text,true,,1755,136,20,20,https://pokeapi.co/api/v2/contest-type/1,21,0,0
+1687706473376,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-17,text,true,,2344,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,22,0,0
+1687706473942,26,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-14,text,true,,1757,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,26,0,0
+1687706473969,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-14,text,true,,1777,136,20,20,https://pokeapi.co/api/v2/contest-type/2,20,0,0
+1687706473990,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-14,text,true,,1816,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,23,0,0
+1687706474537,25,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-15,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,25,0,0
+1687706474563,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-15,text,true,,1771,136,20,20,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706474584,23,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",990,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,23,0,0
+1687706475149,32,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-4,text,true,,1755,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,32,0,0
+1687706475182,22,/api/v2/contest-type/4,200,OK,PokeApi - run 1-4,text,true,,1755,136,20,20,https://pokeapi.co/api/v2/contest-type/4,22,0,0
+1687706475299,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-4,text,true,,2276,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,22,0,0
+1687706475672,29,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-19,text,true,,1760,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,28,0,0
+1687706475794,28,/api/v2/contest-type/5,200,OK,PokeApi - run 1-19,text,true,,1760,136,20,20,https://pokeapi.co/api/v2/contest-type/5,27,0,0
+1687706475822,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-19,text,true,,5921,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,20,0,0
+1687706476340,34,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-11,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,34,0,0
+1687706476374,23,/api/v2/contest-type/1,200,OK,PokeApi - run 1-11,text,true,,1754,136,20,20,https://pokeapi.co/api/v2/contest-type/1,23,0,0
+1687706476397,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-11,text,true,,2356,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,23,0,0
+1687706476932,27,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-2,text,true,,1761,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,27,0,0
+1687706476960,20,/api/v2/contest-type/2,200,OK,PokeApi - run 1-2,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/2,19,0,0
+1687706476980,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-2,text,true,,1814,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,23,0,0
+1687706477545,28,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-1,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,27,0,0
+1687706477573,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-1,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706477594,20,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,20,0,0
+1687706478140,26,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-18,text,true,,1759,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,26,0,0
+1687706478166,23,/api/v2/contest-type/4,200,OK,PokeApi - run 1-18,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/4,22,0,0
+1687706478189,27,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-18,text,true,,2270,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,27,0,0
+1687706478735,28,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-10,text,true,,1764,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,28,0,0
+1687706478809,36,/api/v2/contest-type/5,200,OK,PokeApi - run 1-10,text,true,,1762,136,20,20,https://pokeapi.co/api/v2/contest-type/5,35,0,0
+1687706478845,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-10,text,true,,5915,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,22,0,0
+1687706479341,37,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-8,text,true,,1754,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,37,0,0
+1687706479378,26,/api/v2/contest-type/1,200,OK,PokeApi - run 1-8,text,true,,1749,136,20,20,https://pokeapi.co/api/v2/contest-type/1,26,0,0
+1687706479404,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-8,text,true,,2348,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,21,0,0
+1687706479934,31,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-9,text,true,,1755,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,31,0,0
+1687706479967,20,/api/v2/contest-type/2,200,OK,PokeApi - run 1-9,text,true,,1779,136,20,20,https://pokeapi.co/api/v2/contest-type/2,20,0,0
+1687706479988,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-9,text,true,,1810,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,22,0,0
+1687706480539,24,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-3,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,24,0,0
+1687706480563,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-3,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706480584,23,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",998,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,23,0,0
+1687706481029,26,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-12,text,true,,1771,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,26,0,0
+1687706481056,20,/api/v2/contest-type/4,200,OK,PokeApi - run 1-12,text,true,,1753,136,20,20,https://pokeapi.co/api/v2/contest-type/4,20,0,0
+1687706481077,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-12,text,true,,2276,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,24,0,0
+1687706481739,22,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-7,text,true,,1754,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,22,0,0
+1687706481761,21,/api/v2/contest-type/5,200,OK,PokeApi - run 1-7,text,true,,1760,136,20,20,https://pokeapi.co/api/v2/contest-type/5,21,0,0
+1687706481782,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-7,text,true,,5927,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,20,0,0
+1687706482340,25,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-20,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,25,0,0
+1687706482365,21,/api/v2/contest-type/1,200,OK,PokeApi - run 1-20,text,true,,1762,136,20,20,https://pokeapi.co/api/v2/contest-type/1,21,0,0
+1687706482386,27,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-20,text,true,,2352,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,27,0,0
+1687706482936,23,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-13,text,true,,1755,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,23,0,0
+1687706482960,20,/api/v2/contest-type/2,200,OK,PokeApi - run 1-13,text,true,,1785,136,20,20,https://pokeapi.co/api/v2/contest-type/2,20,0,0
+1687706482981,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-13,text,true,,1814,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,21,0,0
+1687706483537,22,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-5,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,22,0,0
+1687706483559,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-5,text,true,,1771,136,20,20,https://pokeapi.co/api/v2/contest-type/3,20,0,0
+1687706483580,27,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",990,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,27,0,0
+1687706484130,24,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-6,text,true,,1765,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,24,0,0
+1687706484155,19,/api/v2/contest-type/4,200,OK,PokeApi - run 1-6,text,true,,1759,136,20,20,https://pokeapi.co/api/v2/contest-type/4,19,0,0
+1687706484174,26,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-6,text,true,,2274,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,25,0,0
+1687706484690,27,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-16,text,true,,1756,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,27,0,0
+1687706484718,22,/api/v2/contest-type/5,200,OK,PokeApi - run 1-16,text,true,,1760,136,20,20,https://pokeapi.co/api/v2/contest-type/5,22,0,0
+1687706484741,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-16,text,true,,5923,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,21,0,0
+1687706485344,20,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-17,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,20,0,0
+1687706485365,21,/api/v2/contest-type/1,200,OK,PokeApi - run 1-17,text,true,,1753,136,20,20,https://pokeapi.co/api/v2/contest-type/1,21,0,0
+1687706485386,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-17,text,true,,2356,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,21,0,0
+1687706485942,23,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-14,text,true,,1759,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,23,0,0
+1687706485966,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-14,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/2,21,0,0
+1687706485987,28,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-14,text,true,,1812,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,28,0,0
+1687706486543,23,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-15,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,23,0,0
+1687706486566,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-15,text,true,,1783,136,20,20,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706486588,19,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,19,0,0
+1687706487040,23,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-4,text,true,,1765,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,23,0,0
+1687706487063,31,/api/v2/contest-type/4,200,OK,PokeApi - run 1-4,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/4,31,0,0
+1687706487094,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-4,text,true,,2274,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,24,0,0
+1687706487641,22,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-19,text,true,,1768,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,21,0,0
+1687706487663,33,/api/v2/contest-type/5,200,OK,PokeApi - run 1-19,text,true,,1756,136,20,20,https://pokeapi.co/api/v2/contest-type/5,32,0,0
+1687706487696,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-19,text,true,,5917,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,22,0,0
+1687706488329,24,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-11,text,true,,1760,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,24,0,0
+1687706488353,29,/api/v2/contest-type/1,200,OK,PokeApi - run 1-11,text,true,,1754,136,20,20,https://pokeapi.co/api/v2/contest-type/1,29,0,0
+1687706488382,27,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-11,text,true,,2354,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,25,0,0
+1687706488943,22,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-2,text,true,,1757,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,22,0,0
+1687706488966,24,/api/v2/contest-type/2,200,OK,PokeApi - run 1-2,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/2,23,0,0
+1687706488991,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-2,text,true,,1818,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,22,0,0
+1687706489544,30,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-1,text,true,,1754,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,29,0,0
+1687706489574,20,/api/v2/contest-type/3,200,OK,PokeApi - run 1-1,text,true,,1771,136,20,20,https://pokeapi.co/api/v2/contest-type/3,20,0,0
+1687706489595,24,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,24,0,0
+1687706490037,22,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-18,text,true,,1761,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,22,0,0
+1687706490060,23,/api/v2/contest-type/4,200,OK,PokeApi - run 1-18,text,true,,1755,136,20,20,https://pokeapi.co/api/v2/contest-type/4,22,0,0
+1687706490083,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-18,text,true,,2282,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,20,0,0
+1687706490679,27,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-10,text,true,,1764,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,27,0,0
+1687706490706,26,/api/v2/contest-type/5,200,OK,PokeApi - run 1-10,text,true,,1766,136,20,20,https://pokeapi.co/api/v2/contest-type/5,25,0,0
+1687706490850,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-10,text,true,,5921,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,21,0,0
+1687706491328,21,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-8,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,21,0,0
+1687706491385,19,/api/v2/contest-type/1,200,OK,PokeApi - run 1-8,text,true,,1753,136,20,20,https://pokeapi.co/api/v2/contest-type/1,19,0,0
+1687706491404,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-8,text,true,,2352,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,21,0,0
+1687706491933,24,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-9,text,true,,1755,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,24,0,0
+1687706491958,20,/api/v2/contest-type/2,200,OK,PokeApi - run 1-9,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/2,20,0,0
+1687706491979,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-9,text,true,,1816,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,21,0,0
+1687706492543,22,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-3,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,22,0,0
+1687706492565,25,/api/v2/contest-type/3,200,OK,PokeApi - run 1-3,text,true,,1785,136,20,20,https://pokeapi.co/api/v2/contest-type/3,25,0,0
+1687706492590,21,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,21,0,0
+1687706493140,24,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-12,text,true,,1765,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,24,0,0
+1687706493165,20,/api/v2/contest-type/4,200,OK,PokeApi - run 1-12,text,true,,1759,136,20,20,https://pokeapi.co/api/v2/contest-type/4,20,0,0
+1687706493185,33,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-12,text,true,,2276,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,33,0,0
+1687706493747,34,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-7,text,true,,1756,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,33,0,0
+1687706493844,23,/api/v2/contest-type/5,200,OK,PokeApi - run 1-7,text,true,,1758,136,20,20,https://pokeapi.co/api/v2/contest-type/5,23,0,0
+1687706493868,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-7,text,true,,5919,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,23,0,0
+1687706494340,23,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-20,text,true,,1754,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,23,0,0
+1687706494363,21,/api/v2/contest-type/1,200,OK,PokeApi - run 1-20,text,true,,1756,136,20,20,https://pokeapi.co/api/v2/contest-type/1,20,0,0
+1687706494384,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-20,text,true,,2348,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,20,0,0
+1687706494944,22,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-13,text,true,,1753,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,22,0,0
+1687706494967,20,/api/v2/contest-type/2,200,OK,PokeApi - run 1-13,text,true,,1779,136,20,20,https://pokeapi.co/api/v2/contest-type/2,19,0,0
+1687706494987,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-13,text,true,,1820,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,21,0,0
+1687706495544,22,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-5,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,22,0,0
+1687706495566,23,/api/v2/contest-type/3,200,OK,PokeApi - run 1-5,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/3,22,0,0
+1687706495589,22,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",988,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,22,0,0
+1687706496140,24,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-6,text,true,,1763,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,24,0,0
+1687706496164,26,/api/v2/contest-type/4,200,OK,PokeApi - run 1-6,text,true,,1757,136,20,20,https://pokeapi.co/api/v2/contest-type/4,26,0,0
+1687706496191,30,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-6,text,true,,2272,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,30,0,0
+1687706496740,26,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-16,text,true,,1758,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,26,0,0
+1687706496886,22,/api/v2/contest-type/5,200,OK,PokeApi - run 1-16,text,true,,1754,136,20,20,https://pokeapi.co/api/v2/contest-type/5,22,0,0
+1687706496908,27,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-16,text,true,,5925,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,26,0,0
+1687706497348,23,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-17,text,true,,1768,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,23,0,0
+1687706497372,21,/api/v2/contest-type/1,200,OK,PokeApi - run 1-17,text,true,,1755,136,20,20,https://pokeapi.co/api/v2/contest-type/1,21,0,0
+1687706497393,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-17,text,true,,2344,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,23,0,0
+1687706497940,107,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-14,text,true,,1759,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,107,0,67
+1687706498047,26,/api/v2/contest-type/2,200,OK,PokeApi - run 1-14,text,true,,1779,136,20,20,https://pokeapi.co/api/v2/contest-type/2,26,0,0
+1687706498073,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-14,text,true,,1816,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,22,0,0
+1687706498548,88,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-15,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,88,0,63
+1687706498637,22,/api/v2/contest-type/3,200,OK,PokeApi - run 1-15,text,true,,1756,136,20,20,https://pokeapi.co/api/v2/contest-type/3,22,0,0
+1687706498660,225,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",985,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,225,0,0
+1687706499135,109,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-4,text,true,,1761,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,108,0,50
+1687706499451,21,/api/v2/contest-type/4,200,OK,PokeApi - run 1-4,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/4,21,0,0
+1687706499472,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-4,text,true,,2272,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,23,0,0
+1687706499585,65,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-19,text,true,,1754,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,64,0,44
+1687706499650,21,/api/v2/contest-type/5,200,OK,PokeApi - run 1-19,text,true,,1758,136,20,20,https://pokeapi.co/api/v2/contest-type/5,20,0,0
+1687706499671,25,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-19,text,true,,5923,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,24,0,0
+1687706500335,80,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-11,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,80,0,54
+1687706500415,25,/api/v2/contest-type/1,200,OK,PokeApi - run 1-11,text,true,,1754,136,20,20,https://pokeapi.co/api/v2/contest-type/1,25,0,0
+1687706500440,26,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-11,text,true,,2346,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,25,0,0
+1687706500940,60,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-2,text,true,,1759,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,60,0,39
+1687706501000,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-2,text,true,,1755,136,20,20,https://pokeapi.co/api/v2/contest-type/2,20,0,0
+1687706501021,20,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-2,text,true,,1814,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,20,0,0
+1687706501537,66,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-1,text,true,,1760,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,66,0,45
+1687706501603,20,/api/v2/contest-type/3,200,OK,PokeApi - run 1-1,text,true,,1779,136,20,20,https://pokeapi.co/api/v2/contest-type/3,20,0,0
+1687706501624,26,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",984,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,26,0,0
+1687706502146,80,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-18,text,true,,1755,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,80,0,59
+1687706502226,21,/api/v2/contest-type/4,200,OK,PokeApi - run 1-18,text,true,,1755,136,20,20,https://pokeapi.co/api/v2/contest-type/4,21,0,0
+1687706502390,20,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-18,text,true,,2272,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,20,0,0
+1687706502620,77,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-10,text,true,,1756,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,77,0,54
+1687706502697,28,/api/v2/contest-type/5,200,OK,PokeApi - run 1-10,text,true,,1764,136,20,20,https://pokeapi.co/api/v2/contest-type/5,28,0,0
+1687706502725,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-10,text,true,,5915,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,20,0,0
+1687706503315,71,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-8,text,true,,1762,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,71,0,51
+1687706503456,20,/api/v2/contest-type/1,200,OK,PokeApi - run 1-8,text,true,,1755,136,20,20,https://pokeapi.co/api/v2/contest-type/1,20,0,0
+1687706503476,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-8,text,true,,2346,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,22,0,0
+1687706503947,74,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-9,text,true,,1759,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,74,0,53
+1687706504021,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-9,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/2,21,0,0
+1687706504043,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-9,text,true,,1816,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,22,0,0
+1687706504546,62,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-3,text,true,,1762,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,62,0,42
+1687706504609,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-3,text,true,,1781,136,20,20,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706504630,29,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,29,0,0
+1687706504963,75,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-12,text,true,,1753,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,74,0,49
+1687706505038,20,/api/v2/contest-type/4,200,OK,PokeApi - run 1-12,text,true,,1763,136,20,20,https://pokeapi.co/api/v2/contest-type/4,19,0,0
+1687706505058,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-12,text,true,,2274,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,22,0,0
+1687706505668,76,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-7,text,true,,1768,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,76,0,54
+1687706505744,20,/api/v2/contest-type/5,200,OK,PokeApi - run 1-7,text,true,,1758,136,20,20,https://pokeapi.co/api/v2/contest-type/5,20,0,0
+1687706505765,32,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-7,text,true,,5915,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,30,0,0
+1687706506349,65,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-20,text,true,,1760,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,65,0,42
+1687706506433,22,/api/v2/contest-type/1,200,OK,PokeApi - run 1-20,text,true,,1745,136,20,20,https://pokeapi.co/api/v2/contest-type/1,22,0,0
+1687706506456,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-20,text,true,,2354,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,24,0,0
+1687706506948,81,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-13,text,true,,1759,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,81,0,57
+1687706507029,23,/api/v2/contest-type/2,200,OK,PokeApi - run 1-13,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/2,23,0,0
+1687706507053,33,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-13,text,true,,1810,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,33,0,0
+1687706507543,64,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-5,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,64,0,43
+1687706507607,22,/api/v2/contest-type/3,200,OK,PokeApi - run 1-5,text,true,,1773,136,20,20,https://pokeapi.co/api/v2/contest-type/3,22,0,0
+1687706507629,23,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",988,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,23,0,0
+1687706507971,77,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-6,text,true,,1755,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,77,0,53
+1687706508048,21,/api/v2/contest-type/4,200,OK,PokeApi - run 1-6,text,true,,1763,136,20,20,https://pokeapi.co/api/v2/contest-type/4,21,0,0
+1687706508070,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-6,text,true,,2270,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,20,0,0
+1687706508617,64,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-16,text,true,,1760,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,64,0,43
+1687706508682,26,/api/v2/contest-type/5,200,OK,PokeApi - run 1-16,text,true,,1756,136,20,20,https://pokeapi.co/api/v2/contest-type/5,26,0,0
+1687706508708,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-16,text,true,,5917,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,22,0,0
+1687706509345,73,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-17,text,true,,1756,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,73,0,51
+1687706509418,21,/api/v2/contest-type/1,200,OK,PokeApi - run 1-17,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/1,21,0,0
+1687706509440,31,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-17,text,true,,2346,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,31,0,0
+1687706509857,26,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-14,text,true,,1761,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,26,0,0
+1687706509964,20,/api/v2/contest-type/2,200,OK,PokeApi - run 1-14,text,true,,1777,136,20,20,https://pokeapi.co/api/v2/contest-type/2,20,0,0
+1687706509985,29,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-14,text,true,,1810,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,29,0,0
+1687706510255,24,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-15,text,true,,1758,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,23,0,0
+1687706510469,25,/api/v2/contest-type/3,200,OK,PokeApi - run 1-15,text,true,,1752,136,20,20,https://pokeapi.co/api/v2/contest-type/3,25,0,0
+1687706510494,26,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",988,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,26,0,0
+1687706510852,24,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-4,text,true,,1757,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,24,0,0
+1687706511029,21,/api/v2/contest-type/4,200,OK,PokeApi - run 1-4,text,true,,1759,136,20,20,https://pokeapi.co/api/v2/contest-type/4,20,0,0
+1687706511050,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-4,text,true,,2270,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,20,0,0
+1687706511702,30,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-19,text,true,,1758,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,30,0,0
+1687706511733,20,/api/v2/contest-type/5,200,OK,PokeApi - run 1-19,text,true,,1768,136,20,20,https://pokeapi.co/api/v2/contest-type/5,20,0,0
+1687706511999,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-19,text,true,,5921,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,22,0,0
+1687706512281,24,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-11,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,24,0,0
+1687706512441,28,/api/v2/contest-type/1,200,OK,PokeApi - run 1-11,text,true,,1752,136,20,20,https://pokeapi.co/api/v2/contest-type/1,28,0,0
+1687706512469,27,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-11,text,true,,2348,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,27,0,0
+1687706512911,27,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-2,text,true,,1757,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,27,0,0
+1687706512938,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-2,text,true,,1757,136,20,20,https://pokeapi.co/api/v2/contest-type/2,21,0,0
+1687706512960,20,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-2,text,true,,1814,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,20,0,0
+1687706513501,23,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-1,text,true,,1754,140,20,20,https://pokeapi.co/api/v2/contest-type/cute/,23,0,0
+1687706513524,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-1,text,true,,1777,136,20,20,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706513545,21,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",986,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/3/,21,0,0
+1687706513949,24,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-18,text,true,,1755,141,20,20,https://pokeapi.co/api/v2/contest-type/smart/,23,0,0
+1687706513973,20,/api/v2/contest-type/4,200,OK,PokeApi - run 1-18,text,true,,1761,136,20,20,https://pokeapi.co/api/v2/contest-type/4,20,0,0
+1687706513994,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-18,text,true,,2276,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/4/,21,0,0
+1687706514495,23,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-10,text,true,,1762,141,20,20,https://pokeapi.co/api/v2/contest-type/tough/,23,0,0
+1687706514519,22,/api/v2/contest-type/5,200,OK,PokeApi - run 1-10,text,true,,1764,136,20,20,https://pokeapi.co/api/v2/contest-type/5,22,0,0
+1687706514541,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-10,text,true,,5917,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/5/,22,0,0
+1687706515228,23,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-8,text,true,,1764,140,20,20,https://pokeapi.co/api/v2/contest-type/cool/,23,0,0
+1687706515252,20,/api/v2/contest-type/1,200,OK,PokeApi - run 1-8,text,true,,1749,136,20,20,https://pokeapi.co/api/v2/contest-type/1,20,0,0
+1687706515471,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-8,text,true,,2350,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/1/,20,0,0
+1687706515895,22,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-9,text,true,,1751,142,20,20,https://pokeapi.co/api/v2/contest-type/beauty/,22,0,0
+1687706515924,22,/api/v2/contest-type/2,200,OK,PokeApi - run 1-9,text,true,,1753,136,20,20,https://pokeapi.co/api/v2/contest-type/2,22,0,0
+1687706515946,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-9,text,true,,1810,190,20,20,https://pokeapi.co/api/v2/super-contest-effect/2/,23,0,0
+1687706516500,23,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-3,text,true,,1758,140,19,19,https://pokeapi.co/api/v2/contest-type/cute/,23,0,0
+1687706516523,21,/api/v2/contest-type/3,200,OK,PokeApi - run 1-3,text,true,,1779,136,19,19,https://pokeapi.co/api/v2/contest-type/3,21,0,0
+1687706516545,28,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",982,190,19,19,https://pokeapi.co/api/v2/super-contest-effect/3/,28,0,0
+1687706517094,27,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-12,text,true,,1761,141,18,18,https://pokeapi.co/api/v2/contest-type/smart/,27,0,0
+1687706517121,23,/api/v2/contest-type/4,200,OK,PokeApi - run 1-12,text,true,,1761,136,18,18,https://pokeapi.co/api/v2/contest-type/4,23,0,0
+1687706517144,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-12,text,true,,2268,190,18,18,https://pokeapi.co/api/v2/super-contest-effect/4/,23,0,0
+1687706517683,29,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-7,text,true,,1762,141,17,17,https://pokeapi.co/api/v2/contest-type/tough/,29,0,0
+1687706517713,21,/api/v2/contest-type/5,200,OK,PokeApi - run 1-7,text,true,,1766,136,17,17,https://pokeapi.co/api/v2/contest-type/5,20,0,0
+1687706517734,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-7,text,true,,5923,190,17,17,https://pokeapi.co/api/v2/super-contest-effect/5/,21,0,0
+1687706518280,27,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-20,text,true,,1758,140,16,16,https://pokeapi.co/api/v2/contest-type/cool/,27,0,0
+1687706518308,21,/api/v2/contest-type/1,200,OK,PokeApi - run 1-20,text,true,,1757,136,16,16,https://pokeapi.co/api/v2/contest-type/1,21,0,0
+1687706518329,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-20,text,true,,2352,190,16,16,https://pokeapi.co/api/v2/super-contest-effect/1/,20,0,0
+1687706518876,27,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-13,text,true,,1759,142,15,15,https://pokeapi.co/api/v2/contest-type/beauty/,27,0,0
+1687706518958,45,/api/v2/contest-type/2,200,OK,PokeApi - run 1-13,text,true,,1753,136,15,15,https://pokeapi.co/api/v2/contest-type/2,45,0,0
+1687706519003,27,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-13,text,true,,1816,190,15,15,https://pokeapi.co/api/v2/super-contest-effect/2/,27,0,0
+1687706519504,22,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-5,text,true,,1756,140,14,14,https://pokeapi.co/api/v2/contest-type/cute/,22,0,0
+1687706519526,23,/api/v2/contest-type/3,200,OK,PokeApi - run 1-5,text,true,,1779,136,14,14,https://pokeapi.co/api/v2/contest-type/3,23,0,0
+1687706519549,36,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",984,190,14,14,https://pokeapi.co/api/v2/super-contest-effect/3/,36,0,0
+1687706520093,23,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-6,text,true,,1763,141,13,13,https://pokeapi.co/api/v2/contest-type/smart/,22,0,0
+1687706520116,20,/api/v2/contest-type/4,200,OK,PokeApi - run 1-6,text,true,,1759,136,13,13,https://pokeapi.co/api/v2/contest-type/4,20,0,0
+1687706520137,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-6,text,true,,2270,190,13,13,https://pokeapi.co/api/v2/super-contest-effect/4/,23,0,0
+1687706520697,21,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-16,text,true,,1764,141,12,12,https://pokeapi.co/api/v2/contest-type/tough/,21,0,0
+1687706520719,22,/api/v2/contest-type/5,200,OK,PokeApi - run 1-16,text,true,,1752,136,12,12,https://pokeapi.co/api/v2/contest-type/5,22,0,0
+1687706520742,28,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-16,text,true,,5921,190,12,12,https://pokeapi.co/api/v2/super-contest-effect/5/,27,0,0
+1687706521284,23,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-17,text,true,,1760,140,11,11,https://pokeapi.co/api/v2/contest-type/cool/,23,0,0
+1687706521510,25,/api/v2/contest-type/1,200,OK,PokeApi - run 1-17,text,true,,1745,136,11,11,https://pokeapi.co/api/v2/contest-type/1,25,0,0
+1687706521535,24,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-17,text,true,,2354,190,11,11,https://pokeapi.co/api/v2/super-contest-effect/1/,24,0,0
+1687706521856,23,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-14,text,true,,1763,142,10,10,https://pokeapi.co/api/v2/contest-type/beauty/,23,0,0
+1687706522010,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-14,text,true,,1777,136,10,10,https://pokeapi.co/api/v2/contest-type/2,21,0,0
+1687706522032,23,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-14,text,true,,1814,190,10,10,https://pokeapi.co/api/v2/super-contest-effect/2/,22,0,0
+1687706522348,30,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-15,text,true,,1754,140,9,9,https://pokeapi.co/api/v2/contest-type/cute/,30,0,0
+1687706522485,22,/api/v2/contest-type/3,200,OK,PokeApi - run 1-15,text,true,,1760,136,9,9,https://pokeapi.co/api/v2/contest-type/3,22,0,0
+1687706522508,25,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",986,190,9,9,https://pokeapi.co/api/v2/super-contest-effect/3/,25,0,0
+1687706522994,23,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-4,text,true,,1765,141,8,8,https://pokeapi.co/api/v2/contest-type/smart/,23,0,0
+1687706523018,24,/api/v2/contest-type/4,200,OK,PokeApi - run 1-4,text,true,,1759,136,8,8,https://pokeapi.co/api/v2/contest-type/4,24,0,0
+1687706523042,28,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-4,text,true,,2274,190,8,8,https://pokeapi.co/api/v2/super-contest-effect/4/,28,0,0
+1687706523492,29,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-19,text,true,,1760,141,7,7,https://pokeapi.co/api/v2/contest-type/tough/,29,0,0
+1687706523522,20,/api/v2/contest-type/5,200,OK,PokeApi - run 1-19,text,true,,1768,136,7,7,https://pokeapi.co/api/v2/contest-type/5,19,0,0
+1687706523542,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-19,text,true,,5923,190,7,7,https://pokeapi.co/api/v2/super-contest-effect/5/,20,0,0
+1687706524199,34,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-11,text,true,,1762,140,6,6,https://pokeapi.co/api/v2/contest-type/cool/,34,0,0
+1687706524233,22,/api/v2/contest-type/1,200,OK,PokeApi - run 1-11,text,true,,1758,136,6,6,https://pokeapi.co/api/v2/contest-type/1,22,0,0
+1687706524256,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-11,text,true,,2342,190,6,6,https://pokeapi.co/api/v2/super-contest-effect/1/,21,0,0
+1687706524950,23,/api/v2/contest-type/beauty/,200,OK,PokeApi - run 1-2,text,true,,1755,142,5,5,https://pokeapi.co/api/v2/contest-type/beauty/,23,0,0
+1687706525027,21,/api/v2/contest-type/2,200,OK,PokeApi - run 1-2,text,true,,1747,136,5,5,https://pokeapi.co/api/v2/contest-type/2,21,0,0
+1687706525049,32,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-2,text,true,,1818,190,5,5,https://pokeapi.co/api/v2/super-contest-effect/2/,32,0,0
+1687706525548,35,/api/v2/contest-type/cute/,200,OK,PokeApi - run 1-1,text,true,,1762,140,4,4,https://pokeapi.co/api/v2/contest-type/cute/,35,0,0
+1687706525584,24,/api/v2/contest-type/3,200,OK,PokeApi - run 1-1,text,true,,1777,136,4,4,https://pokeapi.co/api/v2/contest-type/3,24,0,0
+1687706525609,21,/api/v2/super-contest-effect/${superrEffect}/,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",982,190,4,4,https://pokeapi.co/api/v2/super-contest-effect/3/,21,0,0
+1687706526147,24,/api/v2/contest-type/smart/,200,OK,PokeApi - run 1-18,text,true,,1751,141,3,3,https://pokeapi.co/api/v2/contest-type/smart/,24,0,0
+1687706526172,22,/api/v2/contest-type/4,200,OK,PokeApi - run 1-18,text,true,,1755,136,3,3,https://pokeapi.co/api/v2/contest-type/4,22,0,0
+1687706526195,22,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-18,text,true,,2268,190,3,3,https://pokeapi.co/api/v2/super-contest-effect/4/,21,0,0
+1687706526745,24,/api/v2/contest-type/tough/,200,OK,PokeApi - run 1-10,text,true,,1764,141,2,2,https://pokeapi.co/api/v2/contest-type/tough/,24,0,0
+1687706526769,24,/api/v2/contest-type/5,200,OK,PokeApi - run 1-10,text,true,,1760,136,2,2,https://pokeapi.co/api/v2/contest-type/5,23,0,0
+1687706527007,21,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-10,text,true,,5919,190,2,2,https://pokeapi.co/api/v2/super-contest-effect/5/,20,0,0
+1687706527148,36,/api/v2/contest-type/cool/,200,OK,PokeApi - run 1-8,text,true,,1762,140,1,1,https://pokeapi.co/api/v2/contest-type/cool/,36,0,0
+1687706527184,28,/api/v2/contest-type/1,200,OK,PokeApi - run 1-8,text,true,,1753,136,1,1,https://pokeapi.co/api/v2/contest-type/1,27,0,0
+1687706527212,20,/api/v2/super-contest-effect/${superrEffect}/,200,OK,PokeApi - run 1-8,text,true,,2346,190,1,1,https://pokeapi.co/api/v2/super-contest-effect/1/,20,0,0

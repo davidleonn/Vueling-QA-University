@@ -1,0 +1,70 @@
+2023-06-23 13:09:34,268 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-06-23 13:09:34,285 INFO o.a.j.JMeter: Loading user properties from: C:\Users\David León\.bzt\jmeter-taurus\5.4.3\bin\user.properties
+2023-06-23 13:09:34,285 INFO o.a.j.JMeter: Loading system properties from: C:\Users\David León\.bzt\jmeter-taurus\5.4.3\bin\system.properties
+2023-06-23 13:09:34,286 INFO o.a.j.JMeter: Loading additional properties from: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\jmeter-bzt.properties
+2023-06-23 13:09:34,300 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2023-06-23 13:09:34,300 INFO o.a.j.JMeter: Version 5.4.3
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: java.version=1.8.0_371
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: os.name=Windows 10
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: os.arch=x86
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: os.version=10.0
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: java.awt.headless=true
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-06-23 13:09:34,301 INFO o.a.j.JMeter: Available Processors =8
+2023-06-23 13:09:34,310 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-06-23 13:09:34,311 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-06-23 13:09:34,311 INFO o.a.j.JMeter: JMeterHome=C:\Users\David León\.bzt\jmeter-taurus\5.4.3
+2023-06-23 13:09:34,311 INFO o.a.j.JMeter: user.dir  =C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+2023-06-23 13:09:34,312 INFO o.a.j.JMeter: PWD       =C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+2023-06-23 13:09:34,313 INFO o.a.j.JMeter: IP: 192.168.1.80 Name: LAPTOP-SQF0SNRG FullName: LAPTOP-SQF0SNRG
+2023-06-23 13:09:34,313 INFO o.a.j.JMeter: user.classpath=C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio3;C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio3
+2023-06-23 13:09:34,314 INFO o.a.j.JMeter: Adding to classpath and loader: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio3
+2023-06-23 13:09:34,315 INFO o.a.j.JMeter: Adding to classpath and loader: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio3
+2023-06-23 13:09:34,323 INFO o.a.j.s.FileServer: Default base='C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3'
+2023-06-23 13:09:34,324 INFO o.a.j.s.FileServer: Set new base='C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3'
+2023-06-23 13:09:34,553 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-06-23 13:09:34,596 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-06-23 13:09:34,602 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-06-23 13:09:34,611 INFO o.a.j.s.SaveService: Loading file: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\modified_pokeapi.jmx
+2023-06-23 13:09:34,803 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-06-23 13:09:34,803 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-06-23 13:09:34,803 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-06-23 13:09:34,803 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-06-23 13:09:34,803 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-06-23 13:09:34,803 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-06-23 13:09:34,872 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-06-23 13:09:34,874 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-06-23 13:09:34,875 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-06-23 13:09:34,897 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-06-23 13:09:34,897 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-06-23 13:09:35,607 INFO o.a.j.JMeter: Running test (1687518575606)
+2023-06-23 13:09:35,670 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Pokemons with same ability
+2023-06-23 13:09:35,670 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Pokemons with same ability.
+2023-06-23 13:09:35,670 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-06-23 13:09:35,670 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=0 delayedStart=false
+2023-06-23 13:09:35,687 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-06-23 13:09:35,687 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-06-23 13:09:35,882 INFO o.a.j.t.JMeterThread: Thread started: Pokemons with same ability 1-2
+2023-06-23 13:09:35,882 INFO o.a.j.t.JMeterThread: Thread started: Pokemons with same ability 1-1
+2023-06-23 13:09:35,884 INFO o.a.j.s.FileServer: Stored: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio3/pokemon.csv
+2023-06-23 13:09:35,952 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-SQF0SNRG
+2023-06-23 13:09:35,985 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-06-23 13:09:35,990 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-06-23 13:09:35,990 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-06-23 13:09:35,990 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-06-23 13:09:35,990 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-06-23 13:09:36,233 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-06-23 13:09:36,248 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-06-23 13:09:36,248 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-06-23 13:09:37,111 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-06-23 13:09:37,114 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-06-23 13:09:37,114 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-06-23 13:10:35,688 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Pokemons with same ability 1-2
+2023-06-23 13:10:35,688 INFO o.a.j.t.JMeterThread: Thread finished: Pokemons with same ability 1-2
+2023-06-23 13:10:35,694 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Pokemons with same ability 1-1
+2023-06-23 13:10:35,694 INFO o.a.j.t.JMeterThread: Thread finished: Pokemons with same ability 1-1
+2023-06-23 13:10:35,694 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-06-23 13:10:35,694 INFO o.a.j.s.FileServer: Close: C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio3/pokemon.csv
+2023-06-23 13:10:35,697 INFO o.a.j.e.StandardJMeterEngine: Forced JVM shutdown requested at end of test

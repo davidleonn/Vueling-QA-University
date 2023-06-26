@@ -1,0 +1,260 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687706451557,43,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",996,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,43,0,0
+1687706451574,32,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",998,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,32,0,0
+1687706451585,46,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1000,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,46,0,0
+1687706451587,47,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,47,0,0
+1687706451585,228,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",983,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,228,0,0
+1687706464863,26,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",996,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,26,0,0
+1687706467226,22,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",996,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,22,0,0
+1687706469621,37,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,37,0,0
+1687706471982,205,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",983,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,205,0,0
+1687706474257,26,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,26,0,0
+1687706477084,23,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",996,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,23,0,0
+1687706479498,24,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,24,0,0
+1687706481879,21,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,21,0,0
+1687706484103,19,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",990,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,19,0,0
+1687706486683,21,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,21,0,0
+1687706489095,20,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,20,0,0
+1687706491498,31,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,31,0,0
+1687706493891,21,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1000,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,21,0,0
+1687706496297,20,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,20,0,0
+1687706498688,23,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1000,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,23,0,0
+1687706501089,23,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",996,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,23,0,0
+1687706503471,20,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",998,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,20,0,0
+1687706505892,20,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",998,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,20,0,0
+1687706508302,22,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,22,0,0
+1687706510689,30,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",998,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,30,0,0
+1687706513145,25,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1002,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,25,0,0
+1687706515532,21,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",998,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,21,0,0
+1687706517950,24,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",994,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,24,0,0
+1687706520329,29,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",996,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,28,0,0
+1687706522732,20,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",996,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,19,0,0
+1687706525045,21,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,21,0,0
+1687706527456,26,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1000,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,25,0,0
+1687706529835,26,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1000,139,20,20,https://pokeapi.co/api/v2/pokedex/digiworld,26,0,0
+1687706532242,20,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",990,139,16,16,https://pokeapi.co/api/v2/pokedex/digiworld,20,0,0
+1687706534647,20,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1002,139,12,12,https://pokeapi.co/api/v2/pokedex/digiworld,20,0,0
+1687706537088,19,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",998,139,8,8,https://pokeapi.co/api/v2/pokedex/digiworld,19,0,0
+1687706539489,26,/api/v2/pokedex/digiworld,404,Not Found,PokeApi - run 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",992,139,4,4,https://pokeapi.co/api/v2/pokedex/digiworld,26,0,0

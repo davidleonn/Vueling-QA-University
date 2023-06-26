@@ -1,0 +1,754 @@
+[2023-06-23 13:09:24,631 INFO root] Taurus CLI Tool v1.16.23
+[2023-06-23 13:09:24,634 DEBUG root] Build: 14504 Wed May 24 10:40:08 UTC 2023
+[2023-06-23 13:09:24,634 DEBUG root] Extended git info:  5902bf48 Changelog 1.16.23
+[2023-06-23 13:09:24,634 DEBUG root] Command-line options: {'log': 'C:\\Users\\DAVIDL~1\\AppData\\Local\\Temp\\bzt_9k5vvee3.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2023-06-23 13:09:24,634 DEBUG root] Python: CPython 3.11.4
+[2023-06-23 13:09:24,634 DEBUG root] OS: uname_result(system='Windows', node='LAPTOP-SQF0SNRG', release='10', version='10.0.19045', machine='AMD64')
+[2023-06-23 13:09:24,635 DEBUG root] Path to interpreter: C:\Users\David León\AppData\Local\Programs\Python\Python311\python.exe
+[2023-06-23 13:09:24,635 DEBUG root] Path to packages: ['C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\bzt.exe', 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip', 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\DLLs', 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib', 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311', 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages']
+[2023-06-23 13:09:24,638 DEBUG root] Default python: C:\Users\David León\AppData\Local\Programs\Python\Python311\python.EXE
+[2023-06-23 13:09:24,640 DEBUG root] Default python3: C:\Users\David León\AppData\Local\Microsoft\WindowsApps\python3.EXE
+[2023-06-23 13:09:24,641 DEBUG root] Using personal config: C:\Users\David León\.bzt-rc
+[2023-06-23 13:09:24,641 INFO root] Starting with configs: ['C:\\Users\\David León\\.bzt-rc', 'test.yaml']
+[2023-06-23 13:09:24,641 INFO Engine] Configuring...
+[2023-06-23 13:09:24,702 DEBUG Engine] Base configs list: ['C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\resources/10-base-config.yml']
+[2023-06-23 13:09:24,702 DEBUG Engine.Configuration] Configs: ['C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\resources/10-base-config.yml']
+[2023-06-23 13:09:24,703 DEBUG Engine.Configuration] Reading C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\resources/10-base-config.yml as YAML
+[2023-06-23 13:09:24,712 DEBUG Engine] User configs list: ['C:\\Users\\David León\\.bzt-rc', 'test.yaml']
+[2023-06-23 13:09:24,712 DEBUG Engine.Configuration] Configs: ['C:\\Users\\David León\\.bzt-rc', 'test.yaml']
+[2023-06-23 13:09:24,713 DEBUG Engine.Configuration] Reading C:\Users\David León\.bzt-rc as YAML
+[2023-06-23 13:09:24,716 DEBUG Engine.Configuration] Reading test.yaml as YAML
+[2023-06-23 13:09:24,718 DEBUG Engine.Configuration] Configs: ['C:\\Users\\David León\\.bzt-rc', 'test.yaml']
+[2023-06-23 13:09:24,718 DEBUG Engine.Configuration] Reading C:\Users\David León\.bzt-rc as YAML
+[2023-06-23 13:09:24,720 DEBUG Engine.Configuration] Reading test.yaml as YAML
+[2023-06-23 13:09:24,722 INFO HTTPClient] Proxy settings not set
+[2023-06-23 13:09:24,724 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.16.23&installID=windows-88a4c2b455f5
+[2023-06-23 13:09:24,724 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.16.23&installID=windows-88a4c2b455f5
+[2023-06-23 13:09:24,724 INFO Engine] Artifacts dir: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+[2023-06-23 13:09:24,724 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective
+[2023-06-23 13:09:24,726 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.yml
+[2023-06-23 13:09:24,735 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.json
+[2023-06-23 13:09:24,736 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2023-06-23 13:09:24,736 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\merged.yml
+[2023-06-23 13:09:24,736 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\merged.yml
+[2023-06-23 13:09:24,739 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\merged.json
+[2023-06-23 13:09:24,739 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\merged.json
+[2023-06-23 13:09:24,740 DEBUG Engine] Add existing artifact (move=False): C:\Users\David León\.bzt-rc
+[2023-06-23 13:09:24,740 DEBUG Engine] Copying C:\Users\David León\.bzt-rc to C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\.bzt-rc
+[2023-06-23 13:09:24,741 DEBUG Engine] Add existing artifact (move=False): test.yaml
+[2023-06-23 13:09:24,741 DEBUG Engine] No need to copy test.yaml
+[2023-06-23 13:09:24,741 DEBUG Engine] Set PYTHONPATH to :
+	CURRENT: '' +
+	TEMP: 'C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\python-packages\3.11.4' +
+	USER: 'C:\Users\David León\.bzt\python-packages\3.11.4'
+[2023-06-23 13:09:24,741 DEBUG Engine] Content of user packages dir: []
+[2023-06-23 13:09:24,742 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2023-06-23 13:09:24,742 DEBUG Engine] OS env: BASE_DIR=C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+[2023-06-23 13:09:24,742 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+[2023-06-23 13:09:24,742 DEBUG root] Closing log handler: C:\Users\DAVIDL~1\AppData\Local\Temp\bzt_9k5vvee3.log
+[2023-06-23 13:09:24,748 DEBUG root] Switched writing logs to C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\bzt.log
+[2023-06-23 13:09:24,748 DEBUG root] Linting config
+[2023-06-23 13:09:24,750 INFO Engine] Preparing...
+[2023-06-23 13:09:24,750 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2023-06-23 13:09:24,751 DEBUG root] Importing module: bzt.modules.aggregator
+[2023-06-23 13:09:24,962 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\aggregator.py'>
+[2023-06-23 13:09:24,962 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2023-06-23 13:09:24,962 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2023-06-23 13:09:24,962 DEBUG root] Importing module: bzt.modules.monitoring
+[2023-06-23 13:09:24,964 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\monitoring.py'>
+[2023-06-23 13:09:24,965 DEBUG Engine] Module config: shellexec {'class': 'bzt.modules.shellexec.ShellExecutor'}
+[2023-06-23 13:09:24,965 DEBUG root] Importing module: bzt.modules.shellexec
+[2023-06-23 13:09:24,965 DEBUG root] Loading class: 'ShellExecutor' from <module 'bzt.modules.shellexec' from 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\shellexec.py'>
+[2023-06-23 13:09:24,966 DEBUG Engine.shellexec] Added post-process task: {'command': 'mkdir C:\\Users\\David León\\Desktop\\Vueling\\Jmeter\\PokeAPI\\Ejercicio3\\HTML'}
+[2023-06-23 13:09:24,966 DEBUG Engine.shellexec] Added post-process task: {'command': 'jmeter -g C:\\Users\\David León\\Desktop\\Vueling\\Jmeter\\PokeAPI\\Ejercicio3\\Results.csv -o C:\\Users\\David León\\Desktop\\Vueling\\Jmeter\\PokeAPI\\Ejercicio3\\HTML'}
+[2023-06-23 13:09:24,966 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2023-06-23 13:09:24,966 DEBUG root] Importing module: bzt.modules.provisioning
+[2023-06-23 13:09:24,966 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\provisioning.py'>
+[2023-06-23 13:09:24,966 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler', 'mqtt': 'bzt.jmx.mqtt.MQTTProtocolHandler', 'grpc': 'bzt.jmx.grpc.GRPCProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2023-06-23 13:09:24,966 DEBUG root] Importing module: bzt.modules.jmeter
+[2023-06-23 13:09:25,010 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\jmeter.py'>
+[2023-06-23 13:09:25,010 DEBUG Engine.local] Preparing executor: jmeter/2109494016144
+[2023-06-23 13:09:25,010 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\jmeter.log
+[2023-06-23 13:09:25,010 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2023-06-23 13:09:25,012 DEBUG Engine.jmeter] Port 4445 is free
+[2023-06-23 13:09:25,012 DEBUG Engine.jmeter] Using port 4445 for management
+[2023-06-23 13:09:25,012 DEBUG Engine.jmeter] Getting Jmeter version.
+[2023-06-23 13:09:25,012 DEBUG Engine.jmeter] Autodetect version is enabled
+[2023-06-23 13:09:25,012 DEBUG Engine.jmeter] JMeter version: 5.4.3
+[2023-06-23 13:09:25,012 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': 'C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio3;C:/Users/David León/Desktop/Vueling/Jmeter/PokeAPI/Ejercicio3'}
+[2023-06-23 13:09:25,012 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\jmeter-bzt.properties
+[2023-06-23 13:09:25,014 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2023-06-23 13:09:25,014 DEBUG root] Executing shell: ['java', '-version'] at .
+[2023-06-23 13:09:25,080 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_371"
+Java(TM) SE Runtime Environment (build 1.8.0_371-b11)
+Java HotSpot(TM) Client VM (build 25.371-b11, mixed mode, sharing)
+
+[2023-06-23 13:09:25,080 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2023-06-23 13:09:25,080 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is not present
+[2023-06-23 13:09:25,082 DEBUG Engine.jmeter.TclLibrary] Tcl directory was found: C:\Users\David León\AppData\Local\Programs\Python\Python311\tcl\tcl8.6
+[2023-06-23 13:09:25,082 DEBUG Engine.jmeter.TclLibrary] Setting environment TCL_LIBRARY=C:\Users\David León\AppData\Local\Programs\Python\Python311\tcl\tcl8.6
+[2023-06-23 13:09:25,082 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2023-06-23 13:09:25,082 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is present
+[2023-06-23 13:09:25,082 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2023-06-23 13:09:25,083 DEBUG root] Executing shell: ['C:\\Users\\David León\\.bzt\\jmeter-taurus\\5.4.3\\bin\\jmeter.bat', '-j', 'C:\\Users\\DAVIDL~1\\AppData\\Local\\Temp\\jmeter89mtw6iqlog', '--version'] at .
+[2023-06-23 13:09:26,231 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.4.3
+
+Copyright (c) 1999-2021 The Apache Software Foundation
+
+ / 
+[2023-06-23 13:09:26,251 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\kpi.jtl
+[2023-06-23 13:09:26,252 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\error.jtl
+[2023-06-23 13:09:26,252 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=None, throughput=None, ramp_up=None, hold=0, iterations=1, duration=None, steps=None)
+[2023-06-23 13:09:26,252 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: duration not found, regular ThreadGroup will be used
+[2023-06-23 13:09:26,252 DEBUG Engine.jmeter.LoadSettingsProcessor] No iterations/concurrency/duration found, thread group modification is skipped
+[2023-06-23 13:09:26,253 DEBUG JMX] Saving JMX to: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\modified_pokeapi.jmx
+[2023-06-23 13:09:26,256 DEBUG root] Executing shell: ['C:\\Users\\David León\\.bzt\\jmeter-taurus\\5.4.3\\bin\\PluginsManagerCMD.bat', 'install-for-jmx', 'C:\\Users\\David León\\Desktop\\Vueling\\Jmeter\\PokeAPI\\Ejercicio3\\modified_pokeapi.jmx'] at .
+[2023-06-23 13:09:30,519 DEBUG urllib3.connectionpool] https://gettaurus.org:443 "GET /updates/?version=1.16.23&installID=windows-88a4c2b455f5 HTTP/1.1" 500 1096
+[2023-06-23 13:09:30,519 DEBUG Engine] Failed to check for updates, server returned 5xx NoneType: None
+
+[2023-06-23 13:09:30,519 WARNING Engine] Failed to check for updates, server returned 5xx.
+[2023-06-23 13:09:31,105 DEBUG Engine.jmeter.JMeter] Try to detect plugins for C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\modified_pokeapi.jmx
+2023-06-23 13:09:26,819 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2023-06-23 13:09:27,264 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_10-bb90f08a5e6caa2a16a7293683c434ce-nongui
+2023-06-23 13:09:29,639 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.2, jpgc-casutg=2.10, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.7, jpgc-tst=2.5, jmeter-core=5.4.3, jmeter-ftp=5.4.3, jmeter-http=5.4.3, jmeter-jdbc=5.4.3, jmeter-jms=5.4.3, jmeter-junit=5.4.3, jmeter-java=5.4.3, jmeter-ldap=5.4.3, jmeter-mail=5.4.3, jmeter-mongodb=5.4.3, jmeter-native=5.4.3, jmeter-tcp=5.4.3, jmeter-components=5.4.3]
+2023-06-23 13:09:29,641 INFO o.j.r.PluginManagerCMD: Params line is: C:\Users\David Len\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\modified_pokeapi.jmx
+2023-06-23 13:09:29,896 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-06-23 13:09:29,909 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-06-23 13:09:29,912 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-06-23 13:09:29,946 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-06-23 13:09:29,946 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-06-23 13:09:29,946 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-06-23 13:09:29,946 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-06-23 13:09:29,946 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-06-23 13:09:29,946 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-06-23 13:09:30,005 INFO o.j.r.PluginManager: Finishing without changes
+
+
+[2023-06-23 13:09:31,105 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\jmeter.out
+[2023-06-23 13:09:31,105 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\jmeter.err
+[2023-06-23 13:09:31,106 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2023-06-23 13:09:31,106 DEBUG root] Importing module: bzt.modules.reporting
+[2023-06-23 13:09:31,363 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\reporting.py'>
+[2023-06-23 13:09:31,363 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2023-06-23 13:09:31,363 DEBUG root] Importing module: bzt.modules.console
+[2023-06-23 13:09:31,364 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\console.py'>
+[2023-06-23 13:09:31,364 DEBUG Engine] Module config: blazemeter {'class': 'bzt.modules.blazemeter.BlazeMeterUploader'}
+[2023-06-23 13:09:31,364 DEBUG root] Importing module: bzt.modules.blazemeter
+[2023-06-23 13:09:31,364 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from 'C:\\Users\\David León\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\blazemeter\\__init__.py'>
+[2023-06-23 13:09:31,364 DEBUG Engine.console] Can't use 'console' screen, trying 'gui'
+[2023-06-23 13:09:31,368 WARNING Engine.blazemeter] No BlazeMeter API key provided, will upload anonymously
+[2023-06-23 13:09:31,368 DEBUG Engine.blazemeter] Installing http client
+[2023-06-23 13:09:31,368 DEBUG User] Request: GET https://a.blazemeter.com/api/v4/web/version None
+[2023-06-23 13:09:31,368 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/web/version
+[2023-06-23 13:09:31,369 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com:443
+[2023-06-23 13:09:31,945 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/web/version HTTP/1.1" 200 261
+[2023-06-23 13:09:31,945 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": "BACKEND-CI/release-2023-06-06 8 release-2023-06-06 3991cf08b2a851f4d47146cea6e26698294e3ba0 Thu Jun 22 10:46:51 2023 +0300 3991cf08b2a851f4d47146cea6e26698294e3ba0\n",
+    "request_id": "64957d6c538
+[2023-06-23 13:09:31,946 INFO Engine.blazemeter] Sending of engine metrics to happysocks is disabled. modules.blazemeter.happysocks-address setting was not provided
+[2023-06-23 13:09:31,947 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.yml
+[2023-06-23 13:09:31,956 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.json
+[2023-06-23 13:09:31,957 INFO Engine] Starting...
+[2023-06-23 13:09:31,958 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x000001EB275BD3D0>
+[2023-06-23 13:09:31,958 DEBUG Engine] Startup <bzt.modules.shellexec.ShellExecutor object at 0x000001EB27A3AFD0>
+[2023-06-23 13:09:31,958 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x000001EB27815D90>
+[2023-06-23 13:09:31,958 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x000001EB18DBF950>
+[2023-06-23 13:09:31,958 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x000001EB190288D0>
+[2023-06-23 13:09:31,958 INFO Engine.console] Waiting for results...
+[2023-06-23 13:09:31,958 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x000001EB28F5BF50>
+[2023-06-23 13:09:31,958 DEBUG Engine] Startup <bzt.modules.blazemeter.blazemeter_reporter.BlazeMeterUploader object at 0x000001EB28F70110>
+[2023-06-23 13:09:31,959 INFO Engine.blazemeter] Initiating data feeding...
+[2023-06-23 13:09:31,959 DEBUG User] Request: POST https://a.blazemeter.com/api/v4/sessions None
+[2023-06-23 13:09:31,959 DEBUG HTTPClient] Making HTTP request POST https://a.blazemeter.com/api/v4/sessions
+[2023-06-23 13:09:32,273 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/sessions HTTP/1.1" 201 3967
+[2023-06-23 13:09:32,273 DEBUG User] Response [201]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "session": {
+            "id": "r-ext-64957d6c7b725212560051",
+            "name": "external",
+            "userId": 386483,
+            "publicToken": "BiT35ik3zQXMAssbujnxpig66VlOsIdnIxLj
+[2023-06-23 13:09:32,274 INFO Engine.blazemeter] Started data feeding: https://a.blazemeter.com/app/?public-token=BiT35ik3zQXMAssbujnxpig66VlOsIdnIxLj7UJCgZ4i3upFEN#reports/r-ext-64957d6c7b725212560051/summary
+[2023-06-23 13:09:32,421 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x000001EB2792B5D0>
+[2023-06-23 13:09:32,422 DEBUG Engine.local] Delay setup for jmeter/smoke: 0(start-at) + 0(delay) = 0
+[2023-06-23 13:09:32,423 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.yml
+[2023-06-23 13:09:32,433 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.json
+[2023-06-23 13:09:32,435 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2023-06-23 13:09:32,435 DEBUG root] Leveled up log file verbosity
+[2023-06-23 13:09:32,435 DEBUG Engine] New artifact filename: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\GRACEFUL
+[2023-06-23 13:09:32,435 DEBUG root] Executing shell: ['C:\\Users\\David León\\.bzt\\jmeter-taurus\\5.4.3\\bin\\jmeter.bat', '-t', 'C:\\Users\\David León\\Desktop\\Vueling\\Jmeter\\PokeAPI\\Ejercicio3\\modified_pokeapi.jmx', '-j', 'C:\\Users\\David León\\Desktop\\Vueling\\Jmeter\\PokeAPI\\Ejercicio3\\jmeter.log', '-q', 'C:\\Users\\David León\\Desktop\\Vueling\\Jmeter\\PokeAPI\\Ejercicio3\\jmeter-bzt.properties', '-n'] at C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+[2023-06-23 13:09:32,438 DEBUG Engine.local] Starting execution: jmeter/smoke, rest of available slots: 9223372036854775806
+[2023-06-23 13:09:32,438 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2023-06-23 13:09:33,100 INFO Engine.console] Did not mute console logging
+[2023-06-23 13:09:33,648 INFO Engine.console] Waiting for finish...
+[2023-06-23 13:09:38,769 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 5s
+[2023-06-23 13:09:44,762 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 4s
+[2023-06-23 13:09:45,764 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 2s
+[2023-06-23 13:10:39,759 WARNING Engine] Please wait for graceful shutdown...
+[2023-06-23 13:10:39,759 DEBUG root] Leveled up log file verbosity
+[2023-06-23 13:10:39,759 INFO Engine] Shutting down...
+[2023-06-23 13:10:39,759 DEBUG Engine] Current stop reason: None
+[2023-06-23 13:10:39,760 DEBUG Engine.local] Shutdown jmeter/smoke
+[2023-06-23 13:10:39,765 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2023-06-23 13:10:39,766 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.yml
+[2023-06-23 13:10:39,777 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.json
+[2023-06-23 13:10:39,779 INFO Engine] Post-processing...
+[2023-06-23 13:10:39,780 DEBUG Engine.local] Post-process jmeter/smoke
+[2023-06-23 13:10:39,780 DEBUG Engine] Add existing artifact (move=True): C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\modified_pokeapi.jmx
+[2023-06-23 13:10:39,780 DEBUG Engine] No need to copy C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\modified_pokeapi.jmx
+[2023-06-23 13:10:39,782 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 0
+[2023-06-23 13:10:39,783 DEBUG Engine.jmeter.JTLReader] Aggregating: 1687518634, 2 in buffer
+[2023-06-23 13:10:39,848 DEBUG Engine.jmeter.JTLReader] Aggregating: 1687518635, 1 in buffer
+[2023-06-23 13:10:39,895 DEBUG Engine.jmeter.JTLReader] Buffer len: 0; Known errors count: 0
+[2023-06-23 13:10:39,896 DEBUG Engine.consolidator] Consolidator buffer[4]: dict_keys([1687518632, 1687518633, 1687518634, 1687518635])
+[2023-06-23 13:10:39,896 DEBUG Engine.consolidator] Merging into 1687518632
+[2023-06-23 13:10:39,897 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2023-06-23 13:10:39,952 DEBUG Engine.consolidator] Processed datapoint: 1687518632/ConsolidatingAggregator@2109491731856
+[2023-06-23 13:10:39,952 DEBUG Engine.consolidator] Merging into 1687518633
+[2023-06-23 13:10:39,953 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2023-06-23 13:10:40,016 DEBUG Engine.consolidator] Processed datapoint: 1687518633/ConsolidatingAggregator@2109491731856
+[2023-06-23 13:10:40,018 DEBUG Engine.consolidator] Merging into 1687518634
+[2023-06-23 13:10:40,018 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2023-06-23 13:10:40,053 DEBUG Engine.consolidator] Processed datapoint: 1687518634/ConsolidatingAggregator@2109491731856
+[2023-06-23 13:10:40,053 DEBUG Engine.consolidator] Merging into 1687518635
+[2023-06-23 13:10:40,053 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2023-06-23 13:10:40,085 DEBUG Engine.consolidator] Processed datapoint: 1687518635/ConsolidatingAggregator@2109491731856
+[2023-06-23 13:10:40,085 INFO Engine.final-stats] Test duration: 0:01:08
+[2023-06-23 13:10:40,087 INFO Engine.final-stats] Samples count: 1237, 0.00% failures
+[2023-06-23 13:10:40,088 INFO Engine.final-stats] Average times: total 0.096, latency 0.082, connect 0.003
+[2023-06-23 13:10:40,091 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |          0.02 |
+|          50.0 |         0.045 |
+|          90.0 |         0.234 |
+|          95.0 |          0.25 |
+|          99.0 |         0.604 |
+|          99.9 |           2.2 |
+|         100.0 |         2.354 |
++---------------+---------------+
+[2023-06-23 13:10:40,102 INFO Engine.final-stats] Request label stats:
++------------------------------------------------------------+--------+---------+--------+-------+
+| label                                                      | status |    succ | avg_rt | error |
++------------------------------------------------------------+--------+---------+--------+-------+
+| Find infiltrator info del pokemon crobat, id:1             |   OK   | 100.00% |  0.085 |       |
+| Find inner-focus info del pokemon crobat, id:1             |   OK   | 100.00% |  0.091 |       |
+| Find lightning-rod info del pokemon pikachu, id:2          |   OK   | 100.00% |  0.087 |       |
+| Find multiscale info del pokemon lugia, id:3               |   OK   | 100.00% |  0.146 |       |
+| Find pressure info del pokemon lugia, id:3                 |   OK   | 100.00% |  0.029 |       |
+| Find quick-feet info del pokemon jolteon, id:4             |   OK   | 100.00% |  0.030 |       |
+| Find rock-head info del pokemon aerodactyl, id:5           |   OK   | 100.00% |  0.411 |       |
+| Find static info del pokemon pikachu, id:2                 |   OK   | 100.00% |  0.120 |       |
+| Find unnerve info del pokemon aerodactyl, id:5             |   OK   | 100.00% |  0.087 |       |
+| Find volt-absorb info del pokemon jolteon, id:4            |   OK   | 100.00% |  0.223 |       |
+| Get pokemons: id:1, crobat                                 |   OK   | 100.00% |  0.293 |       |
+| Get pokemons: id:2, pikachu                                |   OK   | 100.00% |  0.266 |       |
+| Get pokemons: id:3, lugia                                  |   OK   | 100.00% |  0.078 |       |
+| Get pokemons: id:4, jolteon                                |   OK   | 100.00% |  0.075 |       |
+| Get pokemons: id:5, aerodactyl                             |   OK   | 100.00% |  0.132 |       |
+| Pokemon abra has the ability inner-focus                   |   OK   | 100.00% |  0.128 |       |
+| Pokemon aerodactyl has the ability pressure                |   OK   | 100.00% |  0.072 |       |
+| Pokemon aerodactyl has the ability rock-head               |   OK   | 100.00% |  0.060 |       |
+| Pokemon aerodactyl has the ability unnerve                 |   OK   | 100.00% |  0.055 |       |
+| Pokemon aggron has the ability rock-head                   |   OK   | 100.00% |  0.244 |       |
+| Pokemon alakazam has the ability inner-focus               |   OK   | 100.00% |  0.124 |       |
+| Pokemon ampharos has the ability static                    |   OK   | 100.00% |  0.105 |       |
+| Pokemon annihilape has the ability inner-focus             |   OK   | 100.00% |  0.220 |       |
+| Pokemon arbok has the ability unnerve                      |   OK   | 100.00% |  0.041 |       |
+| Pokemon arctozolt has the ability static                   |   OK   | 100.00% |  0.033 |       |
+| Pokemon arctozolt has the ability volt-absorb              |   OK   | 100.00% |  0.059 |       |
+| Pokemon aron has the ability rock-head                     |   OK   | 100.00% |  0.244 |       |
+| Pokemon articuno has the ability pressure                  |   OK   | 100.00% |  0.076 |       |
+| Pokemon bagon has the ability rock-head                    |   OK   | 100.00% |  0.137 |       |
+| Pokemon basculin-blue-striped has the ability rock-head    |   OK   | 100.00% |  0.149 |       |
+| Pokemon bellibolt has the ability static                   |   OK   | 100.00% |  0.084 |       |
+| Pokemon blitzle has the ability lightning-rod              |   OK   | 100.00% |  0.063 |       |
+| Pokemon bonsly has the ability rock-head                   |   OK   | 100.00% |  0.325 |       |
+| Pokemon brambleghast has the ability infiltrator           |   OK   | 100.00% |  0.180 |       |
+| Pokemon bramblin has the ability infiltrator               |   OK   | 100.00% |  0.077 |       |
+| Pokemon chandelure has the ability infiltrator             |   OK   | 100.00% |  0.140 |       |
+| Pokemon chinchou has the ability volt-absorb               |   OK   | 100.00% |  0.112 |       |
+| Pokemon corviknight has the ability pressure               |   OK   | 100.00% |  0.060 |       |
+| Pokemon corviknight-gmax has the ability unnerve           |   OK   | 100.00% |  0.054 |       |
+| Pokemon corvisquire has the ability unnerve                |   OK   | 100.00% |  0.108 |       |
+| Pokemon cottonee has the ability infiltrator               |   OK   | 100.00% |  0.087 |       |
+| Pokemon crobat has the ability infiltrator                 |   OK   | 100.00% |  0.050 |       |
+| Pokemon cubone has the ability lightning-rod               |   OK   | 100.00% |  0.142 |       |
+| Pokemon cubone has the ability rock-head                   |   OK   | 100.00% |  0.141 |       |
+| Pokemon darumaka-galar has the ability inner-focus         |   OK   | 100.00% |  0.199 |       |
+| Pokemon deoxys-normal has the ability pressure             |   OK   | 100.00% |  0.109 |       |
+| Pokemon dialga-origin has the ability pressure             |   OK   | 100.00% |  0.156 |       |
+| Pokemon dracozolt has the ability volt-absorb              |   OK   | 100.00% |  0.087 |       |
+| Pokemon dragapult has the ability infiltrator              |   OK   | 100.00% |  0.084 |       |
+| Pokemon dragonite has the ability inner-focus              |   OK   | 100.00% |  0.134 |       |
+| Pokemon dragonite has the ability multiscale               |   OK   | 100.00% |  0.067 |       |
+| Pokemon drakloak has the ability infiltrator               |   OK   | 100.00% |  0.085 |       |
+| Pokemon dreepy has the ability infiltrator                 |   OK   | 100.00% |  0.085 |       |
+| Pokemon drowzee has the ability inner-focus                |   OK   | 100.00% |  0.177 |       |
+| Pokemon dusknoir has the ability pressure                  |   OK   | 100.00% |  0.100 |       |
+| Pokemon ekans has the ability unnerve                      |   OK   | 100.00% |  0.048 |       |
+| Pokemon electabuzz has the ability static                  |   OK   | 100.00% |  0.100 |       |
+| Pokemon electrike has the ability lightning-rod            |   OK   | 100.00% |  0.138 |       |
+| Pokemon electrike has the ability static                   |   OK   | 100.00% |  0.055 |       |
+| Pokemon electrode has the ability static                   |   OK   | 100.00% |  0.097 |       |
+| Pokemon electrode-hisui has the ability static             |   OK   | 100.00% |  0.027 |       |
+| Pokemon elekid has the ability static                      |   OK   | 100.00% |  0.238 |       |
+| Pokemon emolga has the ability static                      |   OK   | 100.00% |  0.230 |       |
+| Pokemon entei has the ability inner-focus                  |   OK   | 100.00% |  0.113 |       |
+| Pokemon espurr has the ability infiltrator                 |   OK   | 100.00% |  0.083 |       |
+| Pokemon eternatus-eternamax has the ability pressure       |   OK   | 100.00% |  0.108 |       |
+| Pokemon farfetchd has the ability inner-focus              |   OK   | 100.00% |  0.114 |       |
+| Pokemon flaaffy has the ability static                     |   OK   | 100.00% |  0.093 |       |
+| Pokemon fraxure has the ability unnerve                    |   OK   | 100.00% |  0.035 |       |
+| Pokemon gallade-mega has the ability inner-focus           |   OK   | 100.00% |  0.098 |       |
+| Pokemon galvantula has the ability unnerve                 |   OK   | 100.00% |  0.034 |       |
+| Pokemon geodude has the ability rock-head                  |   OK   | 100.00% |  0.143 |       |
+| Pokemon girafarig has the ability inner-focus              |   OK   | 100.00% |  0.110 |       |
+| Pokemon giratina-altered has the ability pressure          |   OK   | 100.00% |  0.112 |       |
+| Pokemon golbat has the ability infiltrator                 |   OK   | 100.00% |  0.080 |       |
+| Pokemon golbat has the ability inner-focus                 |   OK   | 100.00% |  0.083 |       |
+| Pokemon goldeen has the ability lightning-rod              |   OK   | 100.00% |  0.077 |       |
+| Pokemon golem has the ability rock-head                    |   OK   | 100.00% |  0.427 |       |
+| Pokemon granbull has the ability quick-feet                |   OK   | 100.00% |  0.049 |       |
+| Pokemon graveler has the ability rock-head                 |   OK   | 100.00% |  0.150 |       |
+| Pokemon hitmonchan has the ability inner-focus             |   OK   | 100.00% |  0.168 |       |
+| Pokemon hoppip has the ability infiltrator                 |   OK   | 100.00% |  0.077 |       |
+| Pokemon houndour has the ability unnerve                   |   OK   | 100.00% |  0.077 |       |
+| Pokemon hypno has the ability inner-focus                  |   OK   | 100.00% |  0.120 |       |
+| Pokemon indeedee-male has the ability inner-focus          |   OK   | 100.00% |  0.093 |       |
+| Pokemon inkay has the ability infiltrator                  |   OK   | 100.00% |  0.089 |       |
+| Pokemon jolteon has the ability quick-feet                 |   OK   | 100.00% |  0.047 |       |
+| Pokemon jolteon has the ability volt-absorb                |   OK   | 100.00% |  0.054 |       |
+| Pokemon jumpluff has the ability infiltrator               |   OK   | 100.00% |  0.103 |       |
+| Pokemon kadabra has the ability inner-focus                |   OK   | 100.00% |  0.290 |       |
+| Pokemon kangaskhan has the ability inner-focus             |   OK   | 100.00% |  0.199 |       |
+| Pokemon kilowattrel has the ability volt-absorb            |   OK   | 100.00% |  0.058 |       |
+| Pokemon lairon has the ability rock-head                   |   OK   | 100.00% |  0.139 |       |
+| Pokemon lampent has the ability infiltrator                |   OK   | 100.00% |  0.131 |       |
+| Pokemon lanturn has the ability volt-absorb                |   OK   | 100.00% |  0.111 |       |
+| Pokemon linoone has the ability quick-feet                 |   OK   | 100.00% |  0.110 |       |
+| Pokemon linoone-galar has the ability quick-feet           |   OK   | 100.00% |  0.094 |       |
+| Pokemon litleo has the ability unnerve                     |   OK   | 100.00% |  0.084 |       |
+| Pokemon litwick has the ability infiltrator                |   OK   | 100.00% |  0.090 |       |
+| Pokemon lugia has the ability multiscale                   |   OK   | 100.00% |  0.051 |       |
+| Pokemon malamar has the ability infiltrator                |   OK   | 100.00% |  0.086 |       |
+| Pokemon manectric has the ability lightning-rod            |   OK   | 100.00% |  0.083 |       |
+| Pokemon manectric has the ability static                   |   OK   | 100.00% |  0.046 |       |
+| Pokemon mareep has the ability static                      |   OK   | 100.00% |  0.098 |       |
+| Pokemon marowak has the ability lightning-rod              |   OK   | 100.00% |  0.141 |       |
+| Pokemon marowak has the ability rock-head                  |   OK   | 100.00% |  0.056 |       |
+| Pokemon marowak-alola has the ability lightning-rod        |   OK   | 100.00% |  0.089 |       |
+| Pokemon marowak-alola has the ability rock-head            |   OK   | 100.00% |  0.035 |       |
+| Pokemon marowak-totem has the ability lightning-rod        |   OK   | 100.00% |  0.070 |       |
+| Pokemon marowak-totem has the ability rock-head            |   OK   | 100.00% |  0.029 |       |
+| Pokemon masquerain has the ability unnerve                 |   OK   | 100.00% |  0.051 |       |
+| Pokemon meowstic-female has the ability infiltrator        |   OK   | 100.00% |  0.150 |       |
+| Pokemon meowstic-male has the ability infiltrator          |   OK   | 100.00% |  0.092 |       |
+| Pokemon meowth has the ability unnerve                     |   OK   | 100.00% |  0.055 |       |
+| Pokemon mightyena has the ability quick-feet               |   OK   | 100.00% |  0.047 |       |
+| Pokemon minun has the ability volt-absorb                  |   OK   | 100.00% |  0.079 |       |
+| Pokemon ninjask has the ability infiltrator                |   OK   | 100.00% |  0.093 |       |
+| Pokemon noibat has the ability infiltrator                 |   OK   | 100.00% |  0.090 |       |
+| Pokemon noivern has the ability infiltrator                |   OK   | 100.00% |  0.092 |       |
+| Pokemon onix has the ability rock-head                     |   OK   | 100.00% |  0.153 |       |
+| Pokemon pachirisu has the ability volt-absorb              |   OK   | 100.00% |  0.076 |       |
+| Pokemon pawmi has the ability static                       |   OK   | 100.00% |  0.116 |       |
+| Pokemon pawmo has the ability volt-absorb                  |   OK   | 100.00% |  0.090 |       |
+| Pokemon pawmot has the ability volt-absorb                 |   OK   | 100.00% |  0.091 |       |
+| Pokemon pawniard has the ability pressure                  |   OK   | 100.00% |  0.076 |       |
+| Pokemon persian has the ability unnerve                    |   OK   | 100.00% |  0.055 |       |
+| Pokemon pichu has the ability static                       |   OK   | 100.00% |  0.049 |       |
+| Pokemon pikachu has the ability lightning-rod              |   OK   | 100.00% |  0.064 |       |
+| Pokemon pikachu has the ability static                     |   OK   | 100.00% |  0.062 |       |
+| Pokemon pikachu-alola-cap has the ability static           |   OK   | 100.00% |  0.034 |       |
+| Pokemon pikachu-belle has the ability lightning-rod        |   OK   | 100.00% |  0.065 |       |
+| Pokemon pikachu-belle has the ability static               |   OK   | 100.00% |  0.029 |       |
+| Pokemon pikachu-cosplay has the ability lightning-rod      |   OK   | 100.00% |  0.064 |       |
+| Pokemon pikachu-cosplay has the ability static             |   OK   | 100.00% |  0.026 |       |
+| Pokemon pikachu-gmax has the ability static                |   OK   | 100.00% |  0.028 |       |
+| Pokemon pikachu-hoenn-cap has the ability lightning-rod    |   OK   | 100.00% |  0.075 |       |
+| Pokemon pikachu-hoenn-cap has the ability static           |   OK   | 100.00% |  0.040 |       |
+| Pokemon pikachu-kalos-cap has the ability lightning-rod    |   OK   | 100.00% |  0.146 |       |
+| Pokemon pikachu-kalos-cap has the ability static           |   OK   | 100.00% |  0.081 |       |
+| Pokemon pikachu-libre has the ability static               |   OK   | 100.00% |  0.082 |       |
+| Pokemon pikachu-original-cap has the ability lightning-rod |   OK   | 100.00% |  0.074 |       |
+| Pokemon pikachu-original-cap has the ability static        |   OK   | 100.00% |  0.039 |       |
+| Pokemon pikachu-partner-cap has the ability lightning-rod  |   OK   | 100.00% |  0.147 |       |
+| Pokemon pikachu-partner-cap has the ability static         |   OK   | 100.00% |  0.035 |       |
+| Pokemon pikachu-phd has the ability lightning-rod          |   OK   | 100.00% |  0.065 |       |
+| Pokemon pikachu-phd has the ability static                 |   OK   | 100.00% |  0.033 |       |
+| Pokemon pikachu-pop-star has the ability static            |   OK   | 100.00% |  0.081 |       |
+| Pokemon pikachu-rock-star has the ability lightning-rod    |   OK   | 100.00% |  0.069 |       |
+| Pokemon pikachu-rock-star has the ability static           |   OK   | 100.00% |  0.030 |       |
+| Pokemon pikachu-sinnoh-cap has the ability lightning-rod   |   OK   | 100.00% |  0.075 |       |
+| Pokemon pikachu-sinnoh-cap has the ability static          |   OK   | 100.00% |  0.036 |       |
+| Pokemon pikachu-starter has the ability lightning-rod      |   OK   | 100.00% |  0.064 |       |
+| Pokemon pikachu-starter has the ability static             |   OK   | 100.00% |  0.070 |       |
+| Pokemon pikachu-unova-cap has the ability lightning-rod    |   OK   | 100.00% |  0.105 |       |
+| Pokemon pikachu-unova-cap has the ability static           |   OK   | 100.00% |  0.031 |       |
+| Pokemon pikachu-world-cap has the ability static           |   OK   | 100.00% |  0.030 |       |
+| Pokemon pincurchin has the ability lightning-rod           |   OK   | 100.00% |  0.059 |       |
+| Pokemon plusle has the ability lightning-rod               |   OK   | 100.00% |  0.072 |       |
+| Pokemon poochyena has the ability quick-feet               |   OK   | 100.00% |  0.048 |       |
+| Pokemon raichu has the ability lightning-rod               |   OK   | 100.00% |  0.078 |       |
+| Pokemon raichu has the ability static                      |   OK   | 100.00% |  0.096 |       |
+| Pokemon raikou has the ability inner-focus                 |   OK   | 100.00% |  0.133 |       |
+| Pokemon relicanth has the ability rock-head                |   OK   | 100.00% |  0.143 |       |
+| Pokemon rhydon has the ability lightning-rod               |   OK   | 100.00% |  0.092 |       |
+| Pokemon rhydon has the ability rock-head                   |   OK   | 100.00% |  0.068 |       |
+| Pokemon rhyhorn has the ability lightning-rod              |   OK   | 100.00% |  0.086 |       |
+| Pokemon rhyhorn has the ability rock-head                  |   OK   | 100.00% |  0.051 |       |
+| Pokemon rhyperior has the ability lightning-rod            |   OK   | 100.00% |  0.105 |       |
+| Pokemon rookidee has the ability unnerve                   |   OK   | 100.00% |  0.029 |       |
+| Pokemon sceptile-mega has the ability lightning-rod        |   OK   | 100.00% |  0.070 |       |
+| Pokemon seaking has the ability lightning-rod              |   OK   | 100.00% |  0.112 |       |
+| Pokemon seviper has the ability infiltrator                |   OK   | 100.00% |  0.098 |       |
+| Pokemon shelgon has the ability rock-head                  |   OK   | 100.00% |  0.237 |       |
+| Pokemon shroomish has the ability quick-feet               |   OK   | 100.00% |  0.044 |       |
+| Pokemon skiploom has the ability infiltrator               |   OK   | 100.00% |  0.098 |       |
+| Pokemon sneasel has the ability inner-focus                |   OK   | 100.00% |  0.116 |       |
+| Pokemon sneasler has the ability pressure                  |   OK   | 100.00% |  0.081 |       |
+| Pokemon spiritomb has the ability infiltrator              |   OK   | 100.00% |  0.094 |       |
+| Pokemon spiritomb has the ability pressure                 |   OK   | 100.00% |  0.042 |       |
+| Pokemon steelix has the ability rock-head                  |   OK   | 100.00% |  0.155 |       |
+| Pokemon stunfisk has the ability static                    |   OK   | 100.00% |  0.083 |       |
+| Pokemon sudowoodo has the ability rock-head                |   OK   | 100.00% |  0.149 |       |
+| Pokemon suicune has the ability inner-focus                |   OK   | 100.00% |  0.104 |       |
+| Pokemon tadbulb has the ability static                     |   OK   | 100.00% |  0.080 |       |
+| Pokemon teddiursa has the ability quick-feet               |   OK   | 100.00% |  0.052 |       |
+| Pokemon thundurus-therian has the ability volt-absorb      |   OK   | 100.00% |  0.077 |       |
+| Pokemon togedemaru has the ability lightning-rod           |   OK   | 100.00% |  0.060 |       |
+| Pokemon togedemaru-totem has the ability lightning-rod     |   OK   | 100.00% |  0.063 |       |
+| Pokemon toxel has the ability static                       |   OK   | 100.00% |  0.076 |       |
+| Pokemon tyranitar has the ability unnerve                  |   OK   | 100.00% |  0.057 |       |
+| Pokemon tyrantrum has the ability rock-head                |   OK   | 100.00% |  0.312 |       |
+| Pokemon umbreon has the ability inner-focus                |   OK   | 100.00% |  0.172 |       |
+| Pokemon ursaring has the ability quick-feet                |   OK   | 100.00% |  0.107 |       |
+| Pokemon ursaring has the ability unnerve                   |   OK   | 100.00% |  0.063 |       |
+| Pokemon vespiquen has the ability pressure                 |   OK   | 100.00% |  0.096 |       |
+| Pokemon vespiquen has the ability unnerve                  |   OK   | 100.00% |  0.088 |       |
+| Pokemon voltorb has the ability static                     |   OK   | 100.00% |  0.183 |       |
+| Pokemon voltorb-hisui has the ability static               |   OK   | 100.00% |  0.097 |       |
+| Pokemon wattrel has the ability volt-absorb                |   OK   | 100.00% |  0.116 |       |
+| Pokemon whimsicott has the ability infiltrator             |   OK   | 100.00% |  0.143 |       |
+| Pokemon zapdos has the ability pressure                    |   OK   | 100.00% |  0.106 |       |
+| Pokemon zapdos has the ability static                      |   OK   | 100.00% |  0.053 |       |
+| Pokemon zebstrika has the ability lightning-rod            |   OK   | 100.00% |  0.067 |       |
+| Pokemon zeraora has the ability volt-absorb                |   OK   | 100.00% |  0.061 |       |
+| Pokemon zigzagoon has the ability quick-feet               |   OK   | 100.00% |  0.056 |       |
+| Pokemon zigzagoon-galar has the ability quick-feet         |   OK   | 100.00% |  0.089 |       |
+| Pokemon zubat has the ability infiltrator                  |   OK   | 100.00% |  0.086 |       |
+| Pokemon zubat has the ability inner-focus                  |   OK   | 100.00% |  0.109 |       |
++------------------------------------------------------------+--------+---------+--------+-------+
+[2023-06-23 13:10:40,105 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2023-06-23 13:10:40,105 INFO Engine.final-stats] Test duration: 0:01:08
+[2023-06-23 13:10:40,105 INFO Engine.final-stats] Samples count: 1237, 0.00% failures
+[2023-06-23 13:10:40,105 INFO Engine.final-stats] Average times: total 0.096, latency 0.082, connect 0.003
+[2023-06-23 13:10:40,105 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |          0.02 |
+|          50.0 |         0.045 |
+|          90.0 |         0.234 |
+|          95.0 |          0.25 |
+|          99.0 |         0.604 |
+|          99.9 |           2.2 |
+|         100.0 |         2.354 |
++---------------+---------------+
+[2023-06-23 13:10:40,116 INFO Engine.final-stats] Request label stats:
++------------------------------------------------------------+--------+---------+--------+-------+
+| label                                                      | status |    succ | avg_rt | error |
++------------------------------------------------------------+--------+---------+--------+-------+
+| Find infiltrator info del pokemon crobat, id:1             |   OK   | 100.00% |  0.085 |       |
+| Find inner-focus info del pokemon crobat, id:1             |   OK   | 100.00% |  0.091 |       |
+| Find lightning-rod info del pokemon pikachu, id:2          |   OK   | 100.00% |  0.087 |       |
+| Find multiscale info del pokemon lugia, id:3               |   OK   | 100.00% |  0.146 |       |
+| Find pressure info del pokemon lugia, id:3                 |   OK   | 100.00% |  0.029 |       |
+| Find quick-feet info del pokemon jolteon, id:4             |   OK   | 100.00% |  0.030 |       |
+| Find rock-head info del pokemon aerodactyl, id:5           |   OK   | 100.00% |  0.411 |       |
+| Find static info del pokemon pikachu, id:2                 |   OK   | 100.00% |  0.120 |       |
+| Find unnerve info del pokemon aerodactyl, id:5             |   OK   | 100.00% |  0.087 |       |
+| Find volt-absorb info del pokemon jolteon, id:4            |   OK   | 100.00% |  0.223 |       |
+| Get pokemons: id:1, crobat                                 |   OK   | 100.00% |  0.293 |       |
+| Get pokemons: id:2, pikachu                                |   OK   | 100.00% |  0.266 |       |
+| Get pokemons: id:3, lugia                                  |   OK   | 100.00% |  0.078 |       |
+| Get pokemons: id:4, jolteon                                |   OK   | 100.00% |  0.075 |       |
+| Get pokemons: id:5, aerodactyl                             |   OK   | 100.00% |  0.132 |       |
+| Pokemon abra has the ability inner-focus                   |   OK   | 100.00% |  0.128 |       |
+| Pokemon aerodactyl has the ability pressure                |   OK   | 100.00% |  0.072 |       |
+| Pokemon aerodactyl has the ability rock-head               |   OK   | 100.00% |  0.060 |       |
+| Pokemon aerodactyl has the ability unnerve                 |   OK   | 100.00% |  0.055 |       |
+| Pokemon aggron has the ability rock-head                   |   OK   | 100.00% |  0.244 |       |
+| Pokemon alakazam has the ability inner-focus               |   OK   | 100.00% |  0.124 |       |
+| Pokemon ampharos has the ability static                    |   OK   | 100.00% |  0.105 |       |
+| Pokemon annihilape has the ability inner-focus             |   OK   | 100.00% |  0.220 |       |
+| Pokemon arbok has the ability unnerve                      |   OK   | 100.00% |  0.041 |       |
+| Pokemon arctozolt has the ability static                   |   OK   | 100.00% |  0.033 |       |
+| Pokemon arctozolt has the ability volt-absorb              |   OK   | 100.00% |  0.059 |       |
+| Pokemon aron has the ability rock-head                     |   OK   | 100.00% |  0.244 |       |
+| Pokemon articuno has the ability pressure                  |   OK   | 100.00% |  0.076 |       |
+| Pokemon bagon has the ability rock-head                    |   OK   | 100.00% |  0.137 |       |
+| Pokemon basculin-blue-striped has the ability rock-head    |   OK   | 100.00% |  0.149 |       |
+| Pokemon bellibolt has the ability static                   |   OK   | 100.00% |  0.084 |       |
+| Pokemon blitzle has the ability lightning-rod              |   OK   | 100.00% |  0.063 |       |
+| Pokemon bonsly has the ability rock-head                   |   OK   | 100.00% |  0.325 |       |
+| Pokemon brambleghast has the ability infiltrator           |   OK   | 100.00% |  0.180 |       |
+| Pokemon bramblin has the ability infiltrator               |   OK   | 100.00% |  0.077 |       |
+| Pokemon chandelure has the ability infiltrator             |   OK   | 100.00% |  0.140 |       |
+| Pokemon chinchou has the ability volt-absorb               |   OK   | 100.00% |  0.112 |       |
+| Pokemon corviknight has the ability pressure               |   OK   | 100.00% |  0.060 |       |
+| Pokemon corviknight-gmax has the ability unnerve           |   OK   | 100.00% |  0.054 |       |
+| Pokemon corvisquire has the ability unnerve                |   OK   | 100.00% |  0.108 |       |
+| Pokemon cottonee has the ability infiltrator               |   OK   | 100.00% |  0.087 |       |
+| Pokemon crobat has the ability infiltrator                 |   OK   | 100.00% |  0.050 |       |
+| Pokemon cubone has the ability lightning-rod               |   OK   | 100.00% |  0.142 |       |
+| Pokemon cubone has the ability rock-head                   |   OK   | 100.00% |  0.141 |       |
+| Pokemon darumaka-galar has the ability inner-focus         |   OK   | 100.00% |  0.199 |       |
+| Pokemon deoxys-normal has the ability pressure             |   OK   | 100.00% |  0.109 |       |
+| Pokemon dialga-origin has the ability pressure             |   OK   | 100.00% |  0.156 |       |
+| Pokemon dracozolt has the ability volt-absorb              |   OK   | 100.00% |  0.087 |       |
+| Pokemon dragapult has the ability infiltrator              |   OK   | 100.00% |  0.084 |       |
+| Pokemon dragonite has the ability inner-focus              |   OK   | 100.00% |  0.134 |       |
+| Pokemon dragonite has the ability multiscale               |   OK   | 100.00% |  0.067 |       |
+| Pokemon drakloak has the ability infiltrator               |   OK   | 100.00% |  0.085 |       |
+| Pokemon dreepy has the ability infiltrator                 |   OK   | 100.00% |  0.085 |       |
+| Pokemon drowzee has the ability inner-focus                |   OK   | 100.00% |  0.177 |       |
+| Pokemon dusknoir has the ability pressure                  |   OK   | 100.00% |  0.100 |       |
+| Pokemon ekans has the ability unnerve                      |   OK   | 100.00% |  0.048 |       |
+| Pokemon electabuzz has the ability static                  |   OK   | 100.00% |  0.100 |       |
+| Pokemon electrike has the ability lightning-rod            |   OK   | 100.00% |  0.138 |       |
+| Pokemon electrike has the ability static                   |   OK   | 100.00% |  0.055 |       |
+| Pokemon electrode has the ability static                   |   OK   | 100.00% |  0.097 |       |
+| Pokemon electrode-hisui has the ability static             |   OK   | 100.00% |  0.027 |       |
+| Pokemon elekid has the ability static                      |   OK   | 100.00% |  0.238 |       |
+| Pokemon emolga has the ability static                      |   OK   | 100.00% |  0.230 |       |
+| Pokemon entei has the ability inner-focus                  |   OK   | 100.00% |  0.113 |       |
+| Pokemon espurr has the ability infiltrator                 |   OK   | 100.00% |  0.083 |       |
+| Pokemon eternatus-eternamax has the ability pressure       |   OK   | 100.00% |  0.108 |       |
+| Pokemon farfetchd has the ability inner-focus              |   OK   | 100.00% |  0.114 |       |
+| Pokemon flaaffy has the ability static                     |   OK   | 100.00% |  0.093 |       |
+| Pokemon fraxure has the ability unnerve                    |   OK   | 100.00% |  0.035 |       |
+| Pokemon gallade-mega has the ability inner-focus           |   OK   | 100.00% |  0.098 |       |
+| Pokemon galvantula has the ability unnerve                 |   OK   | 100.00% |  0.034 |       |
+| Pokemon geodude has the ability rock-head                  |   OK   | 100.00% |  0.143 |       |
+| Pokemon girafarig has the ability inner-focus              |   OK   | 100.00% |  0.110 |       |
+| Pokemon giratina-altered has the ability pressure          |   OK   | 100.00% |  0.112 |       |
+| Pokemon golbat has the ability infiltrator                 |   OK   | 100.00% |  0.080 |       |
+| Pokemon golbat has the ability inner-focus                 |   OK   | 100.00% |  0.083 |       |
+| Pokemon goldeen has the ability lightning-rod              |   OK   | 100.00% |  0.077 |       |
+| Pokemon golem has the ability rock-head                    |   OK   | 100.00% |  0.427 |       |
+| Pokemon granbull has the ability quick-feet                |   OK   | 100.00% |  0.049 |       |
+| Pokemon graveler has the ability rock-head                 |   OK   | 100.00% |  0.150 |       |
+| Pokemon hitmonchan has the ability inner-focus             |   OK   | 100.00% |  0.168 |       |
+| Pokemon hoppip has the ability infiltrator                 |   OK   | 100.00% |  0.077 |       |
+| Pokemon houndour has the ability unnerve                   |   OK   | 100.00% |  0.077 |       |
+| Pokemon hypno has the ability inner-focus                  |   OK   | 100.00% |  0.120 |       |
+| Pokemon indeedee-male has the ability inner-focus          |   OK   | 100.00% |  0.093 |       |
+| Pokemon inkay has the ability infiltrator                  |   OK   | 100.00% |  0.089 |       |
+| Pokemon jolteon has the ability quick-feet                 |   OK   | 100.00% |  0.047 |       |
+| Pokemon jolteon has the ability volt-absorb                |   OK   | 100.00% |  0.054 |       |
+| Pokemon jumpluff has the ability infiltrator               |   OK   | 100.00% |  0.103 |       |
+| Pokemon kadabra has the ability inner-focus                |   OK   | 100.00% |  0.290 |       |
+| Pokemon kangaskhan has the ability inner-focus             |   OK   | 100.00% |  0.199 |       |
+| Pokemon kilowattrel has the ability volt-absorb            |   OK   | 100.00% |  0.058 |       |
+| Pokemon lairon has the ability rock-head                   |   OK   | 100.00% |  0.139 |       |
+| Pokemon lampent has the ability infiltrator                |   OK   | 100.00% |  0.131 |       |
+| Pokemon lanturn has the ability volt-absorb                |   OK   | 100.00% |  0.111 |       |
+| Pokemon linoone has the ability quick-feet                 |   OK   | 100.00% |  0.110 |       |
+| Pokemon linoone-galar has the ability quick-feet           |   OK   | 100.00% |  0.094 |       |
+| Pokemon litleo has the ability unnerve                     |   OK   | 100.00% |  0.084 |       |
+| Pokemon litwick has the ability infiltrator                |   OK   | 100.00% |  0.090 |       |
+| Pokemon lugia has the ability multiscale                   |   OK   | 100.00% |  0.051 |       |
+| Pokemon malamar has the ability infiltrator                |   OK   | 100.00% |  0.086 |       |
+| Pokemon manectric has the ability lightning-rod            |   OK   | 100.00% |  0.083 |       |
+| Pokemon manectric has the ability static                   |   OK   | 100.00% |  0.046 |       |
+| Pokemon mareep has the ability static                      |   OK   | 100.00% |  0.098 |       |
+| Pokemon marowak has the ability lightning-rod              |   OK   | 100.00% |  0.141 |       |
+| Pokemon marowak has the ability rock-head                  |   OK   | 100.00% |  0.056 |       |
+| Pokemon marowak-alola has the ability lightning-rod        |   OK   | 100.00% |  0.089 |       |
+| Pokemon marowak-alola has the ability rock-head            |   OK   | 100.00% |  0.035 |       |
+| Pokemon marowak-totem has the ability lightning-rod        |   OK   | 100.00% |  0.070 |       |
+| Pokemon marowak-totem has the ability rock-head            |   OK   | 100.00% |  0.029 |       |
+| Pokemon masquerain has the ability unnerve                 |   OK   | 100.00% |  0.051 |       |
+| Pokemon meowstic-female has the ability infiltrator        |   OK   | 100.00% |  0.150 |       |
+| Pokemon meowstic-male has the ability infiltrator          |   OK   | 100.00% |  0.092 |       |
+| Pokemon meowth has the ability unnerve                     |   OK   | 100.00% |  0.055 |       |
+| Pokemon mightyena has the ability quick-feet               |   OK   | 100.00% |  0.047 |       |
+| Pokemon minun has the ability volt-absorb                  |   OK   | 100.00% |  0.079 |       |
+| Pokemon ninjask has the ability infiltrator                |   OK   | 100.00% |  0.093 |       |
+| Pokemon noibat has the ability infiltrator                 |   OK   | 100.00% |  0.090 |       |
+| Pokemon noivern has the ability infiltrator                |   OK   | 100.00% |  0.092 |       |
+| Pokemon onix has the ability rock-head                     |   OK   | 100.00% |  0.153 |       |
+| Pokemon pachirisu has the ability volt-absorb              |   OK   | 100.00% |  0.076 |       |
+| Pokemon pawmi has the ability static                       |   OK   | 100.00% |  0.116 |       |
+| Pokemon pawmo has the ability volt-absorb                  |   OK   | 100.00% |  0.090 |       |
+| Pokemon pawmot has the ability volt-absorb                 |   OK   | 100.00% |  0.091 |       |
+| Pokemon pawniard has the ability pressure                  |   OK   | 100.00% |  0.076 |       |
+| Pokemon persian has the ability unnerve                    |   OK   | 100.00% |  0.055 |       |
+| Pokemon pichu has the ability static                       |   OK   | 100.00% |  0.049 |       |
+| Pokemon pikachu has the ability lightning-rod              |   OK   | 100.00% |  0.064 |       |
+| Pokemon pikachu has the ability static                     |   OK   | 100.00% |  0.062 |       |
+| Pokemon pikachu-alola-cap has the ability static           |   OK   | 100.00% |  0.034 |       |
+| Pokemon pikachu-belle has the ability lightning-rod        |   OK   | 100.00% |  0.065 |       |
+| Pokemon pikachu-belle has the ability static               |   OK   | 100.00% |  0.029 |       |
+| Pokemon pikachu-cosplay has the ability lightning-rod      |   OK   | 100.00% |  0.064 |       |
+| Pokemon pikachu-cosplay has the ability static             |   OK   | 100.00% |  0.026 |       |
+| Pokemon pikachu-gmax has the ability static                |   OK   | 100.00% |  0.028 |       |
+| Pokemon pikachu-hoenn-cap has the ability lightning-rod    |   OK   | 100.00% |  0.075 |       |
+| Pokemon pikachu-hoenn-cap has the ability static           |   OK   | 100.00% |  0.040 |       |
+| Pokemon pikachu-kalos-cap has the ability lightning-rod    |   OK   | 100.00% |  0.146 |       |
+| Pokemon pikachu-kalos-cap has the ability static           |   OK   | 100.00% |  0.081 |       |
+| Pokemon pikachu-libre has the ability static               |   OK   | 100.00% |  0.082 |       |
+| Pokemon pikachu-original-cap has the ability lightning-rod |   OK   | 100.00% |  0.074 |       |
+| Pokemon pikachu-original-cap has the ability static        |   OK   | 100.00% |  0.039 |       |
+| Pokemon pikachu-partner-cap has the ability lightning-rod  |   OK   | 100.00% |  0.147 |       |
+| Pokemon pikachu-partner-cap has the ability static         |   OK   | 100.00% |  0.035 |       |
+| Pokemon pikachu-phd has the ability lightning-rod          |   OK   | 100.00% |  0.065 |       |
+| Pokemon pikachu-phd has the ability static                 |   OK   | 100.00% |  0.033 |       |
+| Pokemon pikachu-pop-star has the ability static            |   OK   | 100.00% |  0.081 |       |
+| Pokemon pikachu-rock-star has the ability lightning-rod    |   OK   | 100.00% |  0.069 |       |
+| Pokemon pikachu-rock-star has the ability static           |   OK   | 100.00% |  0.030 |       |
+| Pokemon pikachu-sinnoh-cap has the ability lightning-rod   |   OK   | 100.00% |  0.075 |       |
+| Pokemon pikachu-sinnoh-cap has the ability static          |   OK   | 100.00% |  0.036 |       |
+| Pokemon pikachu-starter has the ability lightning-rod      |   OK   | 100.00% |  0.064 |       |
+| Pokemon pikachu-starter has the ability static             |   OK   | 100.00% |  0.070 |       |
+| Pokemon pikachu-unova-cap has the ability lightning-rod    |   OK   | 100.00% |  0.105 |       |
+| Pokemon pikachu-unova-cap has the ability static           |   OK   | 100.00% |  0.031 |       |
+| Pokemon pikachu-world-cap has the ability static           |   OK   | 100.00% |  0.030 |       |
+| Pokemon pincurchin has the ability lightning-rod           |   OK   | 100.00% |  0.059 |       |
+| Pokemon plusle has the ability lightning-rod               |   OK   | 100.00% |  0.072 |       |
+| Pokemon poochyena has the ability quick-feet               |   OK   | 100.00% |  0.048 |       |
+| Pokemon raichu has the ability lightning-rod               |   OK   | 100.00% |  0.078 |       |
+| Pokemon raichu has the ability static                      |   OK   | 100.00% |  0.096 |       |
+| Pokemon raikou has the ability inner-focus                 |   OK   | 100.00% |  0.133 |       |
+| Pokemon relicanth has the ability rock-head                |   OK   | 100.00% |  0.143 |       |
+| Pokemon rhydon has the ability lightning-rod               |   OK   | 100.00% |  0.092 |       |
+| Pokemon rhydon has the ability rock-head                   |   OK   | 100.00% |  0.068 |       |
+| Pokemon rhyhorn has the ability lightning-rod              |   OK   | 100.00% |  0.086 |       |
+| Pokemon rhyhorn has the ability rock-head                  |   OK   | 100.00% |  0.051 |       |
+| Pokemon rhyperior has the ability lightning-rod            |   OK   | 100.00% |  0.105 |       |
+| Pokemon rookidee has the ability unnerve                   |   OK   | 100.00% |  0.029 |       |
+| Pokemon sceptile-mega has the ability lightning-rod        |   OK   | 100.00% |  0.070 |       |
+| Pokemon seaking has the ability lightning-rod              |   OK   | 100.00% |  0.112 |       |
+| Pokemon seviper has the ability infiltrator                |   OK   | 100.00% |  0.098 |       |
+| Pokemon shelgon has the ability rock-head                  |   OK   | 100.00% |  0.237 |       |
+| Pokemon shroomish has the ability quick-feet               |   OK   | 100.00% |  0.044 |       |
+| Pokemon skiploom has the ability infiltrator               |   OK   | 100.00% |  0.098 |       |
+| Pokemon sneasel has the ability inner-focus                |   OK   | 100.00% |  0.116 |       |
+| Pokemon sneasler has the ability pressure                  |   OK   | 100.00% |  0.081 |       |
+| Pokemon spiritomb has the ability infiltrator              |   OK   | 100.00% |  0.094 |       |
+| Pokemon spiritomb has the ability pressure                 |   OK   | 100.00% |  0.042 |       |
+| Pokemon steelix has the ability rock-head                  |   OK   | 100.00% |  0.155 |       |
+| Pokemon stunfisk has the ability static                    |   OK   | 100.00% |  0.083 |       |
+| Pokemon sudowoodo has the ability rock-head                |   OK   | 100.00% |  0.149 |       |
+| Pokemon suicune has the ability inner-focus                |   OK   | 100.00% |  0.104 |       |
+| Pokemon tadbulb has the ability static                     |   OK   | 100.00% |  0.080 |       |
+| Pokemon teddiursa has the ability quick-feet               |   OK   | 100.00% |  0.052 |       |
+| Pokemon thundurus-therian has the ability volt-absorb      |   OK   | 100.00% |  0.077 |       |
+| Pokemon togedemaru has the ability lightning-rod           |   OK   | 100.00% |  0.060 |       |
+| Pokemon togedemaru-totem has the ability lightning-rod     |   OK   | 100.00% |  0.063 |       |
+| Pokemon toxel has the ability static                       |   OK   | 100.00% |  0.076 |       |
+| Pokemon tyranitar has the ability unnerve                  |   OK   | 100.00% |  0.057 |       |
+| Pokemon tyrantrum has the ability rock-head                |   OK   | 100.00% |  0.312 |       |
+| Pokemon umbreon has the ability inner-focus                |   OK   | 100.00% |  0.172 |       |
+| Pokemon ursaring has the ability quick-feet                |   OK   | 100.00% |  0.107 |       |
+| Pokemon ursaring has the ability unnerve                   |   OK   | 100.00% |  0.063 |       |
+| Pokemon vespiquen has the ability pressure                 |   OK   | 100.00% |  0.096 |       |
+| Pokemon vespiquen has the ability unnerve                  |   OK   | 100.00% |  0.088 |       |
+| Pokemon voltorb has the ability static                     |   OK   | 100.00% |  0.183 |       |
+| Pokemon voltorb-hisui has the ability static               |   OK   | 100.00% |  0.097 |       |
+| Pokemon wattrel has the ability volt-absorb                |   OK   | 100.00% |  0.116 |       |
+| Pokemon whimsicott has the ability infiltrator             |   OK   | 100.00% |  0.143 |       |
+| Pokemon zapdos has the ability pressure                    |   OK   | 100.00% |  0.106 |       |
+| Pokemon zapdos has the ability static                      |   OK   | 100.00% |  0.053 |       |
+| Pokemon zebstrika has the ability lightning-rod            |   OK   | 100.00% |  0.067 |       |
+| Pokemon zeraora has the ability volt-absorb                |   OK   | 100.00% |  0.061 |       |
+| Pokemon zigzagoon has the ability quick-feet               |   OK   | 100.00% |  0.056 |       |
+| Pokemon zigzagoon-galar has the ability quick-feet         |   OK   | 100.00% |  0.089 |       |
+| Pokemon zubat has the ability infiltrator                  |   OK   | 100.00% |  0.086 |       |
+| Pokemon zubat has the ability inner-focus                  |   OK   | 100.00% |  0.109 |       |
++------------------------------------------------------------+--------+---------+--------+-------+
+[2023-06-23 13:10:40,118 DEBUG Engine.blazemeter] KPI bulk buffer len in post-proc: 4
+[2023-06-23 13:10:40,118 INFO Engine.blazemeter] Sending remaining KPI data to server...
+[2023-06-23 13:10:40,345 DEBUG User] Request: POST https://data.blazemeter.com/submit.php?session_id=r-ext-64957d6c7b725212560051&signature=ci1leHQtNjQ5NTdkNmM3YjcyNTIxMjU2MDA1MToxNjg4NzI4MTcyOjgwOWNmZTM0MGIyY2IzZDYwNjUwZWUzY2FiZmM3NDMzMDRmY2ZiNWRiMThmMzZiNTY3ZGY5ZDg4M2IxZjBkMjJjY2EwY2U1MTc5MzlhMTQ4ODAzZGUwNzc0OTc4MmU3NjM1ZDcxYTg3NDZjMmMwOGI5OTU2ODNkMDJlNjI0Y2Mz&test_id=12765554&user_id=386483&pq=0&target=labels_bulk&update=1 b'{\n "labels": [\n  {\n   "n": 1237,\n   "name": "ALL",\n   "interval": 1,\n   "intervals": [\n    {\n     "ec": 0,\n     "ts": 1687518632,\n     "na": 2,\n     "n": 31,\n     "failed": 0,\n     "rc": [\n      {\n       "n": 31,\n       "f": [],\n       "rc": "200"\n      }\n'
+[2023-06-23 13:10:40,346 DEBUG HTTPClient] Making HTTP request POST https://data.blazemeter.com/submit.php?session_id=r-ext-64957d6c7b725212560051&signature=ci1leHQtNjQ5NTdkNmM3YjcyNTIxMjU2MDA1MToxNjg4NzI4MTcyOjgwOWNmZTM0MGIyY2IzZDYwNjUwZWUzY2FiZmM3NDMzMDRmY2ZiNWRiMThmMzZiNTY3ZGY5ZDg4M2IxZjBkMjJjY2EwY2U1MTc5MzlhMTQ4ODAzZGUwNzc0OTc4MmU3NjM1ZDcxYTg3NDZjMmMwOGI5OTU2ODNkMDJlNjI0Y2Mz&test_id=12765554&user_id=386483&pq=0&target=labels_bulk&update=1
+[2023-06-23 13:10:42,481 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /submit.php?session_id=r-ext-64957d6c7b725212560051&signature=ci1leHQtNjQ5NTdkNmM3YjcyNTIxMjU2MDA1MToxNjg4NzI4MTcyOjgwOWNmZTM0MGIyY2IzZDYwNjUwZWUzY2FiZmM3NDMzMDRmY2ZiNWRiMThmMzZiNTY3ZGY5ZDg4M2IxZjBkMjJjY2EwY2U1MTc5MzlhMTQ4ODAzZGUwNzc0OTc4MmU3NjM1ZDcxYTg3NDZjMmMwOGI5OTU2ODNkMDJlNjI0Y2Mz&test_id=12765554&user_id=386483&pq=0&target=labels_bulk&update=1 HTTP/1.1" 200 149
+[2023-06-23 13:10:42,482 DEBUG User] Response [200]: {"api_version":2,"error":null,"result":{"session":{"_id":"r-ext-64957d6c7b725212560051","name":"external","statusCode":100,"status":"INITIALIZING"}}}
+[2023-06-23 13:10:42,488 DEBUG User] Request: POST https://data.blazemeter.com/api/v4/image/r-ext-64957d6c7b725212560051/files?signature=ci1leHQtNjQ5NTdkNmM3YjcyNTIxMjU2MDA1MToxNjg4NzI4MTcyOjgwOWNmZTM0MGIyY2IzZDYwNjUwZWUzY2FiZmM3NDMzMDRmY2ZiNWRiMThmMzZiNTY3ZGY5ZDg4M2IxZjBkMjJjY2EwY2U1MTc5MzlhMTQ4ODAzZGUwNzc0OTc4MmU3NjM1ZDcxYTg3NDZjMmMwOGI5OTU2ODNkMDJlNjI0Y2Mz&masterId=68510227 b'--===============7288318794035594959==\r\nContent-Disposition: file; name="file"; filename="r-ext-64957d6c7b725212560051-0-c.monitoring.json"\r\nContent-Type: application/json\r\n\r\n{\n "reportInfo": {\n  "sessionId": "r-ext-64957d6c7b725212560051",\n  "timestamp": '
+[2023-06-23 13:10:42,489 DEBUG HTTPClient] Making HTTP request POST https://data.blazemeter.com/api/v4/image/r-ext-64957d6c7b725212560051/files?signature=ci1leHQtNjQ5NTdkNmM3YjcyNTIxMjU2MDA1MToxNjg4NzI4MTcyOjgwOWNmZTM0MGIyY2IzZDYwNjUwZWUzY2FiZmM3NDMzMDRmY2ZiNWRiMThmMzZiNTY3ZGY5ZDg4M2IxZjBkMjJjY2EwY2U1MTc5MzlhMTQ4ODAzZGUwNzc0OTc4MmU3NjM1ZDcxYTg3NDZjMmMwOGI5OTU2ODNkMDJlNjI0Y2Mz&masterId=68510227
+[2023-06-23 13:10:43,026 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /api/v4/image/r-ext-64957d6c7b725212560051/files?signature=ci1leHQtNjQ5NTdkNmM3YjcyNTIxMjU2MDA1MToxNjg4NzI4MTcyOjgwOWNmZTM0MGIyY2IzZDYwNjUwZWUzY2FiZmM3NDMzMDRmY2ZiNWRiMThmMzZiNTY3ZGY5ZDg4M2IxZjBkMjJjY2EwY2U1MTc5MzlhMTQ4ODAzZGUwNzc0OTc4MmU3NjM1ZDcxYTg3NDZjMmMwOGI5OTU2ODNkMDJlNjI0Y2Mz&masterId=68510227 HTTP/1.1" 200 160
+[2023-06-23 13:10:43,026 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        "r-ext-64957d6c7b725212560051-0-c.monitoring.json"
+    ],
+    "request_id": "64957db302570"
+}
+[2023-06-23 13:10:43,027 DEBUG Engine.blazemeter] Set last check time to: 1687518571.3647168
+[2023-06-23 13:10:43,027 INFO Engine.blazemeter] Ending data feeding...
+[2023-06-23 13:10:43,027 DEBUG User] Request: POST https://a.blazemeter.com/api/v4/sessions/r-ext-64957d6c7b725212560051/terminate-external {
+ "signature": "ci1leHQtNjQ5NTdkNmM3YjcyNTIxMjU2MDA1MToxNjg4NzI4MTcyOjgwOWNmZTM0MGIyY2IzZDYwNjUwZWUzY2FiZmM3NDMzMDRmY2ZiNWRiMThmMzZiNTY3ZGY5ZDg4M2IxZjBkMjJjY2EwY2U1MTc5MzlhMTQ4ODAzZGUwNzc0OTc4MmU3NjM1ZDcxYTg3NDZjMmMwOGI5OTU2ODNkMDJlNjI0Y2Mz",
+ "testId": 1
+[2023-06-23 13:10:43,027 DEBUG HTTPClient] Making HTTP request POST https://a.blazemeter.com/api/v4/sessions/r-ext-64957d6c7b725212560051/terminate-external
+[2023-06-23 13:10:43,207 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/sessions/r-ext-64957d6c7b725212560051/terminate-external HTTP/1.1" 200 None
+[2023-06-23 13:10:43,407 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "success": "Terminating",
+        "session": {
+            "id": "r-ext-64957d6c7b725212560051",
+            "name": "external",
+            "userId": 386483,
+            "publicToken": "Bi
+[2023-06-23 13:10:43,408 INFO Engine.blazemeter] Online report link: https://a.blazemeter.com/app/?public-token=BiT35ik3zQXMAssbujnxpig66VlOsIdnIxLj7UJCgZ4i3upFEN#reports/r-ext-64957d6c7b725212560051/summary
+[2023-06-23 13:10:43,408 INFO Engine.shellexec.Task] Starting shell command: mkdir C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\HTML
+[2023-06-23 13:10:43,410 DEBUG root] Executing shell: mkdir C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\HTML at C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+[2023-06-23 13:10:43,423 WARNING Engine.shellexec.Task] Errors for mkdir C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\HTML:
+Ya existe el subdirectorio o el archivo C:\Users\David.
+Error mientras se procesaba: C:\Users\David.
+
+[2023-06-23 13:10:43,424 DEBUG Engine.shellexec.Task] Task was finished with exit code 1: mkdir C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\HTML
+[2023-06-23 13:10:43,429 DEBUG Engine] post_process: Command 'mkdir C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\HTML' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\engine\engine.py", line 356, in post_process
+    module.post_process()
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\modules\shellexec.py", line 132, in post_process
+    task.start()
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\modules\shellexec.py", line 190, in start
+    self._get_results()
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\modules\shellexec.py", line 216, in _get_results
+    raise CalledProcessError(self.process.returncode, self)
+subprocess.CalledProcessError: Command 'mkdir C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\HTML' returned non-zero exit status 1.
+
+[2023-06-23 13:10:43,431 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.yml
+[2023-06-23 13:10:43,443 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\effective.json
+[2023-06-23 13:10:43,454 ERROR root] CalledProcessError: Command 'mkdir C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\HTML' returned non-zero exit status 1.
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\cli.py", line 283, in perform
+    self.engine.post_process()
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\engine\engine.py", line 370, in post_process
+    reraise(exc_info, exc_value)
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\utils.py", line 107, in reraise
+    raise exc
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\engine\engine.py", line 356, in post_process
+    module.post_process()
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\modules\shellexec.py", line 132, in post_process
+    task.start()
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\modules\shellexec.py", line 190, in start
+    self._get_results()
+  File "C:\Users\David León\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\modules\shellexec.py", line 216, in _get_results
+    raise CalledProcessError(self.process.returncode, self)
+[2023-06-23 13:10:43,455 INFO root] Artifacts dir: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3
+[2023-06-23 13:10:43,457 WARNING root] Done performing with code: 1
+[2023-06-23 13:10:43,458 DEBUG root] Closing log handler: C:\Users\David León\Desktop\Vueling\Jmeter\PokeAPI\Ejercicio3\bzt.log
