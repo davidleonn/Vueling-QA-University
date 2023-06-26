@@ -20,8 +20,18 @@ describe("purchaseTest", () => {
   it("OW BCN-ATH 2ADT 1INF 1st Available in August", () => {
     const origin = data.origin;
     const destination = data.destination;
+    let month = data.month;
+    const adt = data.adt;
+    const inf = data.inf;
 
     ticketsHomePage.acceptCookies();
+    ticketsHomePage.selectOneWay();
     ticketsHomePage.selectStations(origin, destination);
+
+    month = month - 1;
+    ticketsHomePage.setLeftMonth(month);
+    ticketsHomePage.selectAvailableDay();
+    ticketsHomePage.selectPassengers(adt, inf);
+    ticketsHomePage.confirmSearch();
   });
 });
