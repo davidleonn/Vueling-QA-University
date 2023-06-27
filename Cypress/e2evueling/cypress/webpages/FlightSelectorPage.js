@@ -4,10 +4,10 @@ export class FlightSelectorPage {
   //Elements
 
   selectFlight = {
-    vuelingInbound: () => cy.get('#inboundFlightCardsContainer [codeshare="VY"]'),
     vuelingOutbound: () => cy.get('#outboundFlightCardsContainer [codeshare="VY"]'),
-    iberiaInbound: () => cy.get('#inboundFlightCardsContainer [codeshare="IB"]'),
+    vuelingInbound: () => cy.get('#inboundFlightCardsContainer [codeshare="VY"]'),
     iberiaOutbound: () => cy.get('#outboundFlightCardsContainer [codeshare="IB"]'),
+    iberiaInbound: () => cy.get('#inboundFlightCardsContainer [codeshare="IB"]'),
   };
 
   fare = {
@@ -18,13 +18,13 @@ export class FlightSelectorPage {
   btnStvContinue = () => cy.getId("stvContinueButton");
 
   //Methods
-  selectInboundFlight() {
-    this.selectFlight.vuelingInbound().first().parent().should("be.visible");
-    this.selectFlight.vuelingInbound().first().parent().click();
-  }
   selectOutboundFlight() {
     this.selectFlight.vuelingOutbound().first().parent().should("be.visible");
     this.selectFlight.vuelingOutbound().first().parent().click();
+  }
+  selectInboundFlight() {
+    this.selectFlight.vuelingInbound().first().parent().should("be.visible");
+    this.selectFlight.vuelingInbound().first().parent().click();
   }
   selectFare() {
     cy.wait(2000);

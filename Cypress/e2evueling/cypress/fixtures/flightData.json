@@ -2,7 +2,9 @@
   "origin": "BCN",
   "destination": "MAD",
   "days": 20,
-  "adt": 5,
-  "inf": 3,
-  "month": 8
+  "adults": 5,
+  "infants": 3,
+  "month": 8,
+  "country": "España",
+  "phone": 666666666
 }
