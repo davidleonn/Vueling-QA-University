@@ -54,6 +54,7 @@ export class TicketsHomePage {
       .invoke("attr", "data-month")
       .then(($dataMonth) => {
         if ($dataMonth != month) {
+          // cy.wait(2000); //bilbo boom
           this.datePicker.btnNextMonth().click();
           this.setLeftMonth(month);
         }
