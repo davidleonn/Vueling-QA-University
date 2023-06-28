@@ -33,7 +33,7 @@ export class TicketsHomePage {
   // Methods
 
   acceptCookies() {
-    this.cookiesButton().click().should("be.visible");
+    this.cookiesButton().should("be.visible").click();
   }
   selectOneWay() {
     this.flightSelector.btnOneWay().click();

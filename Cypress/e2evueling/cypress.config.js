@@ -38,8 +38,8 @@ module.exports = defineConfig({
   videoCompression: 35,
   videoUploadOnPasses: true,
   videosFolder: "cypress/videos",
-  viewportHeight: 660,
-  viewportWidth: 1000,
+  viewportHeight: 1080,
+  viewportWidth: 1920,
   waitForAnimations: true,
   watchForFileChanges: true,
   e2e: {
